@@ -4925,19 +4925,20 @@ window.ISTQB_DATA = {
           "topic": "ExamUnit",
           "level": "Mixto",
           "type": "single",
-          "question": "Técnicas basadas en experiencia?",
+          "question": "¿Cuál de las siguientes afirmaciones describe MEJOR las técnicas basadas en la experiencia?",
           "options": [
             "Casos basados en información detallada de diseño.",
             "Elementos de la interfaz usados para medir cobertura.",
             "Dependen en gran medida del conocimiento del probador sobre el software y el dominio.",
-            "(Duplicado de C en la captura)"
+            "Se basan únicamente en la especificación de requisitos y en el diseño detallado del software."
           ],
           "answer": [
             2
           ],
           "explanation": "Se basan en la experiencia y conocimiento del probador.",
           "source": "ExamUnit #14",
-          "lang": "es"
+          "lang": "es",
+          "note": "Opción D corregida (antes decía \"Duplicado de C en la captura\")."
         },
         {
           "id": "EX-015",
@@ -5421,14 +5422,15 @@ window.ISTQB_DATA = {
             "También es muy alta; alto impacto implica alta probabilidad.",
             "Es muy baja; alto impacto implica baja probabilidad.",
             "No se puede decir nada; impacto y probabilidad son independientes.",
-            "No importa con un impacto tan alto. --- ## Para estudiar 1. Haz el examen en 60 minutos y anota tus respuestas. 2. Corrige con la clave. 3. Por cada fallo, escribe en el registro: tema, por qué fallé, concepto correcto y capítulo. 4. Repite las preguntas falladas a los 3 días y a la semana. Pendiente: pregunta 19 (no vino en las capturas). Si la consigues, la agrego."
+            "No importa con un impacto tan alto."
           ],
           "answer": [
             2
           ],
           "explanation": "Impacto y probabilidad son dimensiones independientes del riesgo.",
           "source": "ExamUnit #40",
-          "lang": "es"
+          "lang": "es",
+          "note": "Opción D limpiada: se eliminó texto de instrucciones que se había filtrado."
         }
       ]
     }
