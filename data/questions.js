@@ -4859,10 +4859,10 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-011",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.2.3",
+          "level": "K2",
           "type": "single",
-          "question": "Tabla de ejecuciones (CP1, CP2, CP3 en 3 versiones). ¿Cuáles se ejecutan como pruebas de regresión?",
+          "question": "Está probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. AC1 está cubierto por el caso de prueba TC1, AC2 por TC2 y AC3 por TC3. El historial de ejecución de pruebas tuvo tres ejecuciones en tres versiones consecutivas del software de la siguiente manera: Ejecución 1    Ejecución 2    Ejecución 3 TC1                 (1) Falló    (4) Pasó     (7) Pasó TC2                (2) Pasó      (5) Falló    (8) Pasó TC3                 (3) Falló     (6) Falló    (9) Pasó Las pruebas se repiten una vez que se le informa que todos los defectos encontrados en la ejecución de pruebas fueron corregidos y hay una nueva versión del software disponible. ¿Cuáles de las pruebas anteriores se ejecutan como pruebas de regresión?",
           "options": [
             "Solo 4, 7, 8, 9",
             "Solo 5, 7",
@@ -4872,10 +4872,10 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Regresión = repetir pruebas que pasaron antes: (5) CP2 pasó en la ejecución 1 y (7) CP1 pasó en la ejecución 2. Las demás son retest de fallos.",
+          "explanation": "Respuesta correcta: B) Solo 5, 7. FL-2.2.3 (K2).",
           "source": "ExamUnit #11",
           "lang": "es",
-          "note": "Incluye una tabla en la captura original; revisa el material del simulacro."
+          "note": "Alineada con la pregunta oficial A-014."
         },
         {
           "id": "EX-012",
@@ -4899,22 +4899,23 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-013",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-3.2.4",
+          "level": "K2",
           "type": "single",
-          "question": "Características: hay escriba; propósito principal evaluar calidad; la reunión la dirige el autor; hay preparación individual; se produce informe.",
+          "question": "Las revisiones que se utilizan en tu organización tienen los siguientes atributos: • Existe el rol de un escriba • El propósito principal es evaluar la calidad • La reunión es liderada por el autor del producto de trabajo • Hay preparación individual • Se produce un informe de revisión ¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté utilizando?",
           "options": [
             "Revisión informal",
-            "Revisión guiada (walkthrough)",
+            "Walkthrough",
             "Revisión técnica",
             "Inspección"
           ],
           "answer": [
             1
           ],
-          "explanation": "El autor dirige y hay preparación/informe: walkthrough. La inspección es más formal y la dirige un moderador.",
+          "explanation": "Respuesta correcta: B) Walkthrough. FL-3.2.4 (K2).",
           "source": "ExamUnit #13",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-017."
         },
         {
           "id": "EX-014",
@@ -5118,22 +5119,23 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-025",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.5.1",
+          "level": "K3",
           "type": "single",
-          "question": "El informe dice: app se cuelga, pasos, cuentas, log, caso TC-1305, REQ-0012, prioridad alta. ¿Qué información crítica FALTA?",
+          "question": "Recibió el siguiente informe de defectos de los desarrolladores indicando que la anomalía descrita en este informe de pruebas no es reproducible. La aplicación se cuelga 2022-May-03 – John Doe – Rechazado La aplicación se cuelga después de ingresar “Test input: $ä” en el campo Name en la pantalla de creación de nuevo usuario. Intenté cerrar sesión, iniciar sesión con la cuenta test_admin01, mismo problema. Intenté con otras cuentas de administrador de pruebas, mismo problema. No se recibió mensaje de error; el log (ver adjunto) contiene una notificación de error fatal. Según el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor corregir con alta prioridad, esta funcionalidad está relacionada con REQ-0012, que es un requisito de negocio crítico nuevo. ¿Qué información crítica FALTA en este informe de pruebas que habría sido útil para los desarrolladores?",
           "options": [
-            "Resultado esperado y resultado real.",
-            "Referencias y estado del defecto.",
-            "Entorno de prueba e ítem de prueba.",
-            "Prioridad y gravedad."
+            "Resultado esperado y resultado real",
+            "Referencias y estado del defecto",
+            "Entorno de prueba y elemento de prueba",
+            "Prioridad y severidad"
           ],
           "answer": [
             2
           ],
-          "explanation": "No se indica el entorno ni la versión/ítem de prueba; sin eso no se reproduce.",
+          "explanation": "Respuesta correcta: C) Entorno de prueba y elemento de prueba. FL-5.5.1 (K3).",
           "source": "ExamUnit #25",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-038."
         },
         {
           "id": "EX-026",
