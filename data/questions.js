@@ -5031,17 +5031,17 @@ window.ISTQB_DATA = {
           "topic": "ExamUnit",
           "level": "Mixto",
           "type": "single",
-          "question": "Historia del editor y sus criterios de aceptación. ¿Cuál es el mejor ejemplo de prueba ATDD?",
+          "question": "Considere la siguiente historia de usuario: Como Editor quiero revisar el contenido antes de que se publique para poder asegurar que la gramática sea correcta, y sus criterios de aceptación: • El usuario puede iniciar sesión en el sistema de gestión de contenido con el rol \"Editor\". • El editor puede ver las páginas de contenido existentes. • El editor puede editar el contenido de la página. • El editor puede agregar comentarios de marcado. • El editor puede guardar cambios. • El editor puede reasignar al rol \"propietario del contenido\" para realizar actualizaciones. ¿Cuál de las siguientes es el MEJOR ejemplo de una prueba ATDD para esta historia de usuario?",
           "options": [
-            "Probar si el editor puede guardar el documento después de editar el contenido.",
-            "Probar si el propietario de contenido puede iniciar sesión y actualizar.",
-            "Probar si el editor puede programar la publicación.",
-            "Probar si el editor puede reasignar a otro editor."
+            "Probar si el editor puede guardar el documento después de editar el contenido de la página.",
+            "Probar si el propietario del contenido puede iniciar sesión y realizar actualizaciones al contenido.",
+            "Probar si el editor puede programar el contenido editado para su publicación.",
+            "Probar si el editor puede reasignar a otro editor para realizar actualizaciones."
           ],
           "answer": [
             0
           ],
-          "explanation": "Deriva directamente del criterio \"el editor puede guardar cambios\".",
+          "explanation": "Respuesta correcta: A) Probar si el editor puede guardar el documento después de editar el contenido de la página. FL-4.5.3 (K3). Deriva directamente del criterio «El editor puede guardar cambios».",
           "source": "ExamUnit #21",
           "lang": "es"
         },
