@@ -3316,10 +3316,10 @@ window.ISTQB_DATA = {
           "type": "single",
           "question": "¿Cuál de las siguientes es la tabla de decisión correcta para el siguiente pseudocódigo para ordenar una hamburguesa? Nota: si agregas o eliminas elementos de la hamburguesa básica, ya no obtienes la hamburguesa básica. Inicio Seleccionar hamburguesa básica Si el cliente agrega elementos Mientras haya elementos por agregar Preguntar al cliente qué elemento Agregar elemento Fin mientras Fin si Si el cliente elimina elementos Mientras haya elementos por eliminar Preguntar al cliente qué elemento Eliminar elemento Fin mientras Fin si Si el cliente quiere papas fritas Agregar papas fritas al pedido Fin si Completar pedido Fin",
           "options": [
-            "Ver opción A en el PDF",
-            "Ver opción B en el PDF",
-            "Ver opción C en el PDF",
-            "Ver opción D en el PDF"
+            "Opción A (ver imagen)",
+            "Opción B (ver imagen)",
+            "Opción C (ver imagen)",
+            "Opción D (ver imagen)"
           ],
           "answer": [
             1
@@ -3327,7 +3327,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: B) Ver opción B en el PDF. FL-4.2.3 (K3).",
           "source": "Sample Exam 4 #27",
           "lang": "es",
-          "note": "Pregunta con tabla de decisión: las opciones son imágenes en el PDF oficial."
+          "note": "La imagen muestra las cuatro tablas de decisión A–D.",
+          "image": "assets/fig-s4-027.png"
         },
         {
           "id": "S4-028",
@@ -3757,7 +3758,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: C) 6.5 días-persona. FL-5.1.4 (K3).",
           "source": "Sample Exam C #31",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa.",
+          "image": "assets/fig-c-031.png"
         },
         {
           "id": "C-032",
@@ -4373,7 +4375,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: C) 54.17 ± 7.5. FL-5.1.4 (K3).",
           "source": "Sample Exam 4 #36",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa.",
+          "image": "assets/fig-s4-036.png"
         },
         {
           "id": "S4-037",
