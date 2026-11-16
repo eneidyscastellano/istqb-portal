@@ -1,6 +1,6 @@
 # Auditoría del banco — ISTQB CTFL v4.0.1
 
-Generado: 2026-11-16T22:02:03.802Z
+Generado: 2026-11-16T22:13:21.269Z
 
 ## Veredicto
 
@@ -13,7 +13,7 @@ Generado: 2026-11-16T22:02:03.802Z
 | S05 | El banco puede armar un examen con blueprint oficial (8/6/4/11/9/2 y K1=8/K2=24/K3=8) | **PASS** |
 | S06 | El simulador "Examen completo" respeta el blueprint (8/6/4/11/9/2 y K1=8/K2=24/K3=8) | **PASS** |
 | S07 | Umbral de aprobación 26/40 (65%), 60 min y +25% (75 min) según el estándar | **PASS** |
-| S08 | Explicaciones didácticas (no plantilla "Respuesta correcta: X") | **PARTIAL** |
+| S08 | Explicaciones didácticas (no plantilla "Respuesta correcta: X") | **PASS** |
 
 ## Banco
 
@@ -35,14 +35,9 @@ Generado: 2026-11-16T22:02:03.802Z
 
 ## Hallazgos estructurales
 
-- Preguntas con error: **0** · con advertencia: **256**
-- Explicaciones plantilla: **250**
+- Preguntas con error: **0** · con advertencia: **0**
+- Explicaciones plantilla: **0**
 - Grupos de enunciados duplicados: **27**
-
-| Regla | Severidad | Casos |
-|---|---|---|
-| R10-enunciado | warning | 7 |
-| R11-explicacion | warning | 256 |
 
 ### Enunciados duplicados
 

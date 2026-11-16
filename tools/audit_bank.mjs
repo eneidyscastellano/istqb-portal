@@ -163,7 +163,7 @@ for (const q of all) {
   const stem = String(q.question || '').trim();
   if (stem.length < 25) add(q, 'R10-enunciado', 'error', `Enunciado demasiado corto (${stem.length} chars)`);
   if (/^(pregunta|question)\s*\d*\s*[:.]?$/i.test(stem)) add(q, 'R10-enunciado', 'error', 'Enunciado de relleno');
-  if (!/[?:.]$/.test(stem)) add(q, 'R10-enunciado', 'warning', 'El enunciado no termina en ? : o .');
+  if (!/[?:]/.test(stem)) add(q, 'R10-enunciado', 'warning', 'El enunciado no formula una pregunta (sin ? ni :)');
   if (/\b(TODO:|XXX|FIXME)\b/.test(stem)) add(q, 'R10-enunciado', 'error', 'Marcador pendiente en el enunciado');
 
   // R11 explicación didáctica

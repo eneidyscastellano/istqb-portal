@@ -17,11 +17,11 @@
 - Cobertura: 64/64 LO del syllabus v4.0.1. 0 errores estructurales.
 - Simulacro ExamUnit: 39 preguntas trazadas a su LO/K-level; 4 enunciados restaurados (EX-006, EX-020, EX-029, EX-030).
 - **Examen completo:** `data/blueprint.js` define el blueprint oficial y arma 40 preguntas (8/6/4/11/9/2; K1=8, K2=24, K3=8). `tools/check_exam.mjs` lo prueba con 200 simulaciones.
-- Auditoría: `AUDITORIA_BANCO.md` (generar con `tools/audit_all.sh`).
+- Auditoría: `AUDITORIA_BANCO.md` (generar con `tools/audit_all.sh`). **8/8 criterios PASS, 0 errores, 0 advertencias.**
+- Explicaciones: **279/279 reescritas en español** a partir del razonamiento oficial de los PDFs (correcta + por qué fallan las demás). Generadas con `tools/extract_rationales.mjs` + lotes y aplicadas con `tools/apply_explanations.mjs`.
 
 ## Pendientes
-1. **Explicaciones didácticas:** 250/279 son plantilla ("Respuesta correcta: X"). Los PDFs oficiales traen el razonamiento por opción; falta traducirlo/resumirlo al español.
-2. Rotar la API key de Immich y configurar respaldo 3-2-1 (fuera de este repo).
+1. Rotar la API key de Immich y configurar respaldo 3-2-1 (fuera de este repo).
 
 ## Consistencia (2026-11-16)
 - 0 problemas estructurales (ids, opciones, respuestas válidas).

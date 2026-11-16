@@ -24,7 +24,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad. FL-1.1.1 (K1).",
+          "explanation": "Correcta: C. Las pruebas encuentran defectos y fallas, lo que reduce el nivel de riesgo y a la vez genera más confianza en la calidad del objeto de prueba. A y B son imposibles de demostrar: no se puede probar que no queda ningún defecto ni que no habrá fallas en producción. D también es inviable, porque probar todas las combinaciones de entradas no es factible.",
           "source": "Sample Exam A #1",
           "lang": "es"
         },
@@ -43,7 +43,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Involucrar a los probadores durante las diversas actividades del ciclo de vida de desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo. FL-1.2.1 (K2).",
+          "explanation": "Correcta: A. Involucrar a los probadores desde el inicio del ciclo de vida aumenta la comprensión de las decisiones de diseño y permite detectar defectos temprano en los productos de trabajo. B es errónea porque desarrolladores y probadores deben entenderse mutuamente; C falla porque los usuarios finales no participan en niveles bajos ni mejoran los informes de defectos; D es falsa, pues certificarse no garantiza mejores casos de prueba.",
           "source": "Sample Exam A #2",
           "lang": "es"
         },
@@ -62,7 +62,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Las pruebas se desgastan. FL-1.3.1 (K2).",
+          "explanation": "Correcta: A. Repetir una y otra vez los mismos casos de regresión hace que dejen de encontrar defectos nuevos: las pruebas se desgastan, y eso explica tu escepticismo. B se refiere a creer que corregir muchos defectos garantiza el éxito; C trata de la concentración de defectos en pocos componentes; D afirma que probar todas las combinaciones no es factible. Ninguna explica la ausencia de defectos nuevos.",
           "source": "Sample Exam A #3",
           "lang": "es"
         },
@@ -81,7 +81,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Decidir que el equipo debe probar si es posible compartir correctamente el pago entre muchos usuarios. FL-1.4.1 (K2).",
+          "explanation": "Correcta: B. Decidir que hay que probar si el pago se comparte correctamente entre varios usuarios es definir una condición de prueba, actividad propia del análisis de pruebas. A corresponde a la planificación, por la estimación del esfuerzo; C al diseño, donde se derivan datos con BVA; D a la ejecución, donde se compara el resultado real con el esperado y se reporta el defecto.",
           "source": "Sample Exam A #4",
           "lang": "es"
         },
@@ -100,7 +100,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) i, iii, iv tienen influencia significativa. FL-1.4.2 (K2).",
+          "explanation": "Correcta: B. El SDLC, los riesgos de producto identificados y los requisitos regulatorios influyen significativamente en el enfoque de pruebas. El número de defectos de proyectos anteriores puede influir algo, pero no de forma significativa, y la configuración del entorno de pruebas tampoco es un factor significativo. Las demás combinaciones incluyen alguno de esos dos elementos que no cumplen el criterio.",
           "source": "Sample Exam A #5",
           "lang": "es"
         },
@@ -121,7 +121,7 @@ window.ISTQB_DATA = {
             0,
             4
           ],
-          "explanation": "Respuestas correctas: A) Configurar entornos de prueba, E) Analizar la base de prueba. FL-1.4.5 (K2).",
+          "explanation": "Correctas: A y E. Configurar entornos de prueba y analizar la base de prueba son tareas técnicas del rol de pruebas, esta última como parte del análisis de pruebas. B corresponde al propietario del producto, que construye y mantiene el backlog; C lo hace el equipo de desarrollo al diseñar soluciones; D es una tarea de gestión, propia de un rol gerencial.",
           "source": "Sample Exam A #6",
           "lang": "es"
         },
@@ -140,7 +140,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) i, iii y v son importantes. FL-1.5.1 (K2).",
+          "explanation": "Correcta: B. El conocimiento del dominio, ser un buen jugador de equipo y el pensamiento crítico son las habilidades más importantes de un probador. Crear una visión del producto corresponde al analista de negocio junto con el representante del negocio, y planificar y organizar el trabajo del equipo es tarea del gerente de pruebas o del equipo completo, no del probador.",
           "source": "Sample Exam A #7",
           "lang": "es"
         },
@@ -159,7 +159,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas. FL-1.5.2 (K1).",
+          "explanation": "Correcta: D. En el enfoque de equipo completo los probadores colaboran estrechamente con los representantes del negocio para alcanzar los niveles de calidad deseados, lo que incluye apoyarlos a crear pruebas de aceptación adecuadas. A es falsa porque el enfoque de automatización lo definen los probadores con ayuda de desarrolladores y negocio; B también, pues la estrategia se decide con los desarrolladores; C es incorrecta porque el negocio sí forma parte.",
           "source": "Sample Exam A #8",
           "lang": "es"
         },
@@ -178,7 +178,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las revisiones aumentan la calidad de las especificaciones de requisitos y conllevan a que se necesiten menos cambios en los productos de trabajo derivados. FL-1.2.1 (K2).",
+          "explanation": "Correcta: D. Las revisiones son pruebas estáticas aplicables desde el inicio del ciclo de vida y detectan defectos en los requisitos antes de que se propaguen al diseño o al código, con lo que se evitan cambios costosos en los productos derivados. Las demás opciones fallan en el concepto o en el valor: provocar fallos que ningún usuario real lograría no aporta mejora práctica, el análisis estático detecta defectos y no fallos, y esa evidencia se dirige al desarrollador, no al cliente.",
           "source": "Sample Exam B #1",
           "lang": "es"
         },
@@ -197,7 +197,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Las pruebas se realizan como parte del QC. FL-1.2.2 (K1).",
+          "explanation": "Correcta: B. El control de calidad se centra en detectar y corregir defectos del producto, y las pruebas son una parte importante de ese control. El aseguramiento de la calidad, en cambio, es preventivo y trabaja sobre la mejora del proceso, por lo que las pruebas no forman parte de él ni lo sustituyen; además, el control de calidad incluye técnicas ajenas a las pruebas, como la simulación o la verificación formal.",
           "source": "Sample Exam B #2",
           "lang": "es"
         },
@@ -216,7 +216,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Usar partición de equivalencia y análisis de valores límite para generar casos de prueba. FL-1.3.1 (K2).",
+          "explanation": "Correcta: D. La partición de equivalencia y el análisis de valores límite permiten derivar de forma sistemática un subconjunto finito y representativo de todos los casos posibles, que es justo la respuesta práctica a la imposibilidad de probarlo todo. Las otras opciones no atienden el problema: cubrir todas las salidas o documentar todas las variaciones de entrada es inviable, y empezar antes con revisiones responde al principio de pruebas tempranas.",
           "source": "Sample Exam B #3",
           "lang": "es"
         },
@@ -235,7 +235,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Diseño de pruebas. FL-1.4.1 (K2).",
+          "explanation": "Correcta: A. El diseño de pruebas parte de las condiciones de prueba para crear casos y otro testware, y en esa actividad se especifican los requisitos de datos y de entorno necesarios. El análisis se queda en identificar condiciones; la implementación genera procedimientos y suites a partir de casos ya diseñados, y la ejecución solo corre esos procedimientos. Ninguna de las otras tres actividades abarca el conjunto de elementos mencionado.",
           "source": "Sample Exam B #4",
           "lang": "es"
         },
@@ -254,7 +254,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El número de años de experiencia de los miembros del equipo de pruebas. FL-1.4.2 (K2).",
+          "explanation": "Correcta: C. La experiencia de los miembros del equipo de pruebas determina sus capacidades y conocimientos, por ejemplo qué herramientas y qué tipos de defectos saben abordar, y eso influye directamente en cómo se prueba. La experiencia del equipo de marketing, el conocimiento de los usuarios sobre el proyecto o la estructura organizacional del usuario final no condicionan la ejecución de las pruebas de un objeto de prueba concreto.",
           "source": "Sample Exam B #5",
           "lang": "es"
         },
@@ -273,7 +273,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) La trazabilidad entre los requisitos del usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto frente a los objetivos del negocio. FL-1.4.4 (K2).",
+          "explanation": "Correcta: B. La trazabilidad entre requisitos de usuario y resultados de prueba muestra qué requisitos ya se probaron y permite medir el avance del proyecto frente a los objetivos del negocio. Relacionar solo riesgos mitigados con casos aprobados no permite calcular el riesgo residual, que exige vincular todos los riesgos con los resultados; asociar probadores con casos fallidos no mide habilidad, y decidir qué riesgos merecen prueba pertenece a la gestión de riesgos.",
           "source": "Sample Exam B #6",
           "lang": "es"
         },
@@ -292,7 +292,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) El probador era un ex piloto y pudo comprender mejor los criterios de aceptación para el sistema de control del helicóptero. FL-1.5.1 (K2).",
+          "explanation": "Correcta: B. El conocimiento del dominio es una habilidad genérica del probador: le permite entender y comunicarse con usuarios y representantes del negocio, y aquí comprender mejor los criterios de aceptación del sistema de control. Compartir afición por los videojuegos no es una habilidad de prueba, las habilidades de programación no mejoran la comunicación con analistas de negocio, y en pruebas exploratorias los casos se generan durante la sesión, no antes.",
           "source": "Sample Exam B #7",
           "lang": "es"
         },
@@ -311,7 +311,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Genera una sinergia de equipo que beneficia a todo el proyecto. FL-1.5.2 (K1).",
+          "explanation": "Correcta: D. El enfoque de equipo completo aprovecha los distintos conjuntos de habilidades de sus miembros y genera sinergia, comunicación sólida y colaboración que benefician a todo el proyecto. No implica que cualquiera pueda asumir cualquier rol en cualquier momento, ni que baste un solo equipo para todo el proyecto, ni exige que el representante del negocio participe en cada decisión importante.",
           "source": "Sample Exam B #8",
           "lang": "es"
         },
@@ -330,7 +330,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Provocar fallas e identificar defectos. FL-1.1.1 (K1).",
+          "explanation": "Correcta: B. Provocar fallas para descubrir defectos es el objetivo más habitual de las pruebas dinámicas, pues al ejecutar el software se manifiestan los defectos latentes. Las demás confunden verificación con validación: validar requisitos documentados (A) y verificar expectativas del usuario (D) están invertidos. Además, los errores no los inician los probadores y la causa raíz pertenece a la depuración, no a las pruebas (C).",
           "source": "Sample Exam C #1",
           "lang": "es"
         },
@@ -349,7 +349,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las pruebas determinan que existen defectos mientras que la depuración elimina defectos. FL-1.1.2 (K2).",
+          "explanation": "Correcta: C. Las pruebas revelan que existen defectos, ya sea observándolos directamente en revisiones o análisis estático, o provocando fallas al ejecutar el software; la depuración localiza y elimina esos defectos. No es correcto decir que la depuración corrige fallas (A), que una actividad sea negativa (B), ni que las pruebas hallen la causa de los defectos, que son errores humanos (D): la depuración corrige defectos, no causas.",
           "source": "Sample Exam C #2",
           "lang": "es"
         },
@@ -368,7 +368,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Apoyar a los usuarios finales para que realicen pruebas de aceptación. FL-1.3.1 (K2).",
+          "explanation": "Correcta: B. La falacia de la ausencia de defectos señala que cumplir los requisitos no garantiza satisfacer al usuario; por eso apoyar a los usuarios finales en pruebas de aceptación permite validar necesidades y expectativas reales. Explicar que no se puede demostrar ausencia de defectos (A) atiende otro principio, asegurar cero defectos (C) es imposible y modificar pruebas infructuosas (D) responde al principio de que las pruebas se agotan.",
           "source": "Sample Exam C #3",
           "lang": "es"
         },
@@ -389,7 +389,7 @@ window.ISTQB_DATA = {
             1,
             4
           ],
-          "explanation": "Respuestas correctas: B) Diseño de pruebas, E) Análisis de pruebas. FL-1.4.1 (K2).",
+          "explanation": "Correctas: B y E. Las técnicas de caja negra como valores límite y partición de equivalencia se aplican al identificar condiciones de prueba durante el análisis y al derivar casos de prueba durante el diseño. Implementación (A) arma procedimientos, ejecución (C) corre pruebas y monitoreo (D) verifica el avance del plan; ninguna de esas actividades crea casos de prueba.",
           "source": "Sample Exam C #4",
           "lang": "es"
         },
@@ -408,7 +408,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 1B, 2D, 3C, 4A. FL-1.4.3 (K2).",
+          "explanation": "Correcta: A. Los elementos de cobertura se producen en el diseño, las solicitudes de cambio al cierre, el cronograma de ejecución en la implementación y las condiciones priorizadas en el análisis. Las demás combinaciones asignan mal al menos un producto: por ejemplo, sitúan el cronograma en el análisis o los elementos de cobertura en la finalización, que no los genera.",
           "source": "Sample Exam C #5",
           "lang": "es"
         },
@@ -427,7 +427,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) En el desarrollo de software Agile, las actividades de gestión de pruebas que abarcan múltiples equipos son manejadas por un gerente de pruebas externo al equipo, mientras que algunas tareas de gestión de pruebas son manejadas por el propio equipo. FL-1.4.5 (K2).",
+          "explanation": "Correcta: C. En Agile el equipo asume varias tareas de gestión de pruebas, mientras que las actividades que abarcan varios equipos suelen recaer en un gerente de pruebas externo. La opción A niega el enfoque de equipo completo, B intercambia los roles y D atribuye al rol de gestión el análisis y diseño, que son responsabilidad del rol técnico de pruebas.",
           "source": "Sample Exam C #6",
           "lang": "es"
         },
@@ -446,7 +446,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Dinámica de equipo mejorada. FL-1.5.2 (K1).",
+          "explanation": "Correcta: B. El enfoque de equipo completo aprovecha las habilidades diversas de todos sus miembros, lo que mejora la dinámica, la comunicación y la colaboración. No elimina probadores, pues estos aportan su experiencia (A); no se basa en especialistas (C), ya que cualquiera con la competencia puede asumir tareas; y no hay evidencia de que equipos más grandes sean mejores (D).",
           "source": "Sample Exam C #7",
           "lang": "es"
         },
@@ -465,7 +465,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Los probadores independientes encontrarán defectos debido a su perspectiva técnica diferente a la de los desarrolladores, pero su independencia puede llevar a una relación adversarial con los desarrolladores. FL-1.5.3 (K2).",
+          "explanation": "Correcta: A. Los probadores independientes, por su formación y perspectiva distintas, detectan fallas y defectos que los desarrolladores pasan por alto, aunque el aislamiento puede generar problemas de comunicación y una relación adversarial. B supone que la familiaridad impide hallar defectos, C exige independencia organizacional inexistente y D invierte quién suele ser culpado por los retrasos.",
           "source": "Sample Exam C #8",
           "lang": "es"
         },
@@ -484,7 +484,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Generar confianza en la calidad del objeto de prueba. FL-1.1.1 (K1).",
+          "explanation": "Correcta: D. Generar confianza en la calidad del objeto de prueba es un objetivo típico de las pruebas, y se logra ejecutando pruebas que pasan y dando a los stakeholders información para decidir con fundamento. Identificar defectos sí es un objetivo, pero corregirlos no es una actividad de prueba; mantener comunicación con los desarrolladores es un medio útil, no una finalidad; y comprobar el cumplimiento de requisitos legales es verificación, mientras que la validación se centra en las necesidades de los usuarios.",
           "source": "Sample Exam D #1",
           "lang": "es"
         },
@@ -503,7 +503,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El programador que trabaja bajo una severa presión de tiempo es una causa raíz. FL-1.2.3 (K2).",
+          "explanation": "Correcta: C. La presión de tiempo severa es la causa raíz, porque explica por qué el programador cometió el error que introdujo el defecto en el manejo de excepciones. El cálculo incorrecto de bonificaciones es una falla observable del sistema, no un defecto; la multa es la consecuencia de una falla y en sí misma refleja el funcionamiento correcto del sistema regulador; y la interfaz inadecuada es un defecto de diseño derivado del error del diseñador, no un error del diseñador.",
           "source": "Sample Exam D #2",
           "lang": "es"
         },
@@ -522,7 +522,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Las pruebas se desgastan. FL-1.3.1 (K2).",
+          "explanation": "Correcta: A. El principio de que las pruebas se desgastan advierte que repetir exactamente los mismos casos sobre código sin cambios difícilmente revelará defectos nuevos, por lo que conviene variarlos; generar casos distintos a partir de las mismas condiciones de prueba evita ese desgaste. La falacia de ausencia de defectos se refiere a la necesidad de validación, las pruebas tempranas al momento de iniciar, y el agrupamiento de defectos a su distribución desigual, ninguno relacionado con variar los casos.",
           "source": "Sample Exam D #3",
           "lang": "es"
         },
@@ -541,7 +541,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 1B, 2D, 3C, 4A. FL-1.4.1 (K2).",
+          "explanation": "Correcta: B. Derivar casos desde condiciones de prueba corresponde al diseño de pruebas; identificar testware reutilizable corresponde a la finalización; organizar casos en procedimientos corresponde a la implementación; y evaluar la base de prueba y el objeto de prueba corresponde al análisis. Las demás opciones alteran ese orden, asignando por ejemplo la organización de procedimientos al análisis o la evaluación de la base de prueba al diseño, lo que contradice la definición de cada actividad.",
           "source": "Sample Exam D #4",
           "lang": "es"
         },
@@ -560,7 +560,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) ii, iv. FL-1.4.3 (K2).",
+          "explanation": "Correcta: A. La implementación de pruebas produce los datos de prueba usados como entradas y resultados esperados, y los procedimientos de prueba, es decir, las secuencias documentadas de casos en orden de ejecución. El informe de finalización pertenece a la finalización, los requisitos del entorno al diseño y los casos de prueba también al diseño, por lo que cualquier opción que los incluya describe salidas de otras actividades y no de la implementación.",
           "source": "Sample Exam D #5",
           "lang": "es"
         },
@@ -579,7 +579,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Crear el informe de finalización de pruebas. FL-1.4.5 (K2).",
+          "explanation": "Correcta: D. El rol de gestión de pruebas se ocupa de la planificación, el monitoreo y control, y la finalización; el informe de finalización es la salida principal de esta última, así que es la tarea más propia de ese rol. Evaluar la base de prueba, definir los requisitos del entorno y evaluar la testabilidad son tareas técnicas de análisis y de diseño, atribuibles al rol de pruebas, más orientado a los aspectos de ingeniería del trabajo.",
           "source": "Sample Exam D #6",
           "lang": "es"
         },
@@ -598,7 +598,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Mejora de la comunicación entre los miembros del equipo. FL-1.5.2 (K1).",
+          "explanation": "Correcta: A. El enfoque de equipo completo promueve una comunicación y una colaboración sólidas entre los miembros del equipo, con responsabilidad colectiva por la calidad. No reduce la responsabilidad individual, pues cada miembro sigue siendo igualmente responsable; no garantiza un despliegue más rápido hacia los usuarios finales, porque su foco es la calidad del trabajo conjunto; y no disminuye la colaboración con usuarios de negocio, con quienes de hecho se crean pruebas de aceptación.",
           "source": "Sample Exam D #7",
           "lang": "es"
         },
@@ -617,7 +617,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) ii, v. FL-1.5.3 (K2).",
+          "explanation": "Correcta: B. Los beneficios son que los probadores cuestionan los supuestos que los programadores hacen al escribir el código y que aportan sesgos y perspectivas distintas, lo que ayuda a encontrar fallas y defectos diferentes. Que trabajen en una ubicación distinta es una desventaja por el aislamiento; la dinámica de confrontación también lo es; y que los desarrolladores crean que la calidad es responsabilidad ajena es otra desventaja derivada de ese mismo aislamiento.",
           "source": "Sample Exam D #8",
           "lang": "es"
         },
@@ -636,7 +636,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Evaluar productos de trabajo. FL-1.1.1 (K1).",
+          "explanation": "Correcta: C. Revisar la base de prueba mientras se diseñan las pruebas consiste en evaluar un producto de trabajo, en este caso los requisitos, y ese es el objetivo que se cumple. Los otros tres se alcanzan sobre todo con pruebas dinámicas: encontrar defectos, ganar confianza y dar información para decidir requieren ejecutar el software, aunque un hallazgo temprano pueda influir en ellos después.",
           "source": "Sample Exam 3 #1",
           "lang": "es"
         },
@@ -655,7 +655,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Whole Team. FL-1.5.2 (K1).",
+          "explanation": "Correcta: B. En el enfoque Whole Team los integrantes aprovechan sus habilidades para cumplir los objetivos del equipo sin atenerse rígidamente a los roles, de modo que un probador puede ayudar a programar y un desarrollador a probar. Las demás opciones son nombres inventados, sin relación con ese reparto flexible de responsabilidades.",
           "source": "Sample Exam 3 #2",
           "lang": "es"
         },
@@ -674,7 +674,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Un desarrollador comete un error que causa un defecto que puede verse como una falla durante las pruebas dinámicas. FL-1.2.3 (K2).",
+          "explanation": "Correcta: A. La cadena correcta es error del desarrollador, que genera un defecto en el código, el cual puede manifestarse como una falla cuando el software se ejecuta. Las otras opciones invierten los términos: en B se confunden defecto y falla, en C se mezclan falla y error, y en D se atribuye al defecto lo que solo se observa al ejecutar.",
           "source": "Sample Exam 3 #3",
           "lang": "es"
         },
@@ -693,7 +693,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Ejecutar las mismas pruebas repetidamente reducirá la probabilidad de encontrar nuevas fallas. FL-1.3.1 (K2).",
+          "explanation": "Correcta: D. El desgaste de las pruebas significa que repetir los mismos casos reduce la probabilidad de hallar fallas nuevas, porque esas pruebas ya no cubren zonas inexploradas ni cambios recientes. Las demás no aplican: las pruebas dinámicas siguen siendo necesarias, repetir no descubre fallas de forma consistente y las pruebas sí dependen del contexto.",
           "source": "Sample Exam 3 #4",
           "lang": "es"
         },
@@ -712,7 +712,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Durante todas las actividades ISTQB Foundation Level v4.0.1 Sample Exam #3 Questions. FL-1.4.1 (K2).",
+          "explanation": "Correcta: D. El control de pruebas no se limita a una fase: acompaña todo el proyecto, comparando el avance con el plan y aplicando acciones correctivas cuando hacen falta, a partir de la información que produce el monitoreo. Por eso las opciones que lo confinan a la planificación, a la implementación y ejecución o solo al monitoreo dejan fuera momentos en los que también se ejerce.",
           "source": "Sample Exam 3 #5",
           "lang": "es"
         },
@@ -731,7 +731,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Monitoreo de pruebas. FL-1.4.1 (K2).",
+          "explanation": "Correcta: A. El monitoreo de pruebas es la comparación continua del progreso real con el planificado, y de ahí salen las desviaciones que luego se corrigen. La planificación define objetivos y enfoque, el cierre recoge lo hecho cuando el proyecto termina, y el control aplica acciones correctivas sobre lo detectado, no hace la comparación misma.",
           "source": "Sample Exam 3 #6",
           "lang": "es"
         },
@@ -750,7 +750,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Usar técnicas como pruebas exploratorias y de listas de verificación para dedicar menos tiempo al desarrollo de casos de prueba. FL-1.4.2 (K2).",
+          "explanation": "Correcta: B. Con presión de tiempo y presupuesto conviene usar enfoques ligeros como pruebas exploratorias y listas de verificación, que exigen menos documentación previa y permiten empezar a ejecutar antes. Documentar casos detallados consume mucho tiempo, esperar a las pruebas de integración retrasa el inicio y automatizar de extremo a extremo primero frena el ciclo.",
           "source": "Sample Exam 3 #7",
           "lang": "es"
         },
@@ -769,7 +769,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Los desarrolladores no son objetivos respecto a su propio código. FL-1.5.3 (K2).",
+          "explanation": "Correcta: C. El problema central es la falta de objetividad: quien escribió el código tiende a confiar en su lógica y en cómo lo implementó, y le cuesta ver lo que asumió como correcto. No es cierto que los desarrolladores sean malos probadores ni que descuiden la calidad, y el tiempo no es el obstáculo principal, pues las pruebas unitarias forman parte de su trabajo.",
           "source": "Sample Exam 3 #8",
           "lang": "es"
         },
@@ -788,7 +788,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Ayuda a identificar y corregir mejor la causa raíz de los defectos. FL-1.2.2 (K1).",
+          "explanation": "Correcta: A. El análisis de causa raíz identifica las causas comunes que originan los problemas y, al atacarlas mediante mejoras de proceso, eleva la calidad del producto y evita que los defectos se repitan. B es incorrecta porque no acelera la codificación; C confunde las causas, que son defectos, con prácticas deseables transferibles entre equipos; D no tiene relación con el financiamiento de proyectos futuros.",
           "source": "Sample Exam 4 #1",
           "lang": "es"
         },
@@ -807,7 +807,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Equipo completo. FL-1.5.2 (K1).",
+          "explanation": "Correcta: A. El enfoque de equipo completo permite que los desarrolladores apoyen las tareas de prueba en lugar de esperar a que los probadores terminen todo, con lo que las habilidades se reparten mejor y el cuello de botella se reduce. B mantiene la carga sobre los probadores; C es una práctica de desarrollo, no una forma de distribuir trabajo, y D es un modelo de ciclo de vida ajeno a este reparto.",
           "source": "Sample Exam 4 #2",
           "lang": "es"
         },
@@ -826,7 +826,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Un desarrollador encuentra y corrige un defecto. FL-1.1.2 (K2).",
+          "explanation": "Correcta: C. La depuración es la actividad del desarrollador que localiza la causa del defecto, la analiza y la corrige; por eso encontrar y arreglar el defecto es el ejemplo típico. A y B describen actividades de prueba, como reportar y volver a probar, no de depuración. D implica pruebas unitarias: pueden llevar a depurar si aparece un defecto, pero la prueba en sí no es depuración.",
           "source": "Sample Exam 4 #3",
           "lang": "es"
         },
@@ -845,7 +845,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) No es factible excepto en el caso de software trivial. FL-1.3.1 (K2).",
+          "explanation": "Correcta: B. Probar todas las combinaciones de entradas y precondiciones solo es viable en software trivialmente simple; en cualquier otro caso llevaría un tiempo imposible y quizá ni siquiera sería factible. A la confunde con las pruebas de estrés, C es falsa porque la automatización no elimina el problema combinatorio, y D atribuye esa responsabilidad al desarrollador en pruebas unitarias, lo que no define la factibilidad.",
           "source": "Sample Exam 4 #4",
           "lang": "es"
         },
@@ -864,7 +864,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Trazabilidad entre los casos de prueba y los requisitos. FL-1.4.4 (K2).",
+          "explanation": "Correcta: A. Para informar la cobertura de ejecución de casos de prueba sobre los requisitos hace falta trazabilidad entre requisitos y casos de prueba, de modo que al ejecutar se registre qué requisitos quedaron realmente cubiertos. B apunta a cobertura de riesgos, C vincula requisitos con riesgos y D solo considera casos diseñados y no ejecutados; ninguna permite mostrar ejecución.",
           "source": "Sample Exam 4 #5",
           "lang": "es"
         },
@@ -883,7 +883,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El gerente de pruebas. FL-1.4.5 (K2).",
+          "explanation": "Correcta: C. El plan de pruebas lo escribe y actualiza normalmente el gerente de pruebas, que asume la responsabilidad global de su contenido y de su mantenimiento. El gerente de proyecto, el propietario del producto y el probador pueden aportar información o revisarlo, pero no son sus autores responsables, por lo que A, B y D quedan descartadas.",
           "source": "Sample Exam 4 #6",
           "lang": "es"
         },
@@ -902,7 +902,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Registro de riesgos. FL-1.4.3 (K2).",
+          "explanation": "Correcta: C. El registro de riesgos es el producto de trabajo donde se documentan los riesgos identificados con su probabilidad, su impacto y el plan de mitigación, y el plan de pruebas lo referencia. A y B son documentos de planificación que pueden mencionar los riesgos, pero no son su repositorio, y D no corresponde a un producto de trabajo definido.",
           "source": "Sample Exam 4 #7",
           "lang": "es"
         },
@@ -921,7 +921,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Creatividad. FL-1.5.1 (K2).",
+          "explanation": "Correcta: D. Diseñar solo el camino positivo y no imaginar escenarios negativos evidencia falta de creatividad para idear casos variados y alternativos. A no aplica porque no hay señal de mala comunicación; B es tentadora, pero el problema no es falta de indagación sino de variedad en el diseño, y C no encaja: no se trata de seguridad al proponer pruebas.",
           "source": "Sample Exam 4 #8",
           "lang": "es"
         }
@@ -948,7 +948,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) En modelos de desarrollo secuencial, incremental e iterativo. FL-2.1.2 (K1).",
+          "explanation": "Correcta: D. La regla de que a cada actividad del SDLC le corresponde una actividad de prueba se cumple en todos los modelos: secuenciales, incrementales e iterativos. Las opciones que la limitan a un solo tipo de modelo son demasiado restrictivas y no reflejan que en cualquier ciclo de vida se planifican y ejecutan actividades de prueba junto al desarrollo.",
           "source": "Sample Exam A #9",
           "lang": "es"
         },
@@ -967,7 +967,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) En ATDD, las pruebas se crean con base en los criterios de aceptación para impulsar el desarrollo del software relacionado. FL-2.1.3 (K1).",
+          "explanation": "Correcta: C. En ATDD las pruebas se crean a partir de los criterios de aceptación y se usan para impulsar el desarrollo del software relacionado. A y D describen BDD, donde se usa el formato dado/cuando/entonces y se parte del comportamiento deseado. B describe TDD, con pruebas de componentes orientadas al código.",
           "source": "Sample Exam A #10",
           "lang": "es"
         },
@@ -986,7 +986,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Escribir un script de prueba antes de configurar el proceso de gestión de la configuración. FL-2.1.5 (K2).",
+          "explanation": "Correcta: D. Escribir un script de prueba antes de configurar el proceso de gestión de configuración no es shift-left: los scripts deben estar bajo gestión de configuración, así que crearlos antes de ese proceso carece de sentido. A, B y C sí son ejemplos: revisión temprana de requisitos, TDD y pruebas no funcionales desde el nivel de componentes.",
           "source": "Sample Exam A #11",
           "lang": "es"
         },
@@ -1005,7 +1005,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las debilidades del proceso identificadas durante la retrospectiva pueden analizarse y servir como una lista de tareas para el programa de mejora continua de procesos de la organización. FL-2.1.6 (K2).",
+          "explanation": "Correcta: C. Las debilidades del proceso detectadas en la retrospectiva pueden analizarse y convertirse en tareas del programa de mejora continua, y ese es el argumento sólido para el gerente. A apela a la popularidad y al cliente, no a la mejora; B confunde la retrospectiva con retroalimentación del producto y con usuarios finales; D menciona valores de Extreme Programming ajenos a la retrospectiva.",
           "source": "Sample Exam A #12",
           "lang": "es"
         },
@@ -1024,7 +1024,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 1D, 2B, 3A, 4C. FL-2.2.1 (K2).",
+          "explanation": "Correcta: A. Las necesidades del negocio del usuario son la base de las pruebas de aceptación (1D); la comunicación entre componentes se prueba en la integración de componentes (2B); los fallos de lógica se detectan en componentes (3A); las reglas de negocio son base de las pruebas de sistema (4C). Las otras asignaciones cruzan niveles y bases de prueba equivocadas.",
           "source": "Sample Exam A #13",
           "lang": "es"
         },
@@ -1043,7 +1043,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Solo 5, 7. FL-2.2.3 (K2).",
+          "explanation": "Correcta: B. TC2 pasó en la ejecución 1 y se repite como prueba 5, y TC1 pasó en la ejecución 2 y se repite como prueba 7: esas son pruebas de regresión. Las pruebas 4, 6, 8 y 9 confirman correcciones de fallos previos, por lo que son pruebas de confirmación y no de regresión.",
           "source": "Sample Exam A #14",
           "lang": "es"
         },
@@ -1062,7 +1062,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Si se usa un modelo de desarrollo secuencial, entonces las pruebas dinámicas típicamente se restringen a etapas posteriores del ciclo de vida. FL-2.1.1 (K2).",
+          "explanation": "Correcta: B. En un modelo secuencial no hay código ejecutable en las primeras etapas, así que allí se aplican pruebas estáticas y las pruebas dinámicas quedan restringidas a fases posteriores. La automatización de pruebas de sistema no reemplaza las pruebas de regresión, que con entregas frecuentes son más necesarias; en modelos iterativos conviene automatizar las pruebas de componente, y en los incrementales se aplican pruebas estáticas y dinámicas en cada incremento.",
           "source": "Sample Exam B #9",
           "lang": "es"
         },
@@ -1081,7 +1081,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Los probadores deben revisar los productos de trabajo tan pronto como haya borradores disponibles. FL-2.1.2 (K1).",
+          "explanation": "Correcta: B. La buena práctica es revisar los productos de trabajo en cuanto hay borradores disponibles, lo que materializa el enfoque shift-left y evita construir sobre requisitos defectuosos. Esperar a la siguiente fase o a la publicación deja los defectos dentro del producto ya difundido, y las revisiones forman parte del análisis de pruebas, no algo que deba hacerse antes de él.",
           "source": "Sample Exam B #10",
           "lang": "es"
         },
@@ -1100,7 +1100,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Desarrollo guiado por pruebas (Test-Driven Development). FL-2.1.3 (K1).",
+          "explanation": "Correcta: A. El desarrollo guiado por pruebas es el ejemplo clásico de enfoque test-first: las pruebas se escriben antes que el código y guían su implementación. Las demás denominaciones no corresponden a enfoques test-first; el desarrollo guiado por características, por ejemplo, es una metodología ágil basada en entregar funcionalidades, no en escribir primero las pruebas.",
           "source": "Sample Exam B #11",
           "lang": "es"
         },
@@ -1119,7 +1119,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Para poder actualizar y liberar sistemas con mayor frecuencia, se requieren muchas pruebas de regresión automatizadas para reducir el riesgo de regresión. FL-2.1.4 (K2).",
+          "explanation": "Correcta: B. DevOps busca entregar con frecuencia, y para eso necesita muchas pruebas de regresión automatizadas que mantengan bajo el riesgo de regresión. La integración continua no exime a los desarrolladores de completar sus pruebas de componente, de hecho las exige para admitir el código; el shift-right no consiste en repartir esfuerzo entre desarrollo y operaciones, y automatizar todo sin pruebas manuales haría perder la perspectiva del usuario.",
           "source": "Sample Exam B #12",
           "lang": "es"
         },
@@ -1138,7 +1138,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Pruebas de seguridad de un sistema de gestión de crédito por un equipo de pruebas independiente. FL-2.2.1 (K2).",
+          "explanation": "Correcta: A. Las pruebas de sistema examinan el comportamiento y las capacidades del sistema completo, incluidas las características no funcionales como la seguridad, y suelen encargarse a un equipo independiente a partir de las especificaciones. Probar interfaces con un sistema bancario externo es integración de sistemas, las pruebas beta son aceptación en un sitio externo, y las interacciones entre interfaz y base de datos son integración de componentes.",
           "source": "Sample Exam B #13",
           "lang": "es"
         },
@@ -1157,7 +1157,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las pruebas de regresión se ocupan de los efectos adversos en el código no modificado, mientras que las pruebas de confirmación se ocupan de probar el código modificado. FL-2.2.3 (K2).",
+          "explanation": "Correcta: D. Las pruebas de regresión vigilan los efectos adversos sobre el código que no se modificó, mientras que las de confirmación verifican que el defecto corregido quedó realmente resuelto, es decir, prueban el código cambiado. Ambas suelen crecer con el proyecto; otra opción invierte ese orden, y las de regresión no comprueban que el entorno operativo permanezca sin cambios.",
           "source": "Sample Exam B #14",
           "lang": "es"
         },
@@ -1176,7 +1176,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Para cada actividad de desarrollo, existe una actividad de prueba correspondiente. FL-2.1.2 (K1).",
+          "explanation": "Correcta: D. El control de calidad abarca todas las actividades de desarrollo, de modo que cada una tiene una actividad de prueba correspondiente. No existe simetría con niveles de desarrollo (A), con objetivos de desarrollo (B) ni con actividades de usuario (C), que pueden no existir o no corresponderse con cada actividad de prueba.",
           "source": "Sample Exam C #9",
           "lang": "es"
         },
@@ -1195,7 +1195,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Desarrollo guiado por pruebas de aceptación (Acceptance Test-Driven Development). FL-2.1.3 (K1).",
+          "explanation": "Correcta: D. El desarrollo guiado por pruebas de aceptación (ATDD) es el ejemplo conocido de enfoque test-first, donde las pruebas se escriben antes del código a partir de los criterios de aceptación. Las variantes de componentes, integración y sistema que proponen las otras opciones no son ejemplos reconocidos de desarrollo guiado por pruebas.",
           "source": "Sample Exam C #10",
           "lang": "es"
         },
@@ -1214,7 +1214,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Cuando es rentable, las actividades de prueba se trasladan más temprano en el ciclo de vida de desarrollo de software (SDLC) para reducir el costo total de la calidad al disminuir el número de defectos encontrados más adelante en el SDLC. FL-2.1.5 (K2).",
+          "explanation": "Correcta: B. Shift-left traslada las actividades de prueba a fases más tempranas del ciclo de vida cuando resulta rentable, lo que reduce el costo total de calidad al disminuir los defectos detectados tardíamente. A inventa un lado izquierdo del proceso de pruebas, C lo reduce a automatizar regresión y D propone automatizar actividades posteriores, que no es desplazar pruebas hacia la izquierda.",
           "source": "Sample Exam C #11",
           "lang": "es"
         },
@@ -1233,7 +1233,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Se mejora la comprensión de los usuarios finales sobre los procesos de desarrollo y prueba. FL-2.1.6 (K2).",
+          "explanation": "Correcta: C. En las retrospectivas participan probadores, desarrolladores, arquitectos, propietarios de producto y analistas, pero rara vez usuarios finales, que tampoco reciben sus informes; por eso es improbable que mejore su comprensión de los procesos. Sí son resultados esperables la mejora de la calidad futura (A), la eficiencia de las pruebas (B) y los scripts automatizados (D).",
           "source": "Sample Exam C #12",
           "lang": "es"
         },
@@ -1252,7 +1252,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Pruebas de aceptación. FL-2.2.1 (K2).",
+          "explanation": "Correcta: D. Las pruebas de aceptación se centran en validar que el sistema satisface las necesidades del negocio y está listo para desplegarse, y lo ideal es que las realicen los usuarios finales. Las pruebas de componentes, de integración de componentes y de integración de sistemas son principalmente verificación contra una especificación y suelen ejecutarlas desarrolladores o probadores.",
           "source": "Sample Exam C #13",
           "lang": "es"
         },
@@ -1271,7 +1271,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Pruebas de confirmación y luego pruebas de regresión. FL-2.2.3 (K2).",
+          "explanation": "Correcta: B. Primero se ejecutan pruebas de confirmación para comprobar que la actualización corrige el comportamiento erróneo y después pruebas de regresión para verificar que no aparecieron defectos en áreas no modificadas. Solo confirmación (A) o solo regresión (C) son insuficientes, y el orden inverso (D) no es lógico, pues la confirmación siempre precede a la regresión.",
           "source": "Sample Exam C #14",
           "lang": "es"
         },
@@ -1290,7 +1290,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Cada nivel de prueba tiene objetivos de prueba específicos y distintos. FL-2.1.2 (K1).",
+          "explanation": "Correcta: A. Cada nivel de prueba tiene objetivos específicos y distintos, porque en cada uno se prueba un objeto diferente, desde un componente hasta el sistema completo; solapar objetivos generaría duplicación innecesaria. La implementación y la ejecución no deben comenzar en la fase de desarrollo correspondiente, sino el análisis y el diseño; el diseño no debe basarse en borradores sin acordar; y no toda prueba estática tiene una prueba dinámica equivalente.",
           "source": "Sample Exam D #9",
           "lang": "es"
         },
@@ -1309,7 +1309,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Desarrollo guiado por comportamiento (BDD). FL-2.1.3 (K1).",
+          "explanation": "Correcta: A. El desarrollo guiado por comportamiento, conocido como BDD, es un ejemplo reconocido de enfoque test-first, junto con el desarrollo guiado por pruebas y el guiado por pruebas de aceptación, pues las pruebas se escriben antes del código que las satisface. Las otras alternativas mencionadas no corresponden a enfoques test-first reales: el desarrollo guiado por niveles de prueba, por funciones o por rendimiento no forman parte de esta familia de prácticas.",
           "source": "Sample Exam D #10",
           "lang": "es"
         },
@@ -1328,7 +1328,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Configurar la automatización de pruebas como parte del pipeline de entrega. FL-2.1.4 (K2).",
+          "explanation": "Correcta: D. Configurar y mantener la automatización de pruebas dentro del pipeline de entrega es un desafío real al implementar DevOps, junto con definir ese pipeline e introducir y mantener las herramientas de integración y entrega continuas. DevOps más bien aumenta la visibilidad de características no funcionales y, con procesos automatizados, favorece entornos de prueba estables y reduce la necesidad de pruebas manuales, en lugar de exigir más probadores manuales.",
           "source": "Sample Exam D #11",
           "lang": "es"
         },
@@ -1347,7 +1347,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Las retrospectivas dan a los probadores la oportunidad de identificar actividades que fueron exitosas para que estas se conserven cuando se realicen mejoras potenciales en el futuro. FL-2.1.6 (K2).",
+          "explanation": "Correcta: B. En la retrospectiva el equipo identifica qué aspectos fueron exitosos para conservarlos y qué puede mejorarse y cómo, lo que aporta aprendizaje y mejor colaboración. No sirve para señalar a quienes no contribuyeron, lo que rompería la cohesión; no es un espacio sin culpas para criticar a la gerencia o a los clientes; y no se usa para planear la siguiente iteración ni decidir cuestiones técnicas, algo propio de la reunión de planificación.",
           "source": "Sample Exam D #12",
           "lang": "es"
         },
@@ -1366,7 +1366,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) La prueba verifica que la función de ordenamiento coloca los elementos de la lista o arreglo en orden ascendente. FL-2.2.2 (K2).",
+          "explanation": "Correcta: A. Verificar que la función de ordenamiento deja los elementos en orden ascendente evalúa su corrección funcional, que es el objeto de las pruebas funcionales. Completar el ordenamiento en un segundo evalúa la eficiencia de desempeño; la facilidad de cambiar de ascendente a descendente evalúa la modificabilidad; y el funcionamiento tras cambiar de arquitectura evalúa la adaptabilidad. Las tres últimas son características de calidad no funcionales.",
           "source": "Sample Exam D #13",
           "lang": "es"
         },
@@ -1385,7 +1385,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) La opción de reembolso del sistema de cambio de divisas se eliminó porque no siempre devolvía el monto correcto a los clientes. FL-2.3.1 (K2).",
+          "explanation": "Correcta: B. Las pruebas de mantenimiento se disparan por una modificación del sistema, un cambio en el entorno operativo o su retiro. Eliminar la opción de reembolso porque no devolvía el monto correcto es una corrección, es decir, una modificación. Verificar la facilidad de cambiar el sistema sería prueba de mantenibilidad; desarrollar una historia nueva llevaría a probar esa función y hacer regresión; y reconfigurar el idioma no es ninguno de los tres disparadores.",
           "source": "Sample Exam D #14",
           "lang": "es"
         },
@@ -1404,7 +1404,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Los probadores deben revisar los documentos de requisitos tan pronto como haya disponible un borrador legible. FL-2.1.2 (K1).",
+          "explanation": "Correcta: D. Revisar los requisitos en cuanto hay un borrador legible es buena práctica porque detecta ambigüedades y omisiones cuando corregirlas es barato, antes de que se conviertan en código. Tener experiencia en desarrollo no es requisito para probar, el orden de ejecución lo definen los probadores según riesgo y prioridad, y el diseño debe comenzar mucho antes de que el código esté completo.",
           "source": "Sample Exam 3 #9",
           "lang": "es"
         },
@@ -1423,7 +1423,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) TDD. FL-2.1.3 (K1).",
+          "explanation": "Correcta: A. En TDD los casos de prueba se escriben primero y guían la codificación: el código se produce para satisfacer esas pruebas. BDD parte del comportamiento esperado expresado en lenguaje natural y ATDD de los criterios de aceptación derivados de ejemplos, mientras TBD no es un enfoque de desarrollo reconocido, sino una sigla ajena a la lista.",
           "source": "Sample Exam 3 #10",
           "lang": "es"
         },
@@ -1442,7 +1442,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Solo unitarias, integración, sistema y aceptación ISTQB Foundation Level v4.0.1 Sample Exam #3 Questions. FL-2.2.1 (K2).",
+          "explanation": "Correcta: D. Las pruebas no funcionales, como rendimiento, seguridad o usabilidad, pueden y deben ejecutarse en todos los niveles, desde componentes hasta aceptación, aunque el foco y el alcance cambien en cada uno. Limitar su ejecución a un solo nivel, o a una combinación parcial, deja sin evaluar atributos de calidad que igualmente importan en las demás etapas.",
           "source": "Sample Exam 3 #11",
           "lang": "es"
         },
@@ -1461,7 +1461,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Pruebas de migración de datos. FL-2.3.1 (K2).",
+          "explanation": "Correcta: C. Cuando un sistema va a retirarse suele ser necesario migrar sus datos, ya sea a otro sistema o a un archivo histórico, y eso exige probar la migración. El retiro es un desencadenante de pruebas de mantenimiento, no un tipo de prueba; las de regresión corresponden a sistemas vigentes y los parches no aportan nada a un sistema que se apaga.",
           "source": "Sample Exam 3 #12",
           "lang": "es"
         },
@@ -1480,7 +1480,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Para cada actividad de desarrollo, debe haber una actividad de prueba correspondiente. FL-2.1.1 (K2).",
+          "explanation": "Correcta: A. En cualquier modelo de ciclo de vida, incluido el iterativo, a cada actividad de desarrollo le corresponde una actividad de prueba, de modo que la verificación acompaña a la construcción. No toda actividad de prueba genera documentación versionada, en Ágil puede bastar la exploratoria sin casos escritos, y no todas producen métricas ni interesan a todos los interesados.",
           "source": "Sample Exam 3 #13",
           "lang": "es"
         },
@@ -1499,7 +1499,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Requiere pruebas continuas a lo largo del pipeline. FL-2.1.5 (K2).",
+          "explanation": "Correcta: C. CI/CD exige pruebas continuas y automatizadas a lo largo de todo el pipeline, y esa integración permanente del testing en cada etapa es lo que traslada las pruebas hacia la izquierda en la línea de tiempo. Desplegar más rápido y la integración continua describen el funcionamiento del pipeline pero no desplazan las pruebas, y la calidad sigue siendo de todos.",
           "source": "Sample Exam 3 #14",
           "lang": "es"
         },
@@ -1518,7 +1518,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Los diferentes niveles de prueba deben tener objetivos de prueba específicos. FL-2.1.2 (K1).",
+          "explanation": "Correcta: A. Es una buena práctica que cada nivel de prueba tenga objetivos propios y bien definidos, lo que evita solapamientos y vacíos entre niveles. B no es un requisito para todos los probadores; C es incorrecta porque el orden de ejecución lo determinan los probadores según prioridad, riesgo y disponibilidad, y D contradice la práctica de iniciar el diseño durante el diseño y la implementación del código.",
           "source": "Sample Exam 4 #9",
           "lang": "es"
         },
@@ -1537,7 +1537,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) BDD. FL-2.1.3 (K1).",
+          "explanation": "Correcta: B. El desarrollo guiado por comportamiento expresa los requisitos con el formato dado/cuando/entonces, que es esencialmente un caso de prueba y sirve de base para desarrollar el código. A y C guían el desarrollo con otros enfoques y no capturan requisitos de esa forma, y D no es un enfoque reconocido, por lo que ninguna responde a lo pedido.",
           "source": "Sample Exam 4 #10",
           "lang": "es"
         },
@@ -1556,7 +1556,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) No funcionales. FL-2.2.2 (K2).",
+          "explanation": "Correcta: B. La usabilidad es una característica de calidad no funcional según ISO 25010, así que sus pruebas pertenecen a ese tipo. A agruparía la verificación de qué hace el sistema, no de cómo lo hace; C se refiere a pruebas estructurales sobre el código, y D a pruebas relacionadas con cambios. Ninguna de esas tres corresponde a la usabilidad.",
           "source": "Sample Exam 4 #11",
           "lang": "es"
         },
@@ -1575,7 +1575,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Pruebas de confirmación. FL-2.2.3 (K2).",
+          "explanation": "Correcta: C. La prueba de confirmación verifica si una corrección está realmente presente en la compilación y si resuelve el defecto reportado, justo lo que aquí falla. A la realizaría el desarrollador y no detectaría fallos del proceso de compilación; B tardaría más en aislar el problema, y D busca cambios no intencionales, no confirmar correcciones.",
           "source": "Sample Exam 4 #12",
           "lang": "es"
         },
@@ -1594,7 +1594,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Cuándo se harán los cambios aceptados. FL-2.1.6 (K2).",
+          "explanation": "Correcta: A. La retrospectiva solo genera valor si las mejoras aceptadas se planifican con fechas y responsables para implementarse en las próximas iteraciones, entregas o proyectos. B y D buscan culpables o reproches, lo que contradice el propósito de la retrospectiva, y C es información de costos que corresponde al gerente de proyecto, no al objetivo de reconocer mejoras del proceso.",
           "source": "Sample Exam 4 #13",
           "lang": "es"
         },
@@ -1613,7 +1613,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Las pruebas de rendimiento se pueden integrar en la tubería de CI/CD para probarlo de forma incremental y repetida a lo largo del desarrollo. FL-2.1.4 (K2).",
+          "explanation": "Correcta: B. Con CI/CD las pruebas de rendimiento se integran en la tubería y se ejecutan de forma incremental y repetida, desde las pruebas unitarias hasta el producto completo, detectando el problema mucho antes. A descarta el aporte que sí ofrece la tubería; C limita la prueba a una etapa tardía, y D la reduce a un entorno aislado, desaprovechando la ejecución continua.",
           "source": "Sample Exam 4 #14",
           "lang": "es"
         }
@@ -1640,7 +1640,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC. FL-3.1.2 (K2).",
+          "explanation": "Correcta: A. Esta afirmación no es un beneficio: la gestión de defectos no resulta menos costosa y detectar defectos más tarde en el SDLC es más caro, no más fácil. B, C y D sí son beneficios reales de las pruebas estáticas: corregir antes cuesta menos, se hallan defectos de codificación que las pruebas dinámicas no verían y se detectan brechas e inconsistencias en los requisitos.",
           "source": "Sample Exam A #15",
           "lang": "es"
         },
@@ -1659,7 +1659,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Ayuda a evitar malentendidos en los requisitos. FL-3.2.1 (K1).",
+          "explanation": "Correcta: D. La retroalimentación temprana y frecuente ayuda a evitar malentendidos sobre los requisitos antes de que se conviertan en defectos costosos. A se refiere a mejorar el proceso para proyectos futuros, lo que no exige que la retroalimentación sea temprana; B confunde la retroalimentación con la priorización de requisitos; C no es un beneficio reconocido ni existe una forma única de medir la calidad de los cambios.",
           "source": "Sample Exam A #16",
           "lang": "es"
         },
@@ -1678,7 +1678,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Walkthrough. FL-3.2.4 (K2).",
+          "explanation": "Correcta: B. El walkthrough tiene como propósito principal evaluar la calidad, es liderado por el autor del producto de trabajo y cuenta con un escriba, preparación individual e informe de revisión. La inspección exige moderador y no permite que el autor lidere; la revisión técnica tampoco la lidera el autor; la revisión informal no tiene roles ni proceso definidos.",
           "source": "Sample Exam A #17",
           "lang": "es"
         },
@@ -1697,7 +1697,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las fallas encontradas deben ser reconocidas, apreciadas y manejadas objetivamente. FL-3.2.5 (K1).",
+          "explanation": "Correcta: D. En las revisiones se encuentran defectos, no fallas: las fallas ocurren al ejecutar el software, así que la afirmación está mal planteada. A, B y C sí son factores de éxito: dedicar tiempo adecuado, dividir productos de trabajo grandes en partes pequeñas y evitar conductas que indiquen aburrimiento, exasperación u hostilidad entre los participantes.",
           "source": "Sample Exam A #18",
           "lang": "es"
         },
@@ -1716,7 +1716,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Código sin ninguna ruta que lo alcance. FL-3.1.3 (K2).",
+          "explanation": "Correcta: B. Una revisión de código puede detectar código inalcanzable, mientras que las pruebas dinámicas solo ejercitan lo que se puede ejecutar y no podrían demostrar la inalcanzabilidad sin agotar combinaciones inviables. La falta de usabilidad, los tiempos de respuesta pobres y las funcionalidades requeridas ausentes también pueden detectarse ejecutando el sistema, por lo que no son exclusivos de las pruebas estáticas.",
           "source": "Sample Exam B #15",
           "lang": "es"
         },
@@ -1735,7 +1735,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Facilita la comunicación temprana de posibles problemas de calidad. FL-3.2.1 (K1).",
+          "explanation": "Correcta: C. La retroalimentación temprana y frecuente de las partes interesadas permite comunicar pronto los posibles problemas de calidad, evita malentendidos sobre los requisitos y hace que los cambios se entiendan y apliquen antes. No informa a los gerentes sobre la productividad de los desarrolladores ni sirve para priorizar sus interacciones, y no aclara a los usuarios por qué se retrasa la entrega.",
           "source": "Sample Exam B #16",
           "lang": "es"
         },
@@ -1754,7 +1754,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 1C, 2B, 3A, 4D. FL-3.2.2 (K2).",
+          "explanation": "Correcta: D. Seleccionar características de calidad y criterios de salida es planificación; dar acceso al producto a todos los participantes es el inicio de la revisión; identificar anomalías corresponde a la revisión individual, y analizarlas y discutirlas es comunicación y análisis. Las demás combinaciones asignan esas tareas a actividades que no les corresponden, por ejemplo ubicar el acceso al producto en la planificación.",
           "source": "Sample Exam B #17",
           "lang": "es"
         },
@@ -1773,7 +1773,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 1B, 2D, 3A, 4C. FL-3.2.3 (K1).",
+          "explanation": "Correcta: C. El escriba registra decisiones y anomalías nuevas de la reunión; el líder asume la responsabilidad general, como organizar cuándo y dónde se revisa; el facilitador asegura que las reuniones funcionen y que exista un entorno seguro, y el gerente decide qué se revisa y aporta personal y tiempo. Las otras combinaciones intercambian estos roles, por ejemplo asignando la facilitación al escriba.",
           "source": "Sample Exam B #18",
           "lang": "es"
         },
@@ -1792,7 +1792,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) i, iii, iv. FL-3.1.3 (K2).",
+          "explanation": "Correcta: D. Las pruebas estáticas detectan defectos en especificaciones y código sin ejecutar: inconsistencias entre partes del diseño, rutas inalcanzables y variables declaradas sin uso. El tiempo de respuesta excesivo y el consumo alto de memoria (ii, v) solo se observan ejecutando el programa y midiendo, por lo que corresponden a pruebas dinámicas y descartan las demás opciones.",
           "source": "Sample Exam C #15",
           "lang": "es"
         },
@@ -1811,7 +1811,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Los cambios en los requisitos se entienden e implementan antes. FL-3.2.1 (K1).",
+          "explanation": "Correcta: A. La retroalimentación temprana y frecuente permite comunicar pronto problemas de calidad, evitar malentendidos y entender e implementar antes los cambios en los requisitos. No mejora la comprensión de las partes interesadas sobre sus propios requisitos (B), no autoriza cambios ilimitados (C) y no consiste en informar a los usuarios qué requisitos quedarán fuera (D).",
           "source": "Sample Exam C #16",
           "lang": "es"
         },
@@ -1830,7 +1830,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 1A, 2D, 3C, 4B. FL-3.2.4 (K2).",
+          "explanation": "Correcta: B. La revisión técnica busca consenso, ideas nuevas, motivación del autor y detección de anomalías; la informal no tiene proceso definido ni salida documentada; la inspección es la más formal y recopila métricas para mejorar el proceso; el walkthrough, liderado por el autor, incluye educar a los revisores y detectar anomalías. Las demás combinaciones cruzan estas descripciones.",
           "source": "Sample Exam C #17",
           "lang": "es"
         },
@@ -1849,7 +1849,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Dividir los productos de trabajo grandes en partes más pequeñas. FL-3.2.5 (K1).",
+          "explanation": "Correcta: B. Dividir los productos de trabajo grandes en partes revisables en un tiempo razonable evita que los revisores pierdan la concentración. El apoyo de la gerencia no implica que participe como revisora (A), evaluar a los participantes no es un objetivo (C) y planificar un documento completo por revisión contradice la división en fragmentos (D).",
           "source": "Sample Exam C #18",
           "lang": "es"
         },
@@ -1868,7 +1868,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Código cifrado. FL-3.1.1 (K1).",
+          "explanation": "Correcta: C. Casi cualquier producto de trabajo puede examinarse con alguna forma de prueba estática si es interpretable por personas: los contratos, los planes de prueba y las cartas de prueba pueden revisarse. El código cifrado, en cambio, es demasiado complejo para la interpretación humana y, si está bien cifrado, tampoco resulta analizable por la mayoría de las herramientas, por lo que no es apto para pruebas estáticas.",
           "source": "Sample Exam D #15",
           "lang": "es"
         },
@@ -1887,7 +1887,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las pruebas dinámicas pueden identificar algunos de los defectos que se pueden encontrar mediante pruebas estáticas, pero no todos. FL-3.1.2 (K2).",
+          "explanation": "Correcta: C. Hay defectos que solo se detectan de forma estática, como el código inalcanzable o los patrones de diseño no implementados; otros que ambas detectan, como un defecto de programación visible en revisión que causa una falla al ejecutar; y otros exclusivos de la dinámica, como problemas de desempeño o de memoria. Por eso la dinámica identifica algunos de los defectos estáticos, pero no todos, y ninguna prueba contiene por completo a la otra.",
           "source": "Sample Exam D #16",
           "lang": "es"
         },
@@ -1906,7 +1906,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 4–5–3–1–2. FL-3.2.2 (K2).",
+          "explanation": "Correcta: B. El proceso genérico avanza por planificación, inicio de la revisión, revisión individual, comunicación y análisis, y corrección e informe. Así, planificar objetivo y cronograma va primero, luego se da acceso al elemento, después los revisores aplican técnicas para generar sugerencias y detectar anomalías, se delibera sobre ellas y finalmente se registran los defectos y se verifican las actualizaciones. Las demás secuencias alteran ese orden lógico.",
           "source": "Sample Exam D #17",
           "lang": "es"
         },
@@ -1925,7 +1925,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Moderador. FL-3.2.3 (K1).",
+          "explanation": "Correcta: B. El moderador, también llamado facilitador, se encarga de que las reuniones de revisión se desarrollen de manera efectiva: gestiona el tiempo, media las discusiones y crea un ambiente seguro donde todos pueden expresar sus opiniones con libertad. El gerente decide qué revisar y asigna recursos; el líder de revisión supervisa el proceso, selecciona al equipo y agenda las reuniones; y el presidente no es un rol reconocido en las revisiones.",
           "source": "Sample Exam D #18",
           "lang": "es"
         },
@@ -1944,7 +1944,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El escriba. FL-3.2.3 (K1).",
+          "explanation": "Correcta: C. En una revisión formal el escriba documenta los hallazgos, problemas y puntos abiertos que surgen de la reunión, para que queden registrados y puedan seguirse. El facilitador conduce el proceso, el autor es dueño del producto de trabajo revisado y puede tomar notas, pero no es su función principal, y el gerente no cumple ese rol en la revisión.",
           "source": "Sample Exam 3 #15",
           "lang": "es"
         },
@@ -1963,7 +1963,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Asegurar que su visión del producto se realice. FL-3.2.1 (K1).",
+          "explanation": "Correcta: B. La retroalimentación temprana y frecuente permite confirmar que lo que se construye coincide con lo que los interesados esperan, y corregir el rumbo antes de invertir más. Hacerlos sentir partícipes es un efecto secundario agradable, no la razón principal; generar reuniones no es un objetivo, y aunque participen en aceptación, su opinión se necesita mucho antes.",
           "source": "Sample Exam 3 #16",
           "lang": "es"
         },
@@ -1982,7 +1982,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Se pueden identificar defectos que podrían no ser detectados por las pruebas dinámicas. FL-3.1.2 (K2).",
+          "explanation": "Correcta: A. El análisis estático revisa el código sin ejecutarlo y con un analizador detecta defectos como variables sin inicializar que las pruebas dinámicas difícilmente alcanzan. Documentar los defectos sigue siendo necesario aunque se hallen temprano, ejecutar el código corresponde al análisis dinámico, y estas revisiones normalmente sí requieren herramientas.",
           "source": "Sample Exam 3 #17",
           "lang": "es"
         },
@@ -2001,7 +2001,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Planificación. FL-3.2.2 (K2).",
+          "explanation": "Correcta: A. Los criterios de entrada y salida se definen durante la planificación de la revisión, y luego se evalúan en cada paso para decidir si el producto está listo para avanzar. Cuando la revisión se inicia, cuando cada revisor hace su trabajo o cuando se corrigen y reportan los hallazgos, esos criterios ya deberían estar establecidos y solo se aplican.",
           "source": "Sample Exam 3 #18",
           "lang": "es"
         },
@@ -2020,7 +2020,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Revisión de código. FL-3.1.1 (K1).",
+          "explanation": "Correcta: D. La revisión de código examina el producto de trabajo sin ejecutarlo, por lo que es una forma de prueba estática. A, B y C implican ejecutar el software y observar resultados: la conjetura de errores se aplica durante la ejecución, la regresión automatizada corre scripts y la última describe pruebas dinámicas, así que ninguna califica como estática.",
           "source": "Sample Exam 4 #15",
           "lang": "es"
         },
@@ -2039,7 +2039,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Permitir tiempo adecuado para realizar la revisión. FL-3.2.5 (K1).",
+          "explanation": "Correcta: D. El factor ausente es dar tiempo suficiente para revisar: recibir el documento la noche anterior impide una revisión cuidadosa y obliga a trabajar horas extra. A podría influir en la planificación general, pero el síntoma descrito es la falta de tiempo; B se refiere al tamaño del fragmento y C a la formación para las reuniones, aspectos que aquí no se ven afectados.",
           "source": "Sample Exam 4 #16",
           "lang": "es"
         },
@@ -2058,7 +2058,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las pruebas dinámicas requieren ejecutar el software; el software no se ejecuta durante las pruebas estáticas ISTQB Foundation Level v4.0.1 Sample Exam #4 Questions. FL-3.1.3 (K2).",
+          "explanation": "Correcta: D. La diferencia esencial es que las pruebas dinámicas requieren ejecutar el software, mientras que las estáticas examinan el producto sin ejecutarlo. A es falsa porque ambos tipos pueden realizarlos desarrolladores y probadores; B confunde lo manual con lo estático, y C no se sostiene: la estática puede hacerse en cualquier momento, aunque suela preceder a la dinámica.",
           "source": "Sample Exam 4 #17",
           "lang": "es"
         },
@@ -2077,7 +2077,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Walkthrough. FL-3.2.4 (K2).",
+          "explanation": "Correcta: B. En el walkthrough o recorrido es el autor del producto de trabajo quien dirige la sesión y presenta el material a los revisores. A no es una sesión organizada de ese modo; C se caracteriza porque la conduce el facilitador o moderador, y D la lidera habitualmente un tercero independiente, por lo que no encajan con la situación descrita.",
           "source": "Sample Exam 4 #18",
           "lang": "es"
         }
@@ -2104,7 +2104,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las técnicas de prueba dependen en gran medida del conocimiento del probador sobre el software y el dominio del negocio. FL-4.1.1 (K2).",
+          "explanation": "Correcta: C. Las técnicas basadas en la experiencia dependen en gran medida del conocimiento y la experiencia del probador sobre el software, el dominio del negocio y los defectos probables. A y B son características de las técnicas de caja blanca, que parten de la estructura y miden cobertura; D es propia de las de caja negra, que contrastan la implementación con los requisitos.",
           "source": "Sample Exam A #19",
           "lang": "es"
         },
@@ -2123,7 +2123,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 4. FL-4.2.1 (K3).",
+          "explanation": "Correcta: B. Con cobertura de cada elección hacen falta cuatro casos: dos en planta baja, uno con jardín pequeño y otro con jardín grande, y uno por cada uno de los otros dos pisos, ambos sin jardín. Tres casos no alcanzarían para cubrir todas las particiones válidas y seis superaría el mínimo requerido.",
           "source": "Sample Exam A #20",
           "lang": "es"
         },
@@ -2142,7 +2142,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 50%. FL-4.2.2 (K3).",
+          "explanation": "Correcta: A. Hay doce valores límite (0, 50, 51, 60, 61, 70, 71, 80, 81, 90, 91 y 100) y los casos cubren seis: 91, 50, 81, 60, 70 y 80, es decir, 6/12, un 50%. Cada caso aporta solo uno de los dos valores límite de su rango, de ahí que falte la otra mitad, y las demás cifras no corresponden a esa proporción.",
           "source": "Sample Exam A #21",
           "lang": "es"
         },
@@ -2161,7 +2161,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) R8. FL-4.2.3 (K3).",
+          "explanation": "Correcta: D. En R8 el cliente no es miembro y además incumplió la fecha límite, pero la regla le entrega la camiseta de regalo, y solo los miembros pueden recibirla tras quince alquileres: situación imposible. R2, R4 y R6 describen combinaciones coherentes: el descuento exige ser miembro y no incumplir la fecha, y la camiseta llega con el decimoquinto alquiler.",
           "source": "Sample Exam A #22",
           "lang": "es",
           "note": "",
@@ -2182,7 +2182,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 3. FL-4.2.4 (K3).",
+          "explanation": "Correcta: D. Se necesitan al menos tres casos porque las transiciones de prueba y de error no pueden ocurrir en el mismo caso, ni tampoco ambas transiciones de finalización: por ejemplo test-done, run-error-done y run-pause-resume-pause-done. Dos casos no cubrirían todas las transiciones válidas y cuatro o siete exceden el mínimo.",
           "source": "Sample Exam A #23",
           "lang": "es",
           "note": "",
@@ -2203,7 +2203,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Cada instrucción en el código que contiene un defecto ha sido ejecutada al menos una vez. FL-4.3.1 (K2).",
+          "explanation": "Correcta: A. Con cobertura de sentencias del 100% toda instrucción, incluidas las que contienen defectos, se ejecutó y evaluó al menos una vez. B es falsa porque la cobertura depende de lo que se prueba y no del número de casos; C es falsa porque con bucles existen infinitos caminos posibles; D también, pues las pruebas exhaustivas son imposibles.",
           "source": "Sample Exam A #24",
           "lang": "es"
         },
@@ -2222,7 +2222,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las pruebas de caja blanca pueden ayudar a identificar brechas en la implementación de requisitos. FL-4.3.3 (K2).",
+          "explanation": "Correcta: D. Las técnicas de caja blanca se basan en la estructura del objeto de prueba y no en la especificación de requisitos, así que no detectan implementaciones faltantes: esa es su debilidad. A, B y C sí son verdaderas: consideran toda la implementación, las métricas de cobertura orientan pruebas adicionales y pueden usarse en pruebas estáticas como las revisiones.",
           "source": "Sample Exam A #25",
           "lang": "es"
         },
@@ -2241,7 +2241,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) La estimación de errores implica usar su conocimiento y experiencia sobre defectos encontrados en el pasado y errores típicos cometidos por los desarrolladores. FL-4.4.1 (K2).",
+          "explanation": "Correcta: A. La estimación de errores consiste en usar el conocimiento y la experiencia sobre defectos encontrados en el pasado, y a veces listas de verificación, para anticipar qué errores pudo cometer el desarrollador. B reduce la técnica a la experiencia personal como desarrollador; C la confunde con pruebas de usabilidad; D propone duplicar el desarrollo, algo poco práctico que no es estimación de errores.",
           "source": "Sample Exam A #26",
           "lang": "es"
         },
@@ -2260,7 +2260,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Pruebas exploratorias. FL-4.4.2 (K2).",
+          "explanation": "Correcta: C. Las pruebas exploratorias encajan cuando hay pocas especificaciones conocidas y presión de tiempo, como aquí, con requisitos aún sin compartir y necesidad de resultados prontos. A falla porque es un producto nuevo y probablemente no hay lista de verificación; B porque falta información para adivinar errores; D porque las pruebas de rama consumen tiempo y no aprovechan el conocimiento del dominio.",
           "source": "Sample Exam A #27",
           "lang": "es"
         },
@@ -2279,7 +2279,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Usar el formato dado/cuando/entonces para describir un ejemplo de condición de prueba relacionada con una historia de usuario dada. FL-4.5.2 (K2).",
+          "explanation": "Correcta: B. El formato dado/cuando/entonces es la forma estándar de documentar los criterios de aceptación como ejemplos de condiciones de prueba ligadas a una historia de usuario. A confunde la retrospectiva con la documentación de criterios; C es incorrecta porque la comunicación verbal no deja documentación; D mezcla los criterios de aceptación con riesgos del plan de pruebas.",
           "source": "Sample Exam A #28",
           "lang": "es"
         },
@@ -2298,7 +2298,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Probar si el editor puede guardar el documento después de editar el contenido de la página. FL-4.5.3 (K3).",
+          "explanation": "Correcta: A. Esta prueba deriva directamente de dos criterios de aceptación de la historia: editar el contenido de la página y guardar los cambios. B prueba actividades del propietario del contenido, que no están en los criterios; C añade programar la publicación, funcionalidad no cubierta; D plantea reasignar a otro editor, cuando el criterio es reasignar al propietario del contenido.",
           "source": "Sample Exam A #29",
           "lang": "es"
         },
@@ -2317,7 +2317,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) En las pruebas de tabla de decisión, los casos de prueba son independientes de cómo se implementa el software. En las pruebas de ramas, los casos de prueba solo se pueden crear después del diseño o la implementación del código.. FL-4.1.1 (K2).",
+          "explanation": "Correcta: D. La tabla de decisión es una técnica de caja negra basada en la lógica de negocio especificada, así que sus casos no dependen de cómo se implemente el software; las pruebas de ramas son de caja blanca y requieren conocer la estructura interna, por lo que solo pueden crearse tras el diseño o la codificación. Las demás opciones invierten ambas técnicas o atribuyen a las ramas la anticipación de defectos, propia del error guessing.",
           "source": "Sample Exam B #19",
           "lang": "es",
           "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
@@ -2337,7 +2337,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 19, 20, 30. FL-4.2.1 (K3).",
+          "explanation": "Correcta: A. Existen tres particiones válidas: sin descuento, 10% en cada décimo lavado y 50% en cada vigésimo; 19, 20 y 30 aportan un valor de cada una y logran cobertura completa. Las demás combinaciones cubren solo dos particiones: omiten la partición del 50% o incluyen varios valores dentro de una misma partición, sin añadir cobertura.",
           "source": "Sample Exam B #20",
           "lang": "es"
         },
@@ -2356,7 +2356,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 1, 4, 7, 11, 14. FL-4.2.2 (K3).",
+          "explanation": "Correcta: D. Con tres valores por límite hay que probar 0, 1, 4, 5, 6, 7, 11, 12, 13 y 14; como la cobertura de dos valores ya cubrió 0, 5, 6, 12 y 13, faltan 1, 4, 7, 11 y 14. Las demás opciones olvidan límites internos o exteriores, o se limitan a valores del borde superior, de modo que no completan los tres valores en cada límite.",
           "source": "Sample Exam B #21",
           "lang": "es"
         },
@@ -2375,7 +2375,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 60%. FL-4.2.3 (K3).",
+          "explanation": "Correcta: B. Cada caso de prueba activa una columna: TC1 y TC2 cubren la regla 4, TC3 y TC4 la regla 2, y TC5 la regla 5, de modo que se cubren tres de las cinco reglas, es decir, el 60%. El 40% correspondería a dos columnas, y el 80% o el 100% exigirían cubrir cuatro o las cinco, algo que estos datos no logran porque las reglas 1 y 3 quedan sin ejercitar.",
           "source": "Sample Exam B #22",
           "lang": "es",
           "note": "",
@@ -2396,7 +2396,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Add, Add, Add, Remove, Remove. FL-4.2.4 (K3).",
+          "explanation": "Correcta: C. La secuencia Add, Add, Add, Remove, Remove recorre las cinco transiciones válidas del diagrama y alcanza el 100%. Otras secuencias dejan transiciones sin cubrir y llegan solo al 80%, y la que encadena cuatro Add seguidas es además inviable, porque desde el estado lleno no existe transición válida disparada por Add.",
           "source": "Sample Exam B #23",
           "lang": "es",
           "note": "",
@@ -2417,7 +2417,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Existe al menos una sentencia que debe haber sido ejecutada tanto por T1 como por T2. FL-4.3.1 (K2).",
+          "explanation": "Correcta: B. Si las sentencias ejecutadas por T1 y T2 fueran disjuntas, la cobertura conjunta sería del 105%, lo cual es imposible; por tanto, al menos un 5% de las sentencias ejecutables fue recorrido por ambas. La cobertura nunca supera el 100%, no dice nada sobre sentencias no ejecutables y la cobertura de sentencias no implica cobertura de ramas completa.",
           "source": "Sample Exam B #24",
           "lang": "es"
         },
@@ -2436,7 +2436,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) X = número de ramas ejercitadas por los casos de prueba Y = número total de ramas en el código. FL-4.3.2 (K2).",
+          "explanation": "Correcta: C. En la cobertura de ramas el numerador cuenta todas las ramas ejercitadas y el denominador todas las ramas del código, sin distinguir entre condicionales e incondicionales. Las opciones que hablan solo de resultados de decisión o de ramas condicionales dejan fuera las transferencias incondicionales, y por eso describen una métrica distinta e incompleta.",
           "source": "Sample Exam B #25",
           "lang": "es"
         },
@@ -2457,7 +2457,7 @@ window.ISTQB_DATA = {
             0,
             4
           ],
-          "explanation": "Respuestas correctas: A) A los probadores no se les ha asignado suficiente tiempo para el diseño y la ejecución de pruebas, E) Los probadores tienen experiencia en el dominio del negocio y buenas habilidades analíticas. FL-4.4.2 (K2).",
+          "explanation": "Correctas: A y E. Las pruebas exploratorias encajan cuando hay poco tiempo para diseñar y ejecutar, o especificaciones escasas, y resultan más eficaces con probadores experimentados, con conocimiento del dominio y buenas habilidades analíticas. Que la estrategia exija técnicas formales de caja negra, que la especificación sea formal y procesable o que los probadores programen bien no justifica su uso; de hecho, no es una técnica de caja negra.",
           "source": "Sample Exam B #26",
           "lang": "es"
         },
@@ -2476,7 +2476,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) “Los mensajes de error están escritos en un lenguaje que el usuario puede entender”. FL-4.4.3 (K2).",
+          "explanation": "Correcta: D. Un elemento de lista de verificación debe ser una condición de prueba concreta y verificable por una persona, como la claridad de los mensajes de error para el usuario. Describir un error del desarrollador no es una condición de prueba, la cobertura de sentencias es un criterio de salida y afirmar que el programa funciona según todos los requisitos es demasiado general.",
           "source": "Sample Exam B #27",
           "lang": "es"
         },
@@ -2495,7 +2495,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Orientado a escenarios. FL-4.5.2 (K2).",
+          "explanation": "Correcta: B. El formato Dado que, Cuando, Entonces describe un escenario concreto que debe verificarse, por lo que es orientado a escenarios. El formato orientado a reglas usaría listas de verificación o tablas de entradas y salidas que muestren explícitamente las reglas; las otras dos categorías no existen como formatos de criterios de aceptación.",
           "source": "Sample Exam B #28",
           "lang": "es"
         },
@@ -2514,7 +2514,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Entrada: un cliente no registrado se registra como nuevo cliente con una dirección de correo electrónico válida que no existe ya en la base de datos de clientes Resultado esperado: el sistema acepta el registro y crea la cuenta. FL-4.5.3 (K3).",
+          "explanation": "Correcta: D. El caso describe el registro de un cliente nuevo, un proceso que la historia no menciona, ya que esta trata solo de consultar pedidos anteriores. Los otros tres casos sí derivan de la historia: ver el historial, abrir un pedido para ver sus artículos y ordenar la lista por número de pedido.",
           "source": "Sample Exam B #29",
           "lang": "es"
         },
@@ -2533,7 +2533,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) La base de prueba. FL-4.1.1 (K2).",
+          "explanation": "Correcta: C. Las técnicas de caja negra se basan en la especificación del comportamiento, mientras que las basadas en la experiencia usan el conocimiento del probador y pueden prescindir de la especificación; esa es la diferencia principal. Ambas pueden aplicarse al mismo objeto de prueba (A), en todos los niveles (B) y en cualquier ciclo de vida (D).",
           "source": "Sample Exam C #19",
           "lang": "es"
         },
@@ -2552,7 +2552,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 12, 1111, 1234, 12345. FL-4.2.1 (K3).",
+          "explanation": "Correcta: A. “12” cubre longitud incorrecta por defecto, “1111” cubre longitud correcta con todos los dígitos iguales, “1234” cubre longitud correcta con al menos dos dígitos distintos y “12345” cubre longitud incorrecta por exceso, así que las cuatro particiones quedan cubiertas. B y C omiten el PIN válido y D no cubre la partición del número de dígitos diferentes.",
           "source": "Sample Exam C #20",
           "lang": "es"
         },
@@ -2571,7 +2571,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 101,             150,         199,          200. FL-4.2.2 (K3).",
+          "explanation": "Correcta: D. Las particiones son hasta 100, de 101 a 199 y desde 200; los valores límite son 100, 101, 199 y 200. Con análisis de dos valores, 101, 199 y 200 cubren tres de los cuatro elementos, un 75%. A y B solo aportan 100 y 200, y C solo 100 y 101, alcanzando apenas un 50%.",
           "source": "Sample Exam C #21",
           "lang": "es"
         },
@@ -2590,7 +2590,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) C1 = F, C2 = F, C3 = F. FL-4.2.3 (K3).",
+          "explanation": "Correcta: D. La combinación C1=F, C2=F, C3=F encaja simultáneamente en las reglas R2 y R3, que definen acciones distintas, y esa ambigüedad evidencia la contradicción. La combinación (T, T, F) no corresponde a ninguna regla, lo que sería una omisión (A); (T, F, T) solo coincide con R2 (B); y ambas combinaciones de C coinciden únicamente con R1.",
           "source": "Sample Exam C #22",
           "lang": "es",
           "note": "",
@@ -2611,7 +2611,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 3. FL-4.2.4 (K3).",
+          "explanation": "Correcta: A. Tres transiciones no pueden aparecer en un mismo caso de prueba: de REQUESTING a CONFIRMED, de WAITING LIST a CONFIRMED y de WAITING LIST a END; por eso se necesitan al menos tres casos, y con ellos se cubren todas las transiciones válidas. Las demás cantidades no permiten alcanzar el 100% de cobertura de transiciones.",
           "source": "Sample Exam C #23",
           "lang": "es",
           "note": "",
@@ -2632,7 +2632,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 8. FL-4.3.2 (K2).",
+          "explanation": "Correcta: C. En las pruebas de ramas los elementos de cobertura son las ramas, que se representan mediante las aristas del grafo de flujo de control, y ese grafo tiene exactamente ocho aristas. Por eso hay que probar ocho elementos de cobertura; las demás cifras no corresponden al número de aristas del grafo ni al de nodos o decisiones.",
           "source": "Sample Exam C #24",
           "lang": "es",
           "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
@@ -2652,7 +2652,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Las medidas de cobertura de caja blanca pueden ayudar a los probadores a evaluar las pruebas de caja negra en términos de la cobertura de código alcanzada por estas pruebas de caja negra. FL-4.3.3 (K2).",
+          "explanation": "Correcta: A. Las pruebas de caja negra no miden la cobertura real del código; las medidas de caja blanca aportan esa medición objetiva y permiten generar pruebas adicionales para aumentarla. Identificar código inalcanzable (B) es cierto pero ajeno a la caja negra, y C y D suponen relaciones entre ambas técnicas que no existen.",
           "source": "Sample Exam C #25",
           "lang": "es"
         },
@@ -2671,7 +2671,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Ataque de fallos. FL-4.4.1 (K2).",
+          "explanation": "Correcta: B. La lista enumera posibles fallas y defectos, y el ataque de fallos consiste precisamente en crear o conseguir una lista de errores, defectos y fallas para diseñar pruebas que los expongan. Las pruebas exploratorias usan cartas de prueba (A), las listas de verificación contienen condiciones de prueba, no fallas (C), y el análisis de valores límite parte de particiones (D).",
           "source": "Sample Exam C #26",
           "lang": "es"
         },
@@ -2690,7 +2690,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Dos probadores que diseñan y ejecutan pruebas basadas en los mismos elementos de alto nivel de la lista de verificación normalmente realizarán las pruebas de maneras ligeramente diferentes. FL-4.4.3 (K2).",
+          "explanation": "Correcta: D. Con listas de elementos de alto nivel hay variabilidad: dos probadores usan datos y pasos distintos y cada uno cubre áreas que el otro no, lo que aumenta la cobertura aunque reduce la repetibilidad. Detallar los elementos (A) no explica mayor cobertura, automatizar (B) repite siempre lo mismo y probar cada elemento por separado (C) afecta el orden, no la cobertura.",
           "source": "Sample Exam C #27",
           "lang": "es"
         },
@@ -2709,7 +2709,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Cuando un cliente agrega un artículo a su carrito y procede al pago, se le debe solicitar iniciar sesión o crear una cuenta si aún no lo ha hecho. FL-4.5.2 (K2).",
+          "explanation": "Correcta: B. Un criterio orientado a escenarios describe una situación concreta que el sistema debe realizar, como el flujo de añadir un artículo al carrito y proceder al pago. A y D son criterios orientados a reglas o normativas, y C es una línea de código que resulta incomprensible para los representantes del negocio.",
           "source": "Sample Exam C #28",
           "lang": "es"
         },
@@ -2728,7 +2728,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Verificar que un usuario Especial puede acceder a los pisos 1, 2 y 3. FL-4.5.3 (K3).",
+          "explanation": "Correcta: D. AC3 exige comprobar que un usuario Especial tiene los mismos derechos que uno Regular, y eso se verifica comprobando su acceso a los pisos 1, 2 y 3. A y B prueban a un usuario Regular, y C introduce un piso 5 que no existe en los criterios y amplía indebidamente el alcance de la historia.",
           "source": "Sample Exam C #29",
           "lang": "es"
         },
@@ -2747,7 +2747,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Técnicas de prueba de caja negra. FL-4.1.1 (K2).",
+          "explanation": "Correcta: B. El requisito describe el comportamiento esperado del objeto de prueba, sin referirse a su estructura interna, por lo que las técnicas de caja negra son las adecuadas; expresiones como superar los cien dólares sugieren límites de particiones que conviene probar con análisis de valores límite o tablas de decisión. La caja blanca exige conocer la estructura, las basadas en experiencia son menos precisas aquí y las basadas en riesgo no son un tipo de técnica.",
           "source": "Sample Exam D #19",
           "lang": "es"
         },
@@ -2768,7 +2768,7 @@ window.ISTQB_DATA = {
             1,
             4
           ],
-          "explanation": "Respuestas correctas: B) BY = 1900,                         CY = 1965, E) BY = 2000,                         CY = 2000. FL-4.2.1 (K3).",
+          "explanation": "Correctas: B y E. Faltan por cubrir las particiones de descuento de estudiante y de pensionado. En B la diferencia entre años es 65, que corresponde al descuento de pensionado; en E es 0, que corresponde al descuento de estudiante. Las opciones A y D dan diferencias de 64 y de 18, dentro de la partición sin descuento ya cubierta, y la opción C da menos 65, en la partición del mensaje de error también cubierta.",
           "source": "Sample Exam D #20",
           "lang": "es"
         },
@@ -2787,7 +2787,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) –1, 0, 2, 3. FL-4.2.2 (K3).",
+          "explanation": "Correcta: C. Existen tres particiones: temperaturas menores que 0, de 0 a 2 inclusive, y mayores que 2. Con análisis de valores límite de dos valores hay que cubrir los límites de todas: menos 1 para la partición baja, 0 y 2 para la partición válida, y 3 para la alta. Las demás opciones omiten alguno de esos límites o incluyen valores que no son límite, por lo que logran una cobertura menor.",
           "source": "Sample Exam D #21",
           "lang": "es"
         },
@@ -2806,7 +2806,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Hombre de 66 años, no registrado y sin experiencia;               resultado esperado: categoría B. FL-4.2.3 (K3).",
+          "explanation": "Correcta: A. Los casos existentes cubren las reglas de 19 a 65 años no registrado sin experiencia, de 19 a 65 no registrado con más de 4 años, de mayores de 65 registrado, y de 19 a 65 registrado con 4 años de experiencia. El caso de 66 años, no registrado y sin experiencia activa una columna aún no cubierta, la de mayores de 65 no registrado. Las opciones B y C repiten reglas ya cubiertas, y la D es falsa porque quedan columnas sin cubrir.",
           "source": "Sample Exam D #22",
           "lang": "es",
           "note": "",
@@ -2827,7 +2827,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Available,    ChangeRoom, NotAvailable, Available,  Pay. FL-4.2.4 (K3).",
+          "explanation": "Correcta: B. Esta secuencia recorre cinco transiciones distintas: de solicitud a confirmado, de confirmado a solicitud, de solicitud a lista de espera, de lista de espera a confirmado y de confirmado a fin. La opción A cubre solo cuatro, porque repite la transición hacia lista de espera; la C cubre tres por transiciones repetidas; y la D no es viable, pues tras cancelar el estado es final y no admite más eventos.",
           "source": "Sample Exam D #23",
           "lang": "es",
           "note": "",
@@ -2848,7 +2848,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Cada sentencia ejecutable en P que contiene un defecto se ha ejecutado al menos una vez durante la ejecución de S. FL-4.3.1 (K2).",
+          "explanation": "Correcta: C. La cobertura de sentencias del cien por ciento significa que toda sentencia ejecutable se ejecutó al menos una vez, de modo que cualquier sentencia que contenga un defecto necesariamente se ejecutó. No implica que se provoquen todas las fallas posibles, porque una sentencia defectuosa puede no fallar con ciertos datos; tampoco garantiza cobertura de ramas; y al quitar un caso se puede perder cobertura de sentencias que solo él aportaba.",
           "source": "Sample Exam D #24",
           "lang": "es"
         },
@@ -2867,7 +2867,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Los casos de prueba se diseñan basados en la estructura del objeto de prueba en lugar de la especificación. FL-4.3.3 (K2).",
+          "explanation": "Correcta: A. La fortaleza común de las técnicas de caja blanca es que consideran toda la implementación, por lo que detectan defectos aunque la especificación sea vaga, obsoleta o incompleta, como una funcionalidad añadida al código que no debería existir. Que la cobertura se defina y mida con precisión no es la razón; no detectan bien las omisiones de requisitos; y que puedan usarse en pruebas estáticas no explica esta ventaja.",
           "source": "Sample Exam D #25",
           "lang": "es"
         },
@@ -2886,7 +2886,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El desarrollador faltó al seminario sobre la nueva legislación de tasas de interés compuesto. FL-4.4.1 (K2).",
+          "explanation": "Correcta: C. La adivinación de errores anticipa errores, defectos y fallas a partir del conocimiento del probador. Que el desarrollador faltara al seminario es una posible causa raíz, que no es error, defecto ni falla, y resulta difícil de anticipar. Las demás opciones sí lo son: la fórmula malinterpretada es un error, la expresión escrita incorrectamente es un defecto y la precisión insuficiente del cálculo es una falla.",
           "source": "Sample Exam D #26",
           "lang": "es"
         },
@@ -2905,7 +2905,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Durante las pruebas exploratorias el probador puede usar técnicas de pruebas de caja negra. FL-4.4.2 (K2).",
+          "explanation": "Correcta: D. En las pruebas exploratorias el probador puede emplear cualquier técnica que le resulte útil, incluidas las de caja negra. Los casos no se diseñan antes de la sesión, sino durante ella, junto con el análisis, la implementación y la ejecución; el probador diseña y ejecuta de forma simultánea mientras aprende del objeto; y los resultados dependen mucho de su experiencia, por lo que no predicen de forma fiable los defectos restantes.",
           "source": "Sample Exam D #27",
           "lang": "es"
         },
@@ -2924,7 +2924,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Conversación, para que los miembros del equipo puedan entender cómo se usará el software. FL-4.5.1 (K2).",
+          "explanation": "Correcta: D. La conversación es la práctica colaborativa de escritura de historias que permite al equipo entender cómo se usará el software y definir criterios de aceptación con sentido, logrando una visión compartida de lo que debe entregarse. El planning poker estima el esfuerzo de una historia ya escrita; las revisiones no son una práctica de escritura colaborativa; y la planificación de iteración prioriza el trabajo, sin aclarar el contenido.",
           "source": "Sample Exam D #28",
           "lang": "es"
         },
@@ -2943,7 +2943,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Ingresar a la página web y establecer el filtro para mostrar precios entre $90 y $100. Resultado esperado: los resultados muestran solo el producto A. Establecer el precio máximo en $110. Resultado esperado: los resultados ahora incluyen tanto el producto A como el B. FL-4.5.3 (K3).",
+          "explanation": "Correcta: A. Este caso ejercita el segundo criterio, al permitir fijar un rango con precio mínimo y máximo, y el tercero, al comprobar que los resultados se actualizan dinámicamente al ajustar el máximo. Las demás opciones no se relacionan con ningún criterio de aceptación: una prueba valores predeterminados y un producto inexistente, otra el cambio de moneda y otra la compatibilidad entre navegadores.",
           "source": "Sample Exam D #29",
           "lang": "es"
         },
@@ -2962,7 +2962,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Caja negra. FL-4.1.1 (K2).",
+          "explanation": "Correcta: B. Las técnicas de caja negra toman como base de prueba documentos como las especificaciones de requisitos, sin mirar la estructura interna del software. Las basadas en estructura y la caja blanca se apoyan en el código o la arquitectura, y la exploratoria se usa más bien cuando no hay especificación, aprendiendo del software mientras se prueba.",
           "source": "Sample Exam 3 #19",
           "lang": "es"
         },
@@ -2981,7 +2981,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Tomando el número de ramas que ha probado y dividiéndolo por el número total de ramas en el módulo. FL-4.3.2 (K2).",
+          "explanation": "Correcta: B. La cobertura de ramas relaciona las ramas efectivamente probadas con el total de ramas que existen en el módulo, de modo que el porcentaje indica qué proporción de decisiones se ejercitó. Dividir entre sentencias ejecutables, líneas de código o casos ejecutados mide otras cosas y no responde a la pregunta sobre ramas.",
           "source": "Sample Exam 3 #20",
           "lang": "es"
         },
@@ -3000,7 +3000,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 2. FL-4.3.2 (K2).",
+          "explanation": "Correcta: B. Una sentencia IF simple tiene dos resultados posibles, verdadero y falso, y la cobertura de ramas del 100% exige al menos un caso por cada resultado, así que bastan dos pruebas. Una o cinco son cifras arbitrarias, y la respuesta no queda indeterminada porque el enunciado aclara que el IF es simple, con solo dos salidas.",
           "source": "Sample Exam 3 #21",
           "lang": "es"
         },
@@ -3019,7 +3019,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Puede encontrar defectos que podrían pasarse por alto con técnicas más formales. FL-4.4.2 (K2).",
+          "explanation": "Correcta: A. Las técnicas basadas en la experiencia complementan a las formales y suelen encontrar defectos que esas pruebas estructuradas dejan pasar, porque el probador usa su conocimiento del dominio. No dependen de la experiencia de los usuarios ni dirigen el trabajo del desarrollador, y su efectividad descansa en la pericia de quien prueba, no en herramientas ni automatización.",
           "source": "Sample Exam 3 #22",
           "lang": "es"
         },
@@ -3038,7 +3038,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Una técnica de prueba utilizada para adivinar dónde es probable que un desarrollador haya cometido un error. FL-4.4.1 (K2).",
+          "explanation": "Correcta: A. El error guessing es una técnica basada en la experiencia con la que el probador anticipa dónde es más probable que alguien haya cometido un error y diseña pruebas para esas zonas. No evalúa métricas de defectos, no es una técnica de desarrollo para verificar rutas de error ni sirve para prever variaciones del cronograma.",
           "source": "Sample Exam 3 #23",
           "lang": "es"
         },
@@ -3057,7 +3057,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Criterios de aceptación. FL-4.5.1 (K2).",
+          "explanation": "Correcta: B. En las 3 C la confirmación se materializa en los criterios de aceptación, que concretan cómo se comprobará que la historia cumple lo acordado. El enfoque de prueba describe la estrategia, y los criterios de entrada y salida pertenecen a la gestión de las actividades de prueba, no al aspecto de confirmación de una historia de usuario.",
           "source": "Sample Exam 3 #24",
           "lang": "es"
         },
@@ -3076,7 +3076,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 8. FL-4.2.1 (K3).",
+          "explanation": "Correcta: B. Con partición de equivalencia se necesita un caso por cada clase válida, es decir las seis franjas de calificación, más uno por la clase inválida demasiado baja y otro por la demasiado alta: ocho en total. Las opciones de 6, 10 y 12 no cuadran, porque seis solo cubre lo válido y las otras añaden casos que las particiones no exigen.",
           "source": "Sample Exam 3 #25",
           "lang": "es"
         },
@@ -3095,7 +3095,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 69, 70, 75, 76. FL-4.2.2 (K3).",
+          "explanation": "Correcta: C. En análisis de valores límite de dos valores se prueba cada valor del borde junto con su vecino inmediato fuera: 69 y 70 para la calefacción, 75 y 76 para el aire, y esos mismos cuatro cubren la franja del ventilador. Las demás opciones omiten bordes: 70 y 75 solos no verifican los extremos, y las otras no cubren los cuatro límites.",
           "source": "Sample Exam 3 #26",
           "lang": "es"
         },
@@ -3114,7 +3114,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 15. FL-4.2.3 (K3).",
+          "explanation": "Correcta: C. La tabla de decisión combina las condiciones con los resultados esperados, y el mínimo de casos corresponde a las reglas o columnas que recogen las combinaciones factibles de esas condiciones, que aquí son quince. Las cifras 7, 13 y 18 no reflejan ese número de reglas y dejarían combinaciones sin cubrir o añadirían casos redundantes.",
           "source": "Sample Exam 3 #27",
           "lang": "es",
           "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
@@ -3134,7 +3134,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 1. FL-4.2.4 (K3).",
+          "explanation": "Correcta: A. Basta un solo caso que recorra el camino válido completo: intento fallido repetido tres veces, espera de diez minutos, inicio de sesión correcto y llegada al inicio. Como la prueba termina al iniciar sesión con éxito y no se exige salir tras la espera, no hace falta un segundo caso ni más para cubrir todas las transiciones válidas.",
           "source": "Sample Exam 3 #28",
           "lang": "es"
         },
@@ -3153,7 +3153,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 0, 1-piso lleno, sobrevendido, usabilidad, rendimiento. FL-4.5.3 (K3).",
+          "explanation": "Correcta: A. En ATDD se priorizan primero los escenarios funcionales válidos, luego el inválido de sobreventa y al final los atributos no funcionales de usabilidad y rendimiento. Empezar por rendimiento o usabilidad desatiende la funcionalidad básica, y arrancar por el caso inválido deja lo esencial para el final, contra el orden que pide el enfoque.",
           "source": "Sample Exam 3 #29",
           "lang": "es"
         },
@@ -3172,7 +3172,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Caja blanca. FL-4.1.1 (K2).",
+          "explanation": "Correcta: B. Derivar los casos de prueba observando el código es prueba de caja blanca, porque se basa en la estructura interna del software. A, C y D resultan equivalentes en la práctica: se apoyan en especificaciones o requisitos y no en el código, por lo que corresponden a técnicas de caja negra y no a lo que describe la situación.",
           "source": "Sample Exam 4 #19",
           "lang": "es"
         },
@@ -3191,7 +3191,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Número de sentencias ejecutables probadas dividido por el número total de sentencias ejecutables ISTQB Foundation Level v4.0.1 Sample Exam #4 Questions. FL-4.3.1 (K2).",
+          "explanation": "Correcta: D. La cobertura de sentencias relaciona las sentencias ejecutables efectivamente probadas con el total de sentencias ejecutables del código. A mezcla puntos de decisión con casos de prueba, B compara ramas con sentencias, y C relaciona resultados con puntos de función; ninguna de esas fórmulas mide realmente la cobertura de sentencias.",
           "source": "Sample Exam 4 #20",
           "lang": "es"
         },
@@ -3210,7 +3210,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Caja blanca. FL-4.3.3 (K2).",
+          "explanation": "Correcta: B. Aunque el código todavía no se pueda ejecutar, sí puede revisarse estructuralmente para detectar defectos, por ejemplo en el manejo de ramificaciones, y eso es prueba de caja blanca. A y C requieren ejecutar el software, así que no son aplicables en este momento, y D no corresponde a un tipo de prueba reconocido.",
           "source": "Sample Exam 4 #21",
           "lang": "es"
         },
@@ -3229,7 +3229,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Basadas en experiencia. FL-4.4.1 (K2).",
+          "explanation": "Correcta: C. La conjetura de errores se apoya en el conocimiento y la experiencia del probador para anticipar dónde pueden aparecer defectos, por lo que pertenece a las técnicas basadas en experiencia. A y B remiten a la especificación y a la estructura del código, fuentes de diseño distintas, y D no es una categoría de técnica de prueba.",
           "source": "Sample Exam 4 #22",
           "lang": "es"
         },
@@ -3248,7 +3248,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Pruebas basadas en sesiones. FL-4.4.2 (K2).",
+          "explanation": "Correcta: B. Cuando la prueba exploratoria se organiza con time-boxing y charters, se denomina prueba basada en sesiones y suele apoyarse en hojas de sesión. A no aplica porque lo exploratorio no sigue cronogramas rígidos; C describe otra forma de orientar las pruebas y no esta práctica concreta, y D no es un término de prueba real.",
           "source": "Sample Exam 4 #23",
           "lang": "es"
         },
@@ -3267,7 +3267,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Orientado a reglas. FL-4.5.2 (K2).",
+          "explanation": "Correcta: C. Enumerar las entradas posibles junto con las salidas esperadas para cada una corresponde al formato orientado a reglas de los criterios de aceptación. A considera además el procesamiento y no solo entradas y salidas; B no es un formato reconocido, y D se asocia al formato dado/cuando/entonces, que es orientado a escenarios.",
           "source": "Sample Exam 4 #24",
           "lang": "es"
         },
@@ -3286,7 +3286,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 4 ISTQB Foundation Level v4.0.1 Sample Exam #4 Questions. FL-4.2.1 (K3).",
+          "explanation": "Correcta: D. Al elegirse los valores de una lista cerrada, las particiones son cada opción válida, es decir 20, 100 y 500, más el caso en que no se selecciona nada, lo que da cuatro. A, B y C subestiman la cantidad: con una, dos o tres particiones quedaría sin cubrir alguna opción o la ausencia de selección.",
           "source": "Sample Exam 4 #25",
           "lang": "es"
         },
@@ -3305,7 +3305,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 10. FL-4.2.2 (K3).",
+          "explanation": "Correcta: C. Con análisis de valores límite de dos valores se prueban dos valores por cada rango válido, más un peso negativo y uno superior al máximo permitido: -1, 0, 10, 11, 25, 26, 50, 51, 100 y 101, es decir diez pruebas. A, B y D no cubren a la vez ambos extremos de los cuatro rangos y los límites inválidos.",
           "source": "Sample Exam 4 #26",
           "lang": "es"
         },
@@ -3324,7 +3324,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Ver opción B en el PDF. FL-4.2.3 (K3).",
+          "explanation": "Correcta: B. La tabla correcta contempla que el cliente puede añadir y eliminar elementos de la hamburguesa básica, incluyendo las combinaciones de ambas acciones con las papas fritas. A y C suponen que no pueden hacerse ambas cosas, y C además repite pruebas; D presenta resultados esperados equivocados en las primeras combinaciones.",
           "source": "Sample Exam 4 #27",
           "lang": "es",
           "note": "La imagen muestra las cuatro tablas de decisión A–D.",
@@ -3345,7 +3345,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 8. FL-4.2.4 (K3).",
+          "explanation": "Correcta: C. El diagrama de estados debe mostrar las ocho transiciones válidas indicadas, incluidas las de autotransición como login inválido a login y búsqueda a búsqueda. A solo refleja una salida por estado; B omite las autotransiciones, y D contaría además las transiciones inválidas, que corresponden a una tabla de estados y no a este diagrama.",
           "source": "Sample Exam 4 #28",
           "lang": "es"
         },
@@ -3364,7 +3364,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Una prueba para intentar asignar a alguien a un piso que está lleno. FL-4.5.3 (K3).",
+          "explanation": "Correcta: C. Falta una prueba negativa que intente asignar un huésped a un piso que ya está completo, y que debería producir un error. A ya queda cubierta por la prueba con un solo ocupante, mientras que B y D están contempladas con las pruebas de tiempo de respuesta y de usabilidad incluidas; ninguna de las otras opciones añade el escenario faltante.",
           "source": "Sample Exam 4 #29",
           "lang": "es"
         }
@@ -3391,7 +3391,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Los probadores participan en la identificación detallada de riesgos y la evaluación de riesgos de las historias de usuario. FL-5.1.2 (K1).",
+          "explanation": "Correcta: C. Los probadores aportan valor a la planificación de iteraciones y liberaciones participando en la identificación detallada de riesgos y en la evaluación de riesgos de las historias de usuario. A es falsa porque las prioridades las definen el negocio con el equipo; B porque los probadores cubren aspectos funcionales y no funcionales; D porque el diseño temprano de pruebas no forma parte de la planificación de la liberación.",
           "source": "Sample Exam A #30",
           "lang": "es"
         },
@@ -3412,7 +3412,7 @@ window.ISTQB_DATA = {
             2,
             4
           ],
-          "explanation": "Respuestas correctas: C) Se alcanza la densidad de defectos estimada, E) Las pruebas de regresión están automatizadas. FL-5.1.3 (K2).",
+          "explanation": "Correctas: C y E. Alcanzar la densidad de defectos estimada es una medida de diligencia y la automatización de las pruebas de regresión es un criterio de completitud: ambos son criterios de salida. A y B son criterios de disponibilidad de recursos, propios de los criterios de entrada, y D describe requisitos comprobables, también de entrada.",
           "source": "Sample Exam A #31",
           "lang": "es"
         },
@@ -3431,7 +3431,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 10 horas-persona. FL-5.1.4 (K3).",
+          "explanation": "Correcta: D. Aplicando la estimación de tres puntos, (2 + 4×11 + 14) / 6 = 60/6 = 10 horas-persona. Las demás cifras no resultan del cálculo: 11 es solo la estimación más probable, mientras que 9 y 14 no corresponden a la ponderación de las tres estimaciones. El resultado ponderado queda cerca del valor más probable, corregido por los dos extremos.",
           "source": "Sample Exam A #32",
           "lang": "es"
         },
@@ -3450,7 +3450,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) TC 003. FL-5.1.5 (K3).",
+          "explanation": "Correcta: A. Primero debe ejecutarse TC 001 y luego TC 002 para satisfacer las dependencias; después TC 003 por su prioridad 1, seguido de TC 004 y TC 005. Por eso el tercero es TC 003, no TC 002 ni TC 001, que van antes, ni TC 005, que depende de TC 002 y tiene menor prioridad.",
           "source": "Sample Exam A #33",
           "lang": "es"
         },
@@ -3469,7 +3469,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 1C, 2A, 3B, 4D. FL-5.1.7 (K2).",
+          "explanation": "Correcta: A. Usabilidad corresponde a Q3, orientado al negocio y que critica el producto; pruebas de componentes a Q1, orientado a la tecnología y que apoya al equipo; funcionales a Q2, orientado al negocio y que apoya al equipo; confiabilidad a Q4, orientado a la tecnología y que critica el producto. Las otras opciones intercambian cuadrantes y contradicen esa clasificación.",
           "source": "Sample Exam A #34",
           "lang": "es"
         },
@@ -3488,7 +3488,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Mitigación del riesgo. FL-5.2.4 (K2).",
+          "explanation": "Correcta: C. Las acciones propuestas son pruebas: un equipo independiente realiza pruebas de eficiencia de desempeño en nivel de sistema y usuarios finales hacen pruebas alfa y beta antes del lanzamiento, lo que reduce la probabilidad o el impacto del riesgo, es decir, lo mitiga. No se acepta el riesgo, no se define un plan de contingencia y no se transfiere a un tercero.",
           "source": "Sample Exam A #35",
           "lang": "es"
         },
@@ -3507,7 +3507,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Gráfico de burn-down. FL-5.3.3 (K2).",
+          "explanation": "Correcta: D. El gráfico de burn-down representa el trabajo pendiente frente al tiempo restante y se actualiza a diario, así que muestra el trabajo completado y el que falta en una iteración. Los criterios de aceptación, los informes de defectos y el informe de finalización de pruebas no reflejan el avance continuo del trabajo.",
           "source": "Sample Exam A #36",
           "lang": "es"
         },
@@ -3526,7 +3526,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Gestión de configuración. FL-5.4.1 (K2).",
+          "explanation": "Correcta: C. La gestión de configuración incluye el control de versiones de todos los elementos de prueba, de modo que actualizar un script implica crear una nueva versión en el repositorio de pruebas. La gestión de trazabilidad relaciona productos de trabajo, no versiones; las pruebas de mantenimiento tratan sobre cambios del sistema; la ingeniería de requisitos no gestiona versiones de scripts.",
           "source": "Sample Exam A #37",
           "lang": "es"
         },
@@ -3545,7 +3545,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Entorno de prueba y elemento de prueba. FL-5.5.1 (K3).",
+          "explanation": "Correcta: C. Falta indicar el entorno de prueba y el elemento de prueba afectado, con su versión, datos que los desarrolladores necesitan para reproducir la anomalía. El resultado esperado y el real sí aparecen, igual que referencias y estado, rechazado con caso de prueba y requisito, y la prioridad y severidad se deducen del texto.",
           "source": "Sample Exam A #38",
           "lang": "es"
         },
@@ -3564,7 +3564,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) El análisis estático no devuelve advertencias de alta severidad para el código enviado. FL-5.1.3 (K2).",
+          "explanation": "Correcta: A. Que el análisis estático no arroje advertencias de alta severidad es algo que puede y debe comprobarse antes de enviar el código al control de versiones, así que sirve como criterio de entrada de ese paso. Los conflictos de fusión solo se conocen después de fusionar, y tanto tener las pruebas de componente listas como alcanzar el 80% de cobertura corresponden al paso siguiente.",
           "source": "Sample Exam B #30",
           "lang": "es"
         },
@@ -3583,7 +3583,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) $80,000. FL-5.1.4 (K3).",
+          "explanation": "Correcta: B. Los promedios históricos son 900.000 de desarrollo y 90.000 de prueba, una relación de 1:10, es decir, el esfuerzo de prueba equivale al 10% del de desarrollo; aplicado a 800.000 da 80.000. Las otras cifras salen de tomar un solo proyecto, promediar de forma incorrecta o confundir la relación con los valores absolutos.",
           "source": "Sample Exam B #31",
           "lang": "es",
           "image": "assets/fig-b-31.png"
@@ -3603,7 +3603,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) TC1. FL-5.1.5 (K3).",
+          "explanation": "Correcta: B. Las dependencias obligan a ejecutar búsqueda, vista y agregar antes del pedido, y la prioridad favorece el flujo del producto B; así el orden es TC2, TC4, TC6, TC1, TC3, TC5 y TC7, donde el cuarto caso es TC1. TC3 no puede ir antes que TC1, TC7 queda al final y el flujo del producto B debe preceder al del producto A.",
           "source": "Sample Exam B #32",
           "lang": "es"
         },
@@ -3622,7 +3622,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Pruebas de integración de componentes. FL-5.1.7 (K2).",
+          "explanation": "Correcta: D. El cuadrante Q1 agrupa pruebas orientadas a la tecnología que apoyan al equipo, y la integración de componentes es un ejemplo típico porque guía el desarrollo. Las pruebas de usabilidad, las funcionales y las de aceptación del usuario son orientadas al negocio, por lo que pertenecen a otros cuadrantes.",
           "source": "Sample Exam B #33",
           "lang": "es"
         },
@@ -3641,7 +3641,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 1B,       2A,        3D,        4C. FL-5.2.4 (K2).",
+          "explanation": "Correcta: C. Las respuestas largas por bucles ineficientes se abordan con pruebas de eficiencia de desempeño; el cambio de preferencias de los consumidores está fuera de control y se acepta; la inundación de la sala de servidores se transfiere, por ejemplo con un seguro, y los informes inexactos en pacientes de cierta edad sugieren un problema de límites que ataca el análisis de valores límite. Las demás opciones cruzan estas mitigaciones.",
           "source": "Sample Exam B #34",
           "lang": "es"
         },
@@ -3660,7 +3660,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Tiempo medio hasta la falla. FL-5.3.1 (K1).",
+          "explanation": "Correcta: A. Las métricas de calidad del producto miden características de calidad, y el tiempo medio hasta la falla mide madurez, por lo que encaja en esa categoría. El número de defectos y el porcentaje de detección son métricas de defectos, y la cobertura de requisitos es una métrica de cobertura, no de calidad del producto.",
           "source": "Sample Exam B #35",
           "lang": "es"
         },
@@ -3679,7 +3679,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Cara a cara. FL-5.3.3 (K2).",
+          "explanation": "Correcta: A. Con el cliente en otra ubicación y otra zona horaria, la comunicación cara a cara es la menos viable y por tanto la menos efectiva. Los tableros están disponibles en cualquier momento, el correo salva la diferencia horaria y la videoconferencia, aunque exija horarios incómodos, sigue siendo mucho más practicable que una reunión presencial.",
           "source": "Sample Exam B #36",
           "lang": "es"
         },
@@ -3698,7 +3698,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Teniendo el número de versión del entorno, la herramienta de CM puede recuperar los números de versión de las librerías, stubs y drivers utilizados en ese entorno. FL-5.4.1 (K2).",
+          "explanation": "Correcta: A. La gestión de configuración registra de qué elementos se compone un elemento complejo, como un entorno de prueba, sus relaciones y sus versiones, y así permite recuperar las versiones exactas de librerías, stubs y drivers usados. Las herramientas de configuración no ejecutan casos ni calculan cobertura, no gestionan licencias y no generan datos de prueba.",
           "source": "Sample Exam B #37",
           "lang": "es"
         },
@@ -3717,7 +3717,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) El sistema parece ignorar los duplicados al ordenar. Referencia: TC3, TC4, TC5.. FL-5.5.1 (K3).",
+          "explanation": "Correcta: B. Los tres casos fallidos tienen entradas con duplicados y las salidas los eliminan, lo que sugiere que el sistema ignora las repeticiones al ordenar; esa descripción orienta al desarrollador hacia la causa. Decir solo que falla al ordenar no aporta valor, el fallo no se debe a los negativos y no hay indicios de que los casos de prueba estén mal diseñados.",
           "source": "Sample Exam B #38",
           "lang": "es"
         },
@@ -3736,7 +3736,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Definir datos de prueba y resultados esperados para las pruebas de componentes y las pruebas de integración de componentes. FL-5.1.1 (K2).",
+          "explanation": "Correcta: A. El plan puede incluir requisitos de datos de prueba, pero no los datos y resultados esperados detallados de cada caso, que pertenecen a los casos de prueba y además no se conocen al planificar. Sí son propósitos del plan definir criterios de salida (B), plantillas de informes de progreso (C) y justificar desviaciones de la estrategia (D).",
           "source": "Sample Exam C #30",
           "lang": "es"
         },
@@ -3755,7 +3755,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 6.5 días-persona. FL-5.1.4 (K3).",
+          "explanation": "Correcta: C. Tomando del gráfico las dos últimas barras reales, A(4)=6 y A(3)=8, la fórmula da E(5) = (3×6 + 8) / 4 = 26 / 4 = 6,5 días-persona. Las demás cifras surgen de leer valores equivocados del gráfico o de aplicar mal la extrapolación sobre las dos últimas iteraciones.",
           "source": "Sample Exam C #31",
           "lang": "es",
           "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa.",
@@ -3776,7 +3776,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) TC 3. FL-5.1.5 (K3).",
+          "explanation": "Correcta: A. Respetando prioridades y dependencias, el orden es TC 4, TC 7, TC 1, TC 2, TC 5, TC 3 y TC 6: TC 7 requiere TC 4, TC 5 requiere TC 4 y TC 2, y TC 2 depende de TC 1. Así, el sexto lugar corresponde a TC 3, que tiene prioridad sobre TC 6.",
           "source": "Sample Exam C #32",
           "lang": "es",
           "note": "",
@@ -3797,7 +3797,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Que las pruebas pueden tener diferente granularidad. FL-5.1.6 (K1).",
+          "explanation": "Correcta: B. La pirámide de pruebas muestra que las pruebas tienen distinta granularidad, con muchas pruebas pequeñas y rápidas en la base y pocas de mayor alcance en la cima. No informa sobre prioridades (A), criterios de cobertura (C) ni dependencias entre pruebas (D), que son aspectos de otros modelos o prácticas.",
           "source": "Sample Exam C #33",
           "lang": "es"
         },
@@ -3816,7 +3816,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Los cuadrantes de pruebas agrupan niveles de pruebas y tipos de pruebas por varios criterios, como dirigirse a partes interesadas específicas. FL-5.1.7 (K2).",
+          "explanation": "Correcta: D. Los cuadrantes de pruebas agrupan niveles, tipos, actividades, técnicas y productos de trabajo según criterios como estar orientados al negocio o a la tecnología y apoyar al equipo o criticar el producto. No representan combinaciones de niveles y tipos (A), no miden granularidad (B) y no asignan tipos a niveles (C).",
           "source": "Sample Exam C #34",
           "lang": "es"
         },
@@ -3835,7 +3835,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) El nivel de riesgo evaluado nos ayuda a seleccionar el rigor de las pruebas. FL-5.2.3 (K2).",
+          "explanation": "Correcta: C. El nivel de riesgo evaluado orienta cuánto rigor aplicar: a mayor riesgo, pruebas más exhaustivas y mayor alcance. El monitoreo (A) pertenece al control de riesgos, la identificación (B) por sí sola no implementa mitigaciones y los elementos de cobertura se derivan con técnicas de prueba, no del análisis de riesgos (D).",
           "source": "Sample Exam C #35",
           "lang": "es"
         },
@@ -3854,7 +3854,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Finalización de pruebas. FL-5.3.2 (K2).",
+          "explanation": "Correcta: B. El informe de finalización se elabora al cerrar un proyecto, nivel o tipo de prueba y se nutre de los informes de progreso y otros datos. Los informes de progreso se usan sobre todo en monitoreo y control y en la finalización, no en el diseño (A), el análisis (C) ni la planificación (D).",
           "source": "Sample Exam C #36",
           "lang": "es"
         },
@@ -3873,7 +3873,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Todos los defectos identificados tienen un estado asignado. FL-5.4.1 (K2).",
+          "explanation": "Correcta: D. Que cada defecto tenga un estado asignado lo garantiza la gestión de defectos, no la gestión de configuración. Esta sí permite reconstruir versiones gracias a la identificación única de las confirmaciones del repositorio (A), rastrear los cambios del entorno de pruebas (B) y referenciar sin ambigüedad la documentación en los planes de pruebas (C).",
           "source": "Sample Exam C #37",
           "lang": "es"
         },
@@ -3892,7 +3892,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Elementos del entorno de prueba y sus números de versión. FL-5.5.1 (K3).",
+          "explanation": "Correcta: B. Falta identificar el navegador y el dispositivo usados, datos decisivos porque el fallo del botón puede ser específico de uno de ellos y facilitan reproducirlo. El objeto de prueba sí está identificado (C), el impacto aparece como severidad alta (D) y el nombre del probador es secundario (A).",
           "source": "Sample Exam C #38",
           "lang": "es"
         },
@@ -3913,7 +3913,7 @@ window.ISTQB_DATA = {
             1,
             3
           ],
-          "explanation": "Respuestas correctas: B) El presupuesto se agota, D) Los casos de prueba alcanzaron al menos 80% de cobertura de sentencias. FL-5.1.3 (K2).",
+          "explanation": "Correctas: B y D. Los criterios de salida indican cuándo puede darse por concluida una actividad: quedarse sin presupuesto es uno válido, y alcanzar al menos ochenta por ciento de cobertura de sentencias también, porque la cobertura mide la exhaustividad. La aprobación del presupuesto, la disponibilidad de la base de prueba y la certificación de los analistas son criterios de entrada, que se verifican antes de comenzar.",
           "source": "Sample Exam D #30",
           "lang": "es"
         },
@@ -3932,7 +3932,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 14 horas. FL-5.1.4 (K3).",
+          "explanation": "Correcta: A. Con estimación de tres puntos, la estimación es la suma del valor optimista, cuatro veces el más probable y el pesimista, dividida entre seis: uno más doce más ocho, entre seis, da 3,5 horas por caso. Multiplicando por los cuatro casos se obtienen 14 horas. Las otras cifras surgen de aplicar mal la fórmula o de no multiplicar por la cantidad total de casos.",
           "source": "Sample Exam D #31",
           "lang": "es"
         },
@@ -3951,7 +3951,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) TC2. FL-5.1.5 (K3).",
+          "explanation": "Correcta: B. La priorización por cobertura adicional ejecuta primero el caso que más requisitos cubre, que es TC1 con cuatro de siete, luego el que más aporta entre los restantes, TC3 con dos, y después TC4, que cubre el único requisito pendiente. TC2 no aporta ningún requisito nuevo en ese punto, por lo que debe ejecutarse al final. Las demás opciones no siguen ese criterio de cobertura adicional.",
           "source": "Sample Exam D #32",
           "lang": "es",
           "image": "assets/fig-d-32.png"
@@ -3971,7 +3971,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Ayudan a los stakeholders no técnicos a comprender los diferentes tipos de prueba y que algunos tipos de prueba son más relevantes para ciertos niveles de prueba que otros. FL-5.1.7 (K2).",
+          "explanation": "Correcta: C. Los cuadrantes de pruebas ayudan a los stakeholders no técnicos a comprender los distintos tipos de prueba, las actividades que apoyan y el punto de vista que adoptan, y a ver que algunos tipos son más relevantes en ciertos niveles de prueba. No describen relaciones entre niveles de prueba, no permiten evaluar ningún tipo de cobertura y no son un modelo psicológico de personas.",
           "source": "Sample Exam D #33",
           "lang": "es"
         },
@@ -3990,7 +3990,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) $2,000. FL-5.2.1 (K1).",
+          "explanation": "Correcta: B. En el enfoque cuantitativo el nivel de riesgo es el producto de la probabilidad por el impacto, de modo que el impacto se obtiene dividiendo el nivel de riesgo entre la probabilidad. Aquí, mil dólares divididos entre 0,5 dan dos mil dólares. Las demás cifras resultan de multiplicar en lugar de dividir o de tratar el porcentaje como si fuera un valor absoluto.",
           "source": "Sample Exam D #34",
           "lang": "es"
         },
@@ -4011,7 +4011,7 @@ window.ISTQB_DATA = {
             1,
             4
           ],
-          "explanation": "Respuestas correctas: B) Arquitectura deficiente, E) Tiempo de respuesta demasiado largo. FL-5.2.2 (K2).",
+          "explanation": "Correctas: B y E. Los riesgos de producto se refieren a características del producto: una arquitectura deficiente y un tiempo de respuesta demasiado largo lo son. El aumento descontrolado del alcance, el recorte de costos y el soporte deficiente de herramientas son riesgos de proyecto, ligados a cuestiones técnicas u organizativas del proyecto y no a atributos del producto que se está probando.",
           "source": "Sample Exam D #35",
           "lang": "es"
         },
@@ -4030,7 +4030,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Proporcionar información sobre cada defecto, como los pasos para reproducirlo. FL-5.3.2 (K2).",
+          "explanation": "Correcta: C. El informe de pruebas resume las actividades, los resultados y los defectos encontrados, permite rastrear el progreso y señalar áreas que requieren atención, y puede informar lo planificado para el siguiente período. La información detallada de cada defecto, con sus pasos para reproducirlo, corresponde al informe de defecto, no al informe de pruebas, por lo que esa no es una finalidad válida de este último.",
           "source": "Sample Exam D #36",
           "lang": "es"
         },
@@ -4049,7 +4049,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Gestión de configuración. FL-5.4.1 (K2).",
+          "explanation": "Correcta: D. La gestión de configuración identifica, controla y rastrea los productos de trabajo, y registra los elementos cambiados al crear una nueva línea base, lo que permite volver a una anterior y reproducir resultados previos. Con el número de versión se pudo reensamblar los archivos que la componían. La gestión de riesgos, el monitoreo y control, y el enfoque de equipo completo no tratan con elementos de configuración.",
           "source": "Sample Exam D #37",
           "lang": "es"
         },
@@ -4068,7 +4068,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Agregar información sobre qué usuarios y qué libros afecta la falla en la sección \"Descripción\". FL-5.5.1 (K3).",
+          "explanation": "Correcta: A. Indicar qué usuarios y qué libros se ven afectados permite al desarrollador usar los mismos datos de entrada y reproducir la falla con rapidez. Completar la prioridad no ayuda a reproducir el defecto; añadir volcados de memoria y capturas de base de datos tras cada paso aporta demasiada información irrelevante y alarga el análisis; y repetir el caso en otros entornos no responde a la necesidad de reproducirlo en la configuración reportada.",
           "source": "Sample Exam D #38",
           "lang": "es"
         },
@@ -4087,7 +4087,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Ejecución. FL-5.3.1 (K1).",
+          "explanation": "Correcta: C. Los casos aprobados se cuentan mientras las pruebas se ejecutan, así que la métrica pertenece a la actividad de ejecución y luego alimenta los informes. En la planificación se definen objetivos y criterios, en la implementación se preparan los casos y los datos, y el reporte comunica resultados ya obtenidos, sin recogerlos.",
           "source": "Sample Exam 3 #30",
           "lang": "es"
         },
@@ -4106,7 +4106,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) El plan de pruebas. FL-5.1.1 (K2).",
+          "explanation": "Correcta: A. El plan de pruebas establece, entre los criterios para realizar las actividades, el nivel de detalle y la estructura que debe tener la documentación de prueba, y ahí se fija el criterio común de escritura. El enfoque describe la estrategia, la plantilla solo da el formato y el plan del proyecto no entra en el detalle de las pruebas.",
           "source": "Sample Exam 3 #31",
           "lang": "es"
         },
@@ -4125,7 +4125,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Q1. FL-5.1.7 (K2).",
+          "explanation": "Correcta: A. Las pruebas unitarias o de componentes se ubican en el cuadrante Q1, que agrupa las pruebas de tecnología orientadas al código y a los componentes individuales. Los otros cuadrantes cubren pruebas de negocio y aceptación, de calidad no funcional o de atributos como rendimiento y usabilidad, que corresponden a niveles superiores.",
           "source": "Sample Exam 3 #32",
           "lang": "es"
         },
@@ -4144,7 +4144,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Un problema con el gerente de desarrollo que está ocasionando que rechace todos los informes de defectos. FL-5.2.2 (K2).",
+          "explanation": "Correcta: D. El riesgo de proyecto afecta la capacidad de planificar y ejecutar, como un gerente que rechaza todos los informes de defectos y bloquea el flujo de trabajo. Los otros son riesgos de producto, ligados a la calidad del software: un cálculo erróneo, una prueba de rendimiento fallida y un problema de interfaz con un periférico.",
           "source": "Sample Exam 3 #33",
           "lang": "es"
         },
@@ -4163,7 +4163,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las variaciones entre lo que se planificó para las pruebas y lo que realmente se probó. FL-5.3.2 (K2).",
+          "explanation": "Correcta: C. El informe resumen debe explicar las desviaciones entre lo planificado y lo realmente probado, porque ahí se justifica por qué cambió el alcance. Las desviaciones frente a los informes semanales revelarían un fallo de seguimiento previo, la diferencia entre defectos hallados y corregidos es esperada, y los casos ejecutados son una métrica, no una desviación.",
           "source": "Sample Exam 3 #34",
           "lang": "es"
         },
@@ -4182,7 +4182,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Gestión de configuración. FL-5.4.1 (K2).",
+          "explanation": "Correcta: A. Si el código llega a pruebas sin control de versiones ni trazabilidad de cambios, falta la gestión de configuración, que es la que identifica, versiona y controla los elementos de trabajo. La depuración es una actividad de desarrollo, la gestión de pruebas y defectos cubre otro ámbito, y el análisis de riesgos no se ocupa de versionar artefactos.",
           "source": "Sample Exam 3 #35",
           "lang": "es"
         },
@@ -4201,7 +4201,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 5 porque ese fue el consenso ISTQB Foundation Level v4.0.1 Sample Exam #3 Questions. FL-5.1.4 (K3).",
+          "explanation": "Correcta: D. Las votaciones continúan hasta que el equipo converge y el valor acordado, cinco, es el que se asigna a la historia. No se suman los votos, ni se toma el mayor por prudencia o el menor por optimismo: esos atajos rompen el consenso que la técnica busca y distorsionan la estimación que el equipo aceptó.",
           "source": "Sample Exam 3 #36",
           "lang": "es"
         },
@@ -4220,7 +4220,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) 2, 4, 5, 6, 1, 3. FL-5.1.5 (K3).",
+          "explanation": "Correcta: A. El orden atiende primero el riesgo y la rapidez: se ejecuta el caso 2, corto y de riesgo medio, que no depende de nada, y al liberarse el 4 de riesgo alto; luego 5 y 6, y al final 1 y 3 por su baja prioridad. Así se obtiene retroalimentación temprana respetando las dependencias.",
           "source": "Sample Exam 3 #37",
           "lang": "es"
         },
@@ -4239,7 +4239,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Prioridad baja, severidad alta ISTQB Foundation Level v4.0.1 Sample Exam #3 Questions. FL-5.5.1 (K3).",
+          "explanation": "Correcta: D. La severidad mide el impacto y aquí es alta porque el sistema se cae; la prioridad mide la urgencia de corregir y es baja porque la combinación necesaria, diez compras hechas y anuladas seguidas, es muy improbable. Las opciones con severidad baja subestiman el daño, y la de prioridad alta exagera la frecuencia del fallo.",
           "source": "Sample Exam 3 #38",
           "lang": "es"
         },
@@ -4258,7 +4258,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Probabilidad e impacto. FL-5.2.1 (K1).",
+          "explanation": "Correcta: A. El nivel de riesgo se determina combinando la probabilidad de ocurrencia con el impacto que tendría, combinación a la que a veces se llama número de prioridad de riesgo. B invierte la relación al incluir la prioridad como insumo; C introduce la practicidad, que no es un factor del nivel, y D describe actividades del proceso de gestión, no los componentes del nivel.",
           "source": "Sample Exam 4 #30",
           "lang": "es"
         },
@@ -4277,7 +4277,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Todos los defectos de severidad 1 deben resolverse. FL-5.1.3 (K2).",
+          "explanation": "Correcta: D. Un buen criterio de salida debe ser medible y claro, como que todos los defectos de severidad 1 estén resueltos. A usa términos ambiguos como completadas y deberían, y además no es realista; B confunde gastar el presupuesto con un objetivo de calidad, y C exige corregir todo, meta poco realista que además dejaría sin fondos a etapas posteriores.",
           "source": "Sample Exam 4 #31",
           "lang": "es"
         },
@@ -4296,7 +4296,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Q3. FL-5.1.7 (K2).",
+          "explanation": "Correcta: C. La prueba exploratoria se ubica en el cuadrante Q3, orientado a la crítica del producto mediante pruebas basadas en experiencia y en el uso real del sistema. Q1 y Q2 apoyan al equipo desde la tecnología y el negocio respectivamente, y Q4 agrupa pruebas de crítica con enfoque tecnológico, por lo que ninguno corresponde a esta técnica.",
           "source": "Sample Exam 4 #32",
           "lang": "es"
         },
@@ -4315,7 +4315,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Un cronograma que requiere trabajar durante el cierre de Navidad. FL-5.1.7 (K2).",
+          "explanation": "Correcta: D. Un cronograma que obliga a trabajar durante el cierre de Navidad es un riesgo de proyecto, porque afecta la planificación y la disponibilidad de recursos del proyecto en su conjunto. A, B y C son riesgos de producto: un defecto de rendimiento, un requisito duplicado y un problema en la conversión de datos comprometen la calidad del producto, no la marcha del proyecto.",
           "source": "Sample Exam 4 #33",
           "lang": "es"
         },
@@ -4334,7 +4334,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Finalización formal de pruebas. FL-5.3.3 (K2).",
+          "explanation": "Correcta: A. Al terminar las pruebas de una implementación importante y antes de la aprobación final, corresponde elaborar el informe de finalización formal de pruebas. B y D son instrumentos de comunicación usados durante el trabajo del proyecto, y C no es documentación de pruebas y resultaría prematuro antes de obtener la aprobación.",
           "source": "Sample Exam 4 #34",
           "lang": "es"
         },
@@ -4353,7 +4353,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Puedes recargar y volver a probar las iteraciones 5 y 6 para ver dónde se reintrodujo el problema. FL-5.4.1 (K2).",
+          "explanation": "Correcta: B. La gestión de configuración permite recuperar e instalar las versiones correspondientes a las iteraciones 5 y 6 y volver a probarlas para ubicar dónde se reintrodujo la falla. A solo habría servido para confirmar la corrección original; C es tarea del desarrollador, y D mejora la detección futura pero no ayuda a investigar lo ya ocurrido.",
           "source": "Sample Exam 4 #35",
           "lang": "es"
         },
@@ -4372,7 +4372,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 54.17 ± 7.5. FL-5.1.4 (K3).",
+          "explanation": "Correcta: C. Con la estimación de tres puntos se aplica (optimista + 4 × probable + pesimista) / 6, es decir (30 + 220 + 75) / 6 = 54,17, y la desviación estándar es (75 − 30) / 6 = 7,5. A, B y D no se obtienen con esa fórmula ni con esos datos, por lo que no reflejan el cálculo solicitado.",
           "source": "Sample Exam 4 #36",
           "lang": "es",
           "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa.",
@@ -4393,7 +4393,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) 1, 2, 4, 5, 3. FL-5.1.5 (K3).",
+          "explanation": "Correcta: B. Primero se ejecuta la prueba de la que dependen las demás, luego las que habilitan la de mayor prioridad y al final la que no es requisito de esta, logrando correr lo más prioritario cuanto antes. A falla porque la prueba 5 no puede ir primero; C posterga esa prueba detrás de la 3, y D ignora que la 3 necesita a la 1 y la 2.",
           "source": "Sample Exam 4 #37",
           "lang": "es"
         },
@@ -4412,7 +4412,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) El desarrollador no sabrá qué esperaba ver el probador. FL-5.1.5 (K3).",
+          "explanation": "Correcta: D. El informe indica que los datos son incorrectos, pero no dice qué se esperaba obtener, así que el desarrollador no puede saber cuál es el comportamiento correcto. A no aplica porque la criticidad sí se menciona; B se cubre con los pasos adjuntos, y C queda cubierto con la captura, que señala la columna problemática.",
           "source": "Sample Exam 4 #38",
           "lang": "es"
         }
@@ -4439,7 +4439,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Diseño de pruebas e implementación de pruebas. FL-6.1.1 (K2).",
+          "explanation": "Correcta: C. El diseño e implementación de pruebas incluye identificar, crear o adquirir el testware necesario para la ejecución, como los datos de prueba. El monitoreo y control compara el avance con el plan, el análisis identifica condiciones de prueba y la finalización ocurre en hitos, demasiado tarde para preparar datos.",
           "source": "Sample Exam A #39",
           "lang": "es"
         },
@@ -4458,7 +4458,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Es posible que no se asignen adecuadamente los esfuerzos suficientes para mantener el testware. FL-6.2.1 (K1).",
+          "explanation": "Correcta: B. Un riesgo real de la automatización es no asignar esfuerzo suficiente al mantenimiento del testware, que se degrada y pierde valor. A es falsa porque la automatización no introduce regresiones desconocidas en producción; C invierte el requisito, pues las herramientas deben ser confiables; D es un beneficio esperado, no un riesgo.",
           "source": "Sample Exam A #40",
           "lang": "es"
         },
@@ -4477,7 +4477,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) 1C, 2D, 3B, 4A. FL-6.1.1 (K2).",
+          "explanation": "Correcta: C. El seguimiento de flujos de trabajo corresponde a las herramientas DevOps, la facilitación de la comunicación a las de colaboración, las máquinas virtuales a las que apoyan escalabilidad y estandarización del despliegue, y el apoyo a revisiones a las de pruebas estáticas. Las otras combinaciones desplazan estas categorías, por ejemplo asignando las máquinas virtuales a DevOps o la comunicación a las herramientas estáticas.",
           "source": "Sample Exam B #39",
           "lang": "es"
         },
@@ -4496,7 +4496,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Proporciona medidas de cobertura que son demasiado complicadas para que los humanos las deriven. FL-6.2.1 (K1).",
+          "explanation": "Correcta: A. La automatización puede calcular medidas de cobertura que resultan inviables de derivar a mano, como las de caja blanca en código no trivial. No comparte la responsabilidad de las pruebas con el proveedor, no elimina el pensamiento crítico al analizar resultados y tampoco genera casos a partir del código, porque este no aporta los resultados esperados.",
           "source": "Sample Exam B #40",
           "lang": "es"
         },
@@ -4515,7 +4515,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Herramientas de gestión de pruebas. FL-6.1.1 (K2).",
+          "explanation": "Correcta: D. Las herramientas de gestión de pruebas facilitan gestionar requisitos, pruebas, defectos y configuración, aumentando la eficiencia del proceso. Las de ejecución y cobertura (A), diseño e implementación (B) y gestión de defectos (C) cubren solo partes y no organizan a la vez casos de prueba, defectos y configuración.",
           "source": "Sample Exam C #39",
           "lang": "es"
         },
@@ -4534,7 +4534,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) La prevención de errores humanos mediante una mayor consistencia y repetibilidad. FL-6.2.1 (K1).",
+          "explanation": "Correcta: D. La automatización evita errores humanos al derivar, crear y ejecutar pruebas de forma consistente y repetible. No permite generar casos sin acceso a la base de prueba (A), una evaluación más objetiva no aumenta por sí sola la cobertura (B) y mayor capacidad de procesamiento reduce, no aumenta, los tiempos de ejecución (C).",
           "source": "Sample Exam C #40",
           "lang": "es"
         },
@@ -4553,7 +4553,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) ii, iv. FL-6.1.1 (K2).",
+          "explanation": "Correcta: B. Las herramientas DevOps apoyan el pipeline de entrega y la integración y entrega continuas, que incluyen la ejecución de pruebas, y las de pruebas no funcionales permiten ejecutar pruebas difícilmente realizables a mano. Las de colaboración facilitan la comunicación, las de gestión administran requisitos, pruebas y defectos, y las de diseño e implementación generan casos, datos y procedimientos, sin facilitar la ejecución.",
           "source": "Sample Exam D #39",
           "lang": "es"
         },
@@ -4572,7 +4572,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Incompatibilidad con la plataforma de desarrollo. FL-6.2.1 (K1).",
+          "explanation": "Correcta: C. Si la automatización es incompatible con la plataforma de desarrollo no podrá integrarse con el objeto de prueba ni pasarle entradas o recibir sus resultados, lo que constituye un riesgo real. Detectar defectos adicionales de alta severidad, obtener medidas que los humanos no podrían derivar y reducir sustancialmente los tiempos de ejecución son beneficios habituales de la automatización, no riesgos.",
           "source": "Sample Exam D #40",
           "lang": "es"
         },
@@ -4591,7 +4591,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Una herramienta que ayuda con el seguimiento de los resultados de las revisiones. FL-6.1.1 (K2).",
+          "explanation": "Correcta: A. Las revisiones son una forma de prueba estática, y una herramienta que ayuda a seguir sus resultados apoya ese tipo de prueba. El seguimiento de defectos es una herramienta de gestión, la automatización ejecuta pruebas dinámicas y la de diseño para seguridad produce casos, ámbitos propios de las pruebas dinámicas o de la gestión.",
           "source": "Sample Exam 3 #39",
           "lang": "es"
         },
@@ -4610,7 +4610,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) La ejecución de pruebas es más rápida. FL-6.2.1 (K1).",
+          "explanation": "Correcta: A. Una vez creados los casos, la automatización ejecuta mucho más rápido que la prueba manual y permite repeticiones frecuentes. Las pruebas manuales no quedan obsoletas, siguen aportando en áreas nuevas y exploratorias; el retorno de inversión es difícil de calcular porque depende del esfuerzo manual equivalente, y desarrollar la automatización suele tardar más que escribir casos manuales.",
           "source": "Sample Exam 3 #40",
           "lang": "es"
         },
@@ -4629,7 +4629,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Ejecuta scripts de prueba automatizados para probar el objeto de prueba. FL-6.1.1 (K2).",
+          "explanation": "Correcta: A. La herramienta de ejecución de pruebas ejecuta scripts automatizados contra el objeto de prueba, y esa es su función principal. B puede ocurrir como efecto secundario en algunas herramientas, pero no es su propósito; C describe una herramienta de análisis estático, y D una herramienta de gestión de pruebas, no de ejecución.",
           "source": "Sample Exam 4 #39",
           "lang": "es"
         },
@@ -4648,7 +4648,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Usar una herramienta de automatización que no tendrá soporte en el futuro. FL-6.2.1 (K1).",
+          "explanation": "Correcta: A. Elegir una herramienta de automatización que pueda quedar sin soporte del proveedor o de la comunidad es un riesgo conocido, porque la automatización queda atada a ella. B, C y D no son riesgos sino prácticas o resultados esperados: automatizar áreas tediosas, emplear perfiles técnicos y generar informes automáticos suelen ser beneficios buscados.",
           "source": "Sample Exam 4 #40",
           "lang": "es"
         }
@@ -4678,7 +4678,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad. FL-1.1.1 (K1).",
+          "explanation": "Correcta: C. Las pruebas encuentran defectos y fallas, lo que reduce el nivel de riesgo y a la vez genera más confianza en la calidad del objeto de prueba. A y B son imposibles de demostrar: no se puede probar que no queda ningún defecto ni que no habrá fallas en producción. D también es inviable, porque probar todas las combinaciones de entradas no es factible.",
           "source": "ExamUnit #1",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-001."
@@ -4699,7 +4699,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Involucrar a los probadores durante las diversas actividades del ciclo de vida de desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo. FL-1.2.1 (K2).",
+          "explanation": "Correcta: A. Involucrar a los probadores desde el inicio del ciclo de vida aumenta la comprensión de las decisiones de diseño y permite detectar defectos temprano en los productos de trabajo. B es errónea porque desarrolladores y probadores deben entenderse mutuamente; C falla porque los usuarios finales no participan en niveles bajos ni mejoran los informes de defectos; D es falsa, pues certificarse no garantiza mejores casos de prueba.",
           "source": "ExamUnit #2",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-002."
@@ -4762,7 +4762,7 @@ window.ISTQB_DATA = {
             0,
             4
           ],
-          "explanation": "Respuestas correctas: A) Configurar entornos de prueba, E) Analizar la base de prueba. FL-1.4.5 (K2).",
+          "explanation": "Correctas: A y E. Configurar entornos de prueba y analizar la base de prueba son tareas técnicas del rol de pruebas, esta última como parte del análisis de pruebas. B corresponde al propietario del producto, que construye y mantiene el backlog; C lo hace el equipo de desarrollo al diseñar soluciones; D es una tarea de gestión, propia de un rol gerencial.",
           "source": "ExamUnit #5",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-006."
@@ -4803,7 +4803,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas. FL-1.5.2 (K1).",
+          "explanation": "Correcta: D. En el enfoque de equipo completo los probadores colaboran estrechamente con los representantes del negocio para alcanzar los niveles de calidad deseados, lo que incluye apoyarlos a crear pruebas de aceptación adecuadas. A es falsa porque el enfoque de automatización lo definen los probadores con ayuda de desarrolladores y negocio; B también, pues la estrategia se decide con los desarrolladores; C es incorrecta porque el negocio sí forma parte.",
           "source": "ExamUnit #7",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-008."
@@ -4824,7 +4824,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) En ATDD, las pruebas se crean con base en los criterios de aceptación para impulsar el desarrollo del software relacionado. FL-2.1.3 (K1).",
+          "explanation": "Correcta: C. En ATDD las pruebas se crean a partir de los criterios de aceptación y se usan para impulsar el desarrollo del software relacionado. A y D describen BDD, donde se usa el formato dado/cuando/entonces y se parte del comportamiento deseado. B describe TDD, con pruebas de componentes orientadas al código.",
           "source": "ExamUnit #8",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-010."
@@ -4865,7 +4865,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Las debilidades del proceso identificadas durante la retrospectiva pueden analizarse y servir como una lista de tareas para el programa de mejora continua de procesos de la organización. FL-2.1.6 (K2).",
+          "explanation": "Correcta: C. Las debilidades del proceso detectadas en la retrospectiva pueden analizarse y convertirse en tareas del programa de mejora continua, y ese es el argumento sólido para el gerente. A apela a la popularidad y al cliente, no a la mejora; B confunde la retrospectiva con retroalimentación del producto y con usuarios finales; D menciona valores de Extreme Programming ajenos a la retrospectiva.",
           "source": "ExamUnit #10",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-012."
@@ -4886,7 +4886,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Solo 5, 7. FL-2.2.3 (K2).",
+          "explanation": "Correcta: B. TC2 pasó en la ejecución 1 y se repite como prueba 5, y TC1 pasó en la ejecución 2 y se repite como prueba 7: esas son pruebas de regresión. Las pruebas 4, 6, 8 y 9 confirman correcciones de fallos previos, por lo que son pruebas de confirmación y no de regresión.",
           "source": "ExamUnit #11",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-014."
@@ -4907,7 +4907,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC. FL-3.1.2 (K2).",
+          "explanation": "Correcta: A. Esta afirmación no es un beneficio: la gestión de defectos no resulta menos costosa y detectar defectos más tarde en el SDLC es más caro, no más fácil. B, C y D sí son beneficios reales de las pruebas estáticas: corregir antes cuesta menos, se hallan defectos de codificación que las pruebas dinámicas no verían y se detectan brechas e inconsistencias en los requisitos.",
           "source": "ExamUnit #12",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-015."
@@ -4928,7 +4928,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) Walkthrough. FL-3.2.4 (K2).",
+          "explanation": "Correcta: B. El walkthrough tiene como propósito principal evaluar la calidad, es liderado por el autor del producto de trabajo y cuenta con un escriba, preparación individual e informe de revisión. La inspección exige moderador y no permite que el autor lidere; la revisión técnica tampoco la lidera el autor; la revisión informal no tiene roles ni proceso definidos.",
           "source": "ExamUnit #13",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-017."
@@ -4949,7 +4949,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Se basan en la experiencia y conocimiento del probador.",
+          "explanation": "Correcta: C. Las técnicas basadas en la experiencia dependen del conocimiento del probador sobre el software y el dominio, no de documentos detallados ni de la interfaz. La especificación y el diseño detallado alimentan las técnicas de caja negra y caja blanca, no las basadas en experiencia.",
           "source": "ExamUnit #14",
           "lang": "es",
           "note": "Opción D corregida (antes decía \"Duplicado de C en la captura\")."
@@ -4991,7 +4991,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) R8. FL-4.2.3 (K3).",
+          "explanation": "Correcta: D. En R8 el cliente no es miembro y además incumplió la fecha límite, pero la regla le entrega la camiseta de regalo, y solo los miembros pueden recibirla tras quince alquileres: situación imposible. R2, R4 y R6 describen combinaciones coherentes: el descuento exige ser miembro y no incumplir la fecha, y la camiseta llega con el decimoquinto alquiler.",
           "source": "ExamUnit #16",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-022.",
@@ -5013,7 +5013,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) 3. FL-4.2.4 (K3).",
+          "explanation": "Correcta: D. Se necesitan al menos tres casos porque las transiciones de prueba y de error no pueden ocurrir en el mismo caso, ni tampoco ambas transiciones de finalización: por ejemplo test-done, run-error-done y run-pause-resume-pause-done. Dos casos no cubrirían todas las transiciones válidas y cuatro o siete exceden el mínimo.",
           "source": "ExamUnit #17",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-023.",
@@ -5035,7 +5035,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Cada instrucción en el código que contiene un defecto ha sido ejecutada al menos una vez. FL-4.3.1 (K2).",
+          "explanation": "Correcta: A. Con cobertura de sentencias del 100% toda instrucción, incluidas las que contienen defectos, se ejecutó y evaluó al menos una vez. B es falsa porque la cobertura depende de lo que se prueba y no del número de casos; C es falsa porque con bucles existen infinitos caminos posibles; D también, pues las pruebas exhaustivas son imposibles.",
           "source": "ExamUnit #18",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-024."
@@ -5076,7 +5076,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Probar si el editor puede guardar el documento después de editar el contenido de la página. FL-4.5.3 (K3). Deriva directamente del criterio «El editor puede guardar cambios».",
+          "explanation": "Correcta: A. Esta prueba deriva directamente de dos criterios de aceptación de la historia: editar el contenido de la página y guardar los cambios. B prueba actividades del propietario del contenido, que no están en los criterios; C añade programar la publicación, funcionalidad no cubierta; D plantea reasignar a otro editor, cuando el criterio es reasignar al propietario del contenido.",
           "source": "ExamUnit #21",
           "lang": "es"
         },
@@ -5096,7 +5096,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Los probadores participan en la identificación detallada de riesgos y la evaluación de riesgos de las historias de usuario. FL-5.1.2 (K1).",
+          "explanation": "Correcta: C. Los probadores aportan valor a la planificación de iteraciones y liberaciones participando en la identificación detallada de riesgos y en la evaluación de riesgos de las historias de usuario. A es falsa porque las prioridades las definen el negocio con el equipo; B porque los probadores cubren aspectos funcionales y no funcionales; D porque el diseño temprano de pruebas no forma parte de la planificación de la liberación.",
           "source": "ExamUnit #22",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-030."
@@ -5119,7 +5119,7 @@ window.ISTQB_DATA = {
             2,
             4
           ],
-          "explanation": "Respuestas correctas: C) Se alcanza la densidad de defectos estimada, E) Las pruebas de regresión están automatizadas. FL-5.1.3 (K2).",
+          "explanation": "Correctas: C y E. Alcanzar la densidad de defectos estimada es una medida de diligencia y la automatización de las pruebas de regresión es un criterio de completitud: ambos son criterios de salida. A y B son criterios de disponibilidad de recursos, propios de los criterios de entrada, y D describe requisitos comprobables, también de entrada.",
           "source": "ExamUnit #23",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-031."
@@ -5140,7 +5140,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "(2 + 4×11 + 14) / 6 = 60/6 = 10.",
+          "explanation": "Correcta: D. La estimación de tres puntos usa (optimista + 4 × probable + pesimista) / 6: (2 + 4×11 + 14) / 6 = 60 / 6 = 10 días. Los otros valores salen de promediar mal o de tomar solo uno de los tres datos.",
           "source": "ExamUnit #24",
           "lang": "es"
         },
@@ -5160,7 +5160,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Respuesta correcta: C) Entorno de prueba y elemento de prueba. FL-5.5.1 (K3).",
+          "explanation": "Correcta: C. Falta indicar el entorno de prueba y el elemento de prueba afectado, con su versión, datos que los desarrolladores necesitan para reproducir la anomalía. El resultado esperado y el real sí aparecen, igual que referencias y estado, rechazado con caso de prueba y requisito, y la prioridad y severidad se deducen del texto.",
           "source": "ExamUnit #25",
           "lang": "es",
           "note": "Alineada con la pregunta oficial A-038."
@@ -5202,7 +5202,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Respuesta correcta: B) La trazabilidad entre los requisitos del usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto frente a los objetivos del negocio. FL-1.4.4 (K2).",
+          "explanation": "Correcta: B. La trazabilidad entre requisitos de usuario y resultados de prueba muestra qué requisitos ya se probaron y permite medir el avance del proyecto frente a los objetivos del negocio. Relacionar solo riesgos mitigados con casos aprobados no permite calcular el riesgo residual, que exige vincular todos los riesgos con los resultados; asociar probadores con casos fallidos no mide habilidad, y decidir qué riesgos merecen prueba pertenece a la gestión de riesgos.",
           "source": "ExamUnit #27",
           "lang": "es",
           "note": "Alineada con la pregunta oficial B-006."
@@ -5223,7 +5223,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) Los probadores independientes encontrarán defectos debido a su perspectiva técnica diferente a la de los desarrolladores, pero su independencia puede llevar a una relación adversarial con los desarrolladores. FL-1.5.3 (K2).",
+          "explanation": "Correcta: A. Los probadores independientes, por su formación y perspectiva distintas, detectan fallas y defectos que los desarrolladores pasan por alto, aunque el aislamiento puede generar problemas de comunicación y una relación adversarial. B supone que la familiaridad impide hallar defectos, C exige independencia organizacional inexistente y D invierte quién suele ser culpado por los retrasos.",
           "source": "ExamUnit #28",
           "lang": "es",
           "note": "Alineada con la pregunta oficial C-008."
@@ -5244,7 +5244,7 @@ window.ISTQB_DATA = {
           "answer": [
             2
           ],
-          "explanation": "Solo i y iii son ventajas; las demás son falsas.",
+          "explanation": "Correcta: C. DevOps acelera la entrega y el time-to-market y mantiene siempre disponible software ejecutable. Aumentar las pruebas manuales repetitivas, reducir las pruebas de regresión o suponer que todo está automatizado no son ventajas: son ideas falsas o riesgos.",
           "source": "ExamUnit #29",
           "lang": "es"
         },
@@ -5264,7 +5264,7 @@ window.ISTQB_DATA = {
           "answer": [
             1
           ],
-          "explanation": "Es una prueba de rendimiento (no funcional).",
+          "explanation": "Correcta: B. El requisito mide tiempos de respuesta, así que es una prueba no funcional de rendimiento. Que sea un requisito del usuario o que interactúe con la interfaz no la vuelve funcional, y no se necesita la estructura interna del código.",
           "source": "ExamUnit #30",
           "lang": "es"
         },
@@ -5284,7 +5284,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "La prueba de mantenimiento incluye migración y retiro.",
+          "explanation": "Correcta: A. La prueba de mantenimiento cubre los cambios en un sistema en producción y también su migración o retiro. La de regresión comprueba que nada se rompió, y las de componente e integración son niveles, no el tipo de cambio que motiva la prueba.",
           "source": "ExamUnit #31",
           "lang": "es"
         },
@@ -5304,7 +5304,7 @@ window.ISTQB_DATA = {
           "answer": [
             0
           ],
-          "explanation": "Respuesta correcta: A) i, iv y v. La base de prueba incluye requisitos de negocio, código (incluido el de terceros, para pruebas de componentes) e historias de usuario con sus criterios de aceptación. El cronograma y el presupuesto son restricciones del proyecto, no base de prueba. FL-1.4.1 (K1).",
+          "explanation": "Correcta: A. La base de prueba incluye los requisitos de negocio, el código (también el de terceros, para pruebas de componentes) y las historias de usuario con sus criterios de aceptación. El cronograma y el presupuesto son restricciones del proyecto, no base de prueba.",
           "source": "ExamUnit #32",
           "lang": "es",
           "note": "Opciones reescritas para que la respuesta correcta sea i, iv y v."
@@ -5325,7 +5325,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) ii, iv y v son resultados de pruebas estáticas (revisiones de documentos/código); i y iii son resultados de pruebas dinámicas (ejecución del software). FL-3.1 (K2).",
+          "explanation": "Correcta: D. Las revisiones de documentos y código detectan discrepancias con el estándar de codificación, encuentran defectos antes de ejecutar y señalan cobertura faltante en requisitos críticos. Los comportamientos externos anómalos y las fallas al ejecutar solo se observan con pruebas dinámicas.",
           "source": "ExamUnit #33",
           "lang": "es"
         },
@@ -5385,7 +5385,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Respuesta correcta: D) Las pruebas de regresión se ocupan de los efectos adversos en el código no modificado, mientras que las pruebas de confirmación se ocupan de probar el código modificado. FL-2.2.3 (K2).",
+          "explanation": "Correcta: D. Las pruebas de regresión vigilan los efectos adversos sobre el código que no se modificó, mientras que las de confirmación verifican que el defecto corregido quedó realmente resuelto, es decir, prueban el código cambiado. Ambas suelen crecer con el proyecto; otra opción invierte ese orden, y las de regresión no comprueban que el entorno operativo permanezca sin cambios.",
           "source": "ExamUnit #36",
           "lang": "es",
           "note": "Alineada con la pregunta oficial B-014."
@@ -5426,7 +5426,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Describe el enfoque y las técnicas/niveles.",
+          "explanation": "Correcta: D. El texto define qué niveles y técnicas se usarán y qué cobertura se exige en los componentes críticos: eso es el enfoque de pruebas del plan. No describe la comunicación, el registro de riesgos ni el contexto de las pruebas.",
           "source": "ExamUnit #38",
           "lang": "es"
         },
