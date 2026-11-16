@@ -5278,7 +5278,7 @@ window.ISTQB_DATA = {
           "topic": "ExamUnit",
           "level": "Mixto",
           "type": "single",
-          "question": "i. Comportamientos externos anormales. ii. Discrepancias con estándar de codificación. iii. Fallos por defectos al ejecutar. iv. Detectar defectos lo antes posible. v. Cobertura faltante en requisitos críticos de seguridad.",
+          "question": "¿Cuáles de los siguientes elementos corresponden a pruebas estáticas y cuáles a pruebas dinámicas? i. Comportamientos externos anormales. ii. Discrepancias con el estándar de codificación. iii. Fallos por defectos al ejecutar. iv. Detectar defectos lo antes posible. v. Cobertura faltante en requisitos críticos de seguridad.",
           "options": [
             "i, iv, v estáticas; ii, iii dinámicas.",
             "i, iii, iv estáticas; ii, v dinámicas.",
@@ -5288,7 +5288,7 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "Estáticas: estándares, detección temprana, cobertura de seguridad. Dinámicas: comportamiento anormal y fallos en ejecución.",
+          "explanation": "Respuesta correcta: D) ii, iv y v son resultados de pruebas estáticas (revisiones de documentos/código); i y iii son resultados de pruebas dinámicas (ejecución del software). FL-3.1 (K2).",
           "source": "ExamUnit #33",
           "lang": "es"
         },
