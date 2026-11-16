@@ -23,7 +23,7 @@ Cada pregunta del simulacro fue contrastada con el banco oficial (A–D, S3, S4)
 | EX-017 | d | Alineada con A-023 |
 | EX-018 | a | Alineada con A-024 |
 | EX-020 | c | Validada por syllabus (variante propia) |
-| EX-021 | a | Validada por syllabus (variante propia) |
+| EX-021 | a | Alineada con A-029 |
 | EX-022 | c | Alineada con A-030 |
 | EX-023 | ce | Alineada con A-031 |
 | EX-024 | d | Validada por syllabus (variante propia) |
@@ -34,7 +34,7 @@ Cada pregunta del simulacro fue contrastada con el banco oficial (A–D, S3, S4)
 | EX-029 | c | Validada por syllabus (variante propia) |
 | EX-030 | b | Validada por syllabus (variante propia) |
 | EX-031 | a | Validada por syllabus (variante propia) |
-| EX-032 | c | Validada por syllabus (variante propia) |
+| EX-032 | c | **Revisar**: las opciones no cuadran con la base de prueba |
 | EX-033 | d | Validada por syllabus (variante propia) |
 | EX-034 | b | Validada por syllabus (variante propia) |
 | EX-035 | c | Validada por syllabus (variante propia) |
