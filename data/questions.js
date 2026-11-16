@@ -2164,7 +2164,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: D) R8. FL-4.2.3 (K3).",
           "source": "Sample Exam A #22",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-a-22.png"
         },
         {
           "id": "A-023",
@@ -2184,7 +2185,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: D) 3. FL-4.2.4 (K3).",
           "source": "Sample Exam A #23",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-a-23.png"
         },
         {
           "id": "A-024",
@@ -2376,7 +2378,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: B) 60%. FL-4.2.3 (K3).",
           "source": "Sample Exam B #22",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-b-22.png"
         },
         {
           "id": "B-023",
@@ -2396,7 +2399,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: C) Add, Add, Add, Remove, Remove. FL-4.2.4 (K3).",
           "source": "Sample Exam B #23",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-b-23.png"
         },
         {
           "id": "B-024",
@@ -2589,7 +2593,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: D) C1 = F, C2 = F, C3 = F. FL-4.2.3 (K3).",
           "source": "Sample Exam C #22",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-c-22.png"
         },
         {
           "id": "C-023",
@@ -2609,7 +2614,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: A) 3. FL-4.2.4 (K3).",
           "source": "Sample Exam C #23",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-c-23.png"
         },
         {
           "id": "C-024",
@@ -2803,7 +2809,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: A) Hombre de 66 años, no registrado y sin experiencia;               resultado esperado: categoría B. FL-4.2.3 (K3).",
           "source": "Sample Exam D #22",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-d-22.png"
         },
         {
           "id": "D-023",
@@ -2823,7 +2830,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: B) Available,    ChangeRoom, NotAvailable, Available,  Pay. FL-4.2.4 (K3).",
           "source": "Sample Exam D #23",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-d-23.png"
         },
         {
           "id": "D-024",
@@ -3576,7 +3584,8 @@ window.ISTQB_DATA = {
           ],
           "explanation": "Respuesta correcta: B) $80,000. FL-5.1.4 (K3).",
           "source": "Sample Exam B #31",
-          "lang": "es"
+          "lang": "es",
+          "image": "assets/fig-b-31.png"
         },
         {
           "id": "B-032",
@@ -3768,7 +3777,8 @@ window.ISTQB_DATA = {
           "explanation": "Respuesta correcta: A) TC 3. FL-5.1.5 (K3).",
           "source": "Sample Exam C #32",
           "lang": "es",
-          "note": "Esta pregunta incluye un diagrama o tabla en el PDF oficial; revisa el material original para verla completa."
+          "note": "",
+          "image": "assets/fig-c-32.png"
         },
         {
           "id": "C-033",
@@ -3941,7 +3951,8 @@ window.ISTQB_DATA = {
           ],
           "explanation": "Respuesta correcta: B) TC2. FL-5.1.5 (K3).",
           "source": "Sample Exam D #32",
-          "lang": "es"
+          "lang": "es",
+          "image": "assets/fig-d-32.png"
         },
         {
           "id": "D-033",
