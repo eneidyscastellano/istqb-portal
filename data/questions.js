@@ -4661,41 +4661,43 @@ window.ISTQB_DATA = {
       "questions": [
         {
           "id": "EX-001",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.1.1",
+          "level": "K1",
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones describe un objetivo de prueba válido?",
           "options": [
-            "Demostrar que no hay defectos sin corregir en el sistema bajo prueba.",
-            "Demostrar que no habrá fallos después de la implementación en producción.",
-            "Reducir el nivel de riesgo del objeto de prueba y construir confianza en el nivel de calidad.",
-            "Verificar que no hay combinaciones de entradas no probadas."
+            "Demostrar que no hay defectos sin corregir en el sistema bajo prueba",
+            "Demostrar que no habrá fallas después de la implementación del sistema en producción",
+            "Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad",
+            "Verificar que no hay combinaciones de entradas sin probar"
           ],
           "answer": [
             2
           ],
-          "explanation": "Probar reduce riesgo y da confianza; no prueba la ausencia total de defectos (principio 1) ni que no habrá fallos, y las pruebas exhaustivas son imposibles (principio 2).",
+          "explanation": "Respuesta correcta: C) Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad. FL-1.1.1 (K1).",
           "source": "ExamUnit #1",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-001."
         },
         {
           "id": "EX-002",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.2.1",
+          "level": "K2",
           "type": "single",
-          "question": "¿Cuál muestra un ejemplo de actividades de prueba que contribuyen al éxito?",
+          "question": "¿Cuál de las siguientes opciones muestra un ejemplo de actividades de prueba que contribuyen al éxito?",
           "options": [
-            "Tener a los probadores involucrados durante varias actividades del SDLC ayuda a detectar defectos en los productos de trabajo.",
-            "Los probadores tratan de no molestar a los desarrolladores mientras codifican.",
-            "Los probadores que colaboran con los usuarios finales mejoran los informes de defectos.",
-            "Los probadores certificados diseñan casos de prueba mucho mejores."
+            "Involucrar a los probadores durante las diversas actividades del ciclo de vida de desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo",
+            "Los probadores intentan no molestar a los desarrolladores mientras codifican, para que los desarrolladores escriban mejor código",
+            "La colaboración de los probadores con los usuarios finales ayuda a mejorar la calidad de los informes de defectos durante las pruebas de integración de componentes y de sistema",
+            "Los probadores certificados diseñarán casos de prueba mucho mejores que los probadores no certificados"
           ],
           "answer": [
             0
           ],
-          "explanation": "La participación temprana y a lo largo del SDLC detecta defectos en requisitos, diseño y código.",
+          "explanation": "Respuesta correcta: A) Involucrar a los probadores durante las diversas actividades del ciclo de vida de desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo. FL-1.2.1 (K2).",
           "source": "ExamUnit #2",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-002."
         },
         {
           "id": "EX-003",
@@ -4737,24 +4739,25 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-005",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.4.5",
+          "level": "K2",
           "type": "multi",
           "question": "¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de pruebas?",
           "options": [
-            "Configurar entornos de prueba.",
-            "Mantener la pila del producto.",
-            "Diseñar soluciones para nuevos requisitos.",
-            "Crear el plan de pruebas.",
-            "Informar sobre la cobertura alcanzada."
+            "Configurar entornos de prueba",
+            "Mantener el backlog del producto",
+            "Diseñar soluciones para nuevos requisitos",
+            "Crear el plan de pruebas",
+            "Analizar la base de prueba"
           ],
           "answer": [
             0,
             4
           ],
-          "explanation": "Configurar entornos y reportar cobertura son tareas del tester. Backlog = Product Owner; diseñar soluciones = desarrollo; plan de pruebas = test manager.",
+          "explanation": "Respuestas correctas: A) Configurar entornos de prueba, E) Analizar la base de prueba. FL-1.4.5 (K2).",
           "source": "ExamUnit #5",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-006."
         },
         {
           "id": "EX-006",
@@ -4777,41 +4780,43 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-007",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.5.2",
+          "level": "K1",
           "type": "single",
-          "question": "¿Cómo se refleja en las interacciones entre probadores y representantes del negocio?",
+          "question": "¿Cómo se presenta el enfoque de equipo completo en las interacciones entre los probadores y los representantes del negocio?",
           "options": [
-            "Los representantes del negocio deciden sobre automatización.",
-            "Los probadores ayudan a los representantes del negocio a definir la estrategia de pruebas.",
-            "Los representantes del negocio no forman parte del enfoque de equipo completo.",
-            "Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas."
+            "Los representantes del negocio deciden sobre los enfoques de automatización de pruebas",
+            "Los probadores ayudan a los representantes del negocio a definir una estrategia de pruebas",
+            "Los representantes del negocio no forman parte del enfoque de equipo completo",
+            "Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas"
           ],
           "answer": [
             3
           ],
-          "explanation": "El enfoque de equipo completo integra al negocio en la definición de pruebas de aceptación.",
+          "explanation": "Respuesta correcta: D) Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas. FL-1.5.2 (K1).",
           "source": "ExamUnit #7",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-008."
         },
         {
           "id": "EX-008",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.1.3",
+          "level": "K1",
           "type": "single",
-          "question": "¿Cuál describe MEJOR el desarrollo guiado por pruebas de aceptación?",
+          "question": "¿Cuál de las siguientes afirmaciones describe MEJOR el enfoque de desarrollo guiado por pruebas de aceptación (ATDD)?",
           "options": [
-            "Los criterios de aceptación se crean típicamente en formato Given/When/Then.",
-            "Los casos se crean principalmente en pruebas de componentes y orientados al código.",
-            "Se crean pruebas basadas en criterios de aceptación para guiar el desarrollo del software.",
-            "Las pruebas se basan en el comportamiento deseado, lo que facilita entenderlas."
+            "En ATDD, los criterios de aceptación se crean típicamente con base en el formato dado/cuando/entonces",
+            "En ATDD, los casos de prueba se crean principalmente en las pruebas de componentes y están orientados al código",
+            "En ATDD, las pruebas se crean con base en los criterios de aceptación para impulsar el desarrollo del software relacionado",
+            "En ATDD, las pruebas se basan en el comportamiento deseado del software, lo que facilita a los miembros del equipo comprenderlas"
           ],
           "answer": [
             2
           ],
-          "explanation": "ATDD usa los criterios de aceptación como guía para desarrollar. A es un formato, D es un beneficio.",
+          "explanation": "Respuesta correcta: C) En ATDD, las pruebas se crean con base en los criterios de aceptación para impulsar el desarrollo del software relacionado. FL-2.1.3 (K1).",
           "source": "ExamUnit #8",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-010."
         },
         {
           "id": "EX-009",
@@ -4834,22 +4839,23 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-010",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.1.6",
+          "level": "K2",
           "type": "single",
-          "question": "¿Qué argumento usarías para convencer a tu gerente de hacer retrospectivas al final de cada ciclo?",
+          "question": "¿Cuál de los siguientes argumentos usaría para convencer a su gerente de organizar retrospectivas al final de cada ciclo de liberación?",
           "options": [
-            "Son populares y los clientes lo apreciarían.",
-            "Ahorran dinero porque los usuarios finales no dan retroalimentación inmediata.",
-            "Las debilidades del proceso identificadas pueden analizarse y servir como lista de tareas para la mejora continua.",
-            "Abarcan cinco valores, incluidos coraje y respeto."
+            "Las retrospectivas son muy populares hoy en día y los clientes apreciarían que las agregáramos a nuestros procesos",
+            "Organizar retrospectivas ahorrará dinero a la organización porque, sin ellas, los representantes de los usuarios finales no proporcionan retroalimentación inmediata sobre el producto",
+            "Las debilidades del proceso identificadas durante la retrospectiva pueden analizarse y servir como una lista de tareas para el programa de mejora continua de procesos de la organización",
+            "Las retrospectivas abarcan cinco valores, incluidos el coraje y el respeto, que son cruciales para mantener la mejora continua en la organización"
           ],
           "answer": [
             2
           ],
-          "explanation": "La retrospectiva alimenta la mejora continua del proceso.",
+          "explanation": "Respuesta correcta: C) Las debilidades del proceso identificadas durante la retrospectiva pueden analizarse y servir como una lista de tareas para el programa de mejora continua de procesos de la organización. FL-2.1.6 (K2).",
           "source": "ExamUnit #10",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-012."
         },
         {
           "id": "EX-011",
@@ -4873,22 +4879,23 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-012",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-3.1.2",
+          "level": "K2",
           "type": "single",
-          "question": "¿Cuál de las siguientes NO es un beneficio de las pruebas estáticas?",
+          "question": "¿Cuál de los siguientes NO es un beneficio de las pruebas estáticas?",
           "options": [
-            "Gestión de defectos menos costosa por detectar defectos más tarde en el SDLC.",
-            "Corregir defectos estáticos es más barato que los dinámicos.",
-            "Encontrar defectos de codificación que solo con pruebas dinámicas no se hallarían.",
-            "Detectar lagunas e inconsistencias en requisitos."
+            "Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC",
+            "Corregir defectos encontrados durante las pruebas estáticas es generalmente mucho menos costoso que corregir defectos encontrados durante las pruebas dinámicas",
+            "Encontrar defectos de codificación que podrían no haberse encontrado solo realizando pruebas dinámicas",
+            "Detectar brechas e inconsistencias en los requisitos"
           ],
           "answer": [
             0
           ],
-          "explanation": "Las pruebas estáticas detectan antes, no después; la opción A contradice el beneficio.",
+          "explanation": "Respuesta correcta: A) Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC. FL-3.1.2 (K2).",
           "source": "ExamUnit #12",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-015."
         },
         {
           "id": "EX-013",
@@ -4950,10 +4957,10 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-016",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.2.3",
+          "level": "K3",
           "type": "single",
-          "question": "Reglas R1-R8 con condiciones: miembro, plazo vencido, 15.º alquiler. ¿Cuál regla es imposible según la descripción?",
+          "question": "Su tienda favorita de alquiler diario de bicicletas acaba de introducir un nuevo sistema de gestión de relaciones con los clientes y le pidió a usted, uno de sus miembros más leales, que lo probara. Las funcionalidades implementadas son las siguientes: •      Cualquiera puede alquilar una bicicleta, pero los miembros reciben un 20% de descuento •      Sin embargo, si se incumple la fecha límite de devolución, el descuento ya no está disponible •      Después de 15 alquileres, los miembros reciben un regalo: una camiseta La tabla de decisión que describe las funcionalidades implementadas es la siguiente: Condiciones                   R1   R2    R3   R4   R5   R6   R7    R8 Ser miembro              T    T     T    T    F    F    F     F Fecha límite incumplida             T    F     T    F    T    F    F     T 15.º alquiler            F    F     T    T    F    F    T     T Acciones Descuento del 20%                   X          X Camiseta de regalo                      X     X                    X Con base SOLO en la descripción de funcionalidades del sistema de gestión de relaciones con los clientes, ¿cuál de las reglas anteriores describe una situación imposible?",
           "options": [
             "R4",
             "R2",
@@ -4963,17 +4970,18 @@ window.ISTQB_DATA = {
           "answer": [
             3
           ],
-          "explanation": "R8 da camiseta a un no miembro; la camiseta es solo para miembros.",
+          "explanation": "Respuesta correcta: D) R8. FL-4.2.3 (K3).",
           "source": "ExamUnit #16",
           "lang": "es",
-          "note": "Incluye una tabla en la captura original; revisa el material del simulacro."
+          "note": "Alineada con la pregunta oficial A-022.",
+          "image": "assets/fig-a-22.png"
         },
         {
           "id": "EX-017",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.2.4",
+          "level": "K3",
           "type": "single",
-          "question": "Diagrama de estados (INICIO, MODO DEPURACIÓN, APAGADO, EN OPERACIÓN, EN ESPERA). ¿Mínimo de casos para cubrir transiciones válidas?",
+          "question": "Prueba un sistema cuyo ciclo de vida está modelado por el diagrama de transición de estados que se muestra a continuación. El sistema comienza en el estado INIT y termina su operación en el estado OFF. ¿Cuál es el número MÍNIMO de casos de prueba para lograr cobertura de transiciones válidas?",
           "options": [
             "4",
             "2",
@@ -4981,31 +4989,33 @@ window.ISTQB_DATA = {
             "3"
           ],
           "answer": [
-            1
+            3
           ],
-          "explanation": "Dos caminos cubren todas las transiciones válidas (por ejemplo, INICIO→DEPURACIÓN→APAGADO y INICIO→OPERACIÓN→ESPERA→OPERACIÓN→APAGADO).",
+          "explanation": "Respuesta correcta: D) 3. FL-4.2.4 (K3).",
           "source": "ExamUnit #17",
           "lang": "es",
-          "note": "Incluye un diagrama de estados en la captura original; revisa el material del simulacro."
+          "note": "Alineada con la pregunta oficial A-023.",
+          "image": "assets/fig-a-23.png"
         },
         {
           "id": "EX-018",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.3.1",
+          "level": "K2",
           "type": "single",
-          "question": "Cobertura de sentencias 100%: ¿Cuál es la consecuencia?",
+          "question": "Su suite de pruebas alcanzó el 100% de cobertura de sentencias. ¿Cuál es la consecuencia de este hecho?",
           "options": [
-            "Cada instrucción en el código que contiene un defecto ha sido ejecutada al menos una vez.",
-            "Cualquier suite con más casos también logrará 100%.",
-            "Cada camino del código se ejecutó al menos una vez.",
-            "Cada combinación de valores de entrada se probó al menos una vez."
+            "Cada instrucción en el código que contiene un defecto ha sido ejecutada al menos una vez",
+            "Cualquier suite de pruebas que contenga más casos de prueba que su suite de pruebas también alcanzará el 100% de cobertura de sentencias",
+            "Cada camino en el código ha sido ejecutado al menos una vez",
+            "Cada combinación de valores de entrada ha sido probada al menos una vez"
           ],
           "answer": [
             0
           ],
-          "explanation": "La cobertura de sentencias ejecuta cada instrucción, incluidas las defectuosas; no garantiza caminos ni combinaciones.",
+          "explanation": "Respuesta correcta: A) Cada instrucción en el código que contiene un defecto ha sido ejecutada al menos una vez. FL-4.3.1 (K2).",
           "source": "ExamUnit #18",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-024."
         },
         {
           "id": "EX-020",
@@ -5047,43 +5057,45 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-022",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.1.2",
+          "level": "K1",
           "type": "single",
-          "question": "¿Cuál es el valor de los probadores en la planificación de iteraciones y entregas?",
+          "question": "¿Cómo agregan valor los probadores a la planificación de iteraciones y liberaciones?",
           "options": [
-            "Determinan la prioridad de las historias.",
-            "Se enfocan solo en lo funcional.",
-            "Participan en la identificación detallada y evaluación de riesgos de las historias.",
-            "Garantizan la entrega de alta calidad con diseño temprano de pruebas."
+            "Los probadores determinan la prioridad de las historias de usuario a desarrollar",
+            "Los probadores se enfocan solo en los aspectos funcionales del sistema a probar",
+            "Los probadores participan en la identificación detallada de riesgos y la evaluación de riesgos de las historias de usuario",
+            "Los probadores garantizan la liberación de software de alta calidad mediante el diseño temprano de pruebas durante la planificación de la liberación"
           ],
           "answer": [
             2
           ],
-          "explanation": "Aportan en la identificación y evaluación de riesgos.",
+          "explanation": "Respuesta correcta: C) Los probadores participan en la identificación detallada de riesgos y la evaluación de riesgos de las historias de usuario. FL-5.1.2 (K1).",
           "source": "ExamUnit #22",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-030."
         },
         {
           "id": "EX-023",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.1.3",
+          "level": "K2",
           "type": "multi",
-          "question": "¿Cuáles DOS de las siguientes son criterios de salida?",
+          "question": "¿Cuáles DOS de las siguientes opciones son los criterios de salida para probar un sistema?",
           "options": [
-            "El entorno de prueba está listo.",
-            "El probador puede iniciar sesión en el objeto de prueba.",
-            "Se alcanza la densidad de defectos estimada.",
-            "Los requisitos se traducen a Given/When/Then.",
-            "Las pruebas de regresión están automatizadas."
+            "Preparación del entorno de pruebas",
+            "La capacidad del probador de iniciar sesión en el objeto de prueba",
+            "Se alcanza la densidad de defectos estimada",
+            "Los requisitos se traducen al formato dado/cuando/entonces",
+            "Las pruebas de regresión están automatizadas"
           ],
           "answer": [
             2,
             4
           ],
-          "explanation": "Densidad de defectos y automatización de regresión son criterios de salida; A y B son de entrada; D no es criterio.",
+          "explanation": "Respuestas correctas: C) Se alcanza la densidad de defectos estimada, E) Las pruebas de regresión están automatizadas. FL-5.1.3 (K2).",
           "source": "ExamUnit #23",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial A-031."
         },
         {
           "id": "EX-024",
@@ -5145,41 +5157,43 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-027",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.4.4",
+          "level": "K2",
           "type": "single",
-          "question": "¿Cuál es el MEJOR ejemplo de cómo la trazabilidad respalda las pruebas?",
+          "question": "¿Cuál de las siguientes afirmaciones es un ejemplo CORRECTO del valor de la trazabilidad?",
           "options": [
-            "El análisis de impacto dará información sobre la finalización de las pruebas.",
-            "La trazabilidad entre casos y resultados dará el riesgo residual.",
-            "El análisis de impacto ayudará a seleccionar los casos correctos para regresión.",
-            "La trazabilidad entre base, objetos y casos ayudará a seleccionar datos."
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "La trazabilidad permite el análisis de impacto y seleccionar pruebas de regresión.",
-          "source": "ExamUnit #27",
-          "lang": "es"
-        },
-        {
-          "id": "EX-028",
-          "topic": "ExamUnit",
-          "level": "Mixto",
-          "type": "single",
-          "question": "¿Cuál es un beneficio de la independencia de las pruebas?",
-          "options": [
-            "Permite asignar la responsabilidad de la calidad al equipo de pruebas.",
-            "Un equipo externo no se deja influenciar fácilmente por las presiones de entrega y los plazos.",
-            "El equipo independiente no necesita comunicarse con los desarrolladores.",
-            "Un probador independiente cuestiona supuestos cuando hay ambigüedades."
+            "La trazabilidad entre los riesgos mitigados y los casos de prueba que pasaron proporciona un medio para determinar el nivel de riesgo residual",
+            "La trazabilidad entre los requisitos del usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto frente a los objetivos del negocio",
+            "La trazabilidad entre los probadores y los casos de prueba que fallaron proporciona un medio para determinar el nivel de habilidad de los probadores",
+            "La trazabilidad entre los riesgos identificados y las condiciones de prueba escritas proporciona un medio para determinar qué riesgos vale la pena probar"
           ],
           "answer": [
             1
           ],
-          "explanation": "El beneficio clave es la menor influencia de las presiones de entrega. (D es un beneficio, pero la respuesta oficial es B.)",
+          "explanation": "Respuesta correcta: B) La trazabilidad entre los requisitos del usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto frente a los objetivos del negocio. FL-1.4.4 (K2).",
+          "source": "ExamUnit #27",
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial B-006."
+        },
+        {
+          "id": "EX-028",
+          "topic": "FL-1.5.3",
+          "level": "K2",
+          "type": "single",
+          "question": "¿Cuál de las siguientes afirmaciones sobre la independencia de las pruebas es CORRECTA?",
+          "options": [
+            "Los probadores independientes encontrarán defectos debido a su perspectiva técnica diferente a la de los desarrolladores, pero su independencia puede llevar a una relación adversarial con los desarrolladores",
+            "La familiaridad de los desarrolladores con su propio código significa que solo encuentran unos pocos defectos en él, sin embargo, su formación compartida en software con los probadores significa que estos defectos también serían encontrados por los probadores",
+            "Las pruebas independientes requieren probadores que estén fuera del equipo del desarrollador e idealmente de fuera de la organización, sin embargo, a estos probadores les resulta difícil entender el dominio de la aplicación",
+            "Los probadores de fuera del equipo del desarrollador son más independientes que los probadores de dentro del equipo, pero es más probable que se culpe a los probadores de dentro del equipo por los retrasos en la liberación del producto"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Respuesta correcta: A) Los probadores independientes encontrarán defectos debido a su perspectiva técnica diferente a la de los desarrolladores, pero su independencia puede llevar a una relación adversarial con los desarrolladores. FL-1.5.3 (K2).",
           "source": "ExamUnit #28",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial C-008."
         },
         {
           "id": "EX-029",
@@ -5316,22 +5330,23 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-036",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.2.3",
+          "level": "K2",
           "type": "single",
-          "question": "Cobertura de ramas: ¿Cuál es CORRECTA?",
+          "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
           "options": [
-            "Si solo hay ramas incondicionales, se logra 100% sin ejecutar casos.",
-            "Si se ejercen todas las ramas incondicionales, se logra 100%.",
-            "Si hay 100% de cobertura de sentencias, también hay 100% de ramas.",
-            "Si hay 100% de cobertura de ramas, se ejercen todas las salidas de decisión en cada sentencia de decisión."
+            "Las pruebas de regresión aumentan en número a medida que avanza el proyecto, mientras que el número de pruebas de confirmación disminuye a medida que avanza el proyecto",
+            "Las pruebas de regresión se crean y ejecutan cuando el objeto de prueba se corrige, mientras que las pruebas de confirmación se ejecutan cada vez que el objeto de prueba se mejora",
+            "Las pruebas de regresión se ocupan de verificar que el entorno operativo permanezca sin cambios, mientras que las pruebas de confirmación se ocupan de probar los cambios en el objeto de prueba",
+            "Las pruebas de regresión se ocupan de los efectos adversos en el código no modificado, mientras que las pruebas de confirmación se ocupan de probar el código modificado"
           ],
           "answer": [
             3
           ],
-          "explanation": "Cobertura de ramas = ejercer todas las salidas de cada decisión.",
+          "explanation": "Respuesta correcta: D) Las pruebas de regresión se ocupan de los efectos adversos en el código no modificado, mientras que las pruebas de confirmación se ocupan de probar el código modificado. FL-2.2.3 (K2).",
           "source": "ExamUnit #36",
-          "lang": "es"
+          "lang": "es",
+          "note": "Alineada con la pregunta oficial B-014."
         },
         {
           "id": "EX-037",
