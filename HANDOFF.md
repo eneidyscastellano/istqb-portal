@@ -21,3 +21,9 @@
 1. Conseguir clave oficial completa del Modelo A y auditar A-001..A-040.
 2. Revisar si hay más preguntas sin contexto en S3/S4.
 3. Rotar la API key de Immich y configurar respaldo 3-2-1.
+
+## Consistencia (2026-11-16)
+- 0 problemas estructurales (ids, opciones, respuestas válidas).
+- 33 pares casi duplicados revisados: todos son alineaciones intencionales EX→oficial o enunciados genéricos con opciones distintas; sin contradicciones.
+- 4 preguntas de respuesta múltiple (C-004, D-020, D-030, D-035) correctas (eligen 2 de 5).
+- Modelo A sigue pendiente: la clave recibida trae 26/40 y no coincide por LO; no hay equivalentes en B/C/D/S3/S4.
