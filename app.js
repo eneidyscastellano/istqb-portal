@@ -6,6 +6,18 @@
   const headerExam = document.getElementById('headerExam');
   const WRONG_KEY = 'istqb-portal-wrong-v1';
 
+  // Blueprint oficial CTFL v4.0 (data/blueprint.js — ISTQB Exam Structure Tables v1.19):
+  // 40 preguntas = 8/6/4/11/9/2 y K1=8, K2=24, K3=8.
+  const BLUEPRINT = window.ISTQB_BLUEPRINT;
+  const OFFICIAL_BLUEPRINT = BLUEPRINT ? BLUEPRINT.chapters : {
+    1: { total: 8, K1: 2, K2: 6, K3: 0 },
+    2: { total: 6, K1: 2, K2: 4, K3: 0 },
+    3: { total: 4, K1: 2, K2: 2, K3: 0 },
+    4: { total: 11, K1: 0, K2: 6, K3: 5 },
+    5: { total: 9, K1: 1, K2: 5, K3: 3 },
+    6: { total: 2, K1: 1, K2: 1, K3: 0 }
+  };
+
   if (!DATA || !Array.isArray(DATA.chapters)) {
     app.innerHTML = `
       <section class="question-card">
@@ -48,9 +60,48 @@
         ...question,
         chapterId: chapter.id,
         chapterTitle: chapter.title,
-        chapterShort: chapter.short
+        chapterShort: chapter.short,
+        simulator: Boolean(chapter.simulator)
       }))
     );
+  }
+
+  // Banco oficial (capítulos 1-6). El capítulo del simulacro solo se usa en su botón.
+  function officialQuestions() {
+    return allQuestions().filter((question) => !question.simulator && question.chapterId <= 6);
+  }
+
+  // Arma un examen de 40 preguntas con la distribución oficial por capítulo y K-level.
+  function buildOfficialExam() {
+    if (window.ISTQB_EXAM) return window.ISTQB_EXAM.build(officialQuestions());
+
+    const pool = officialQuestions();
+    const picked = [];
+    const chosen = new Set();
+
+    for (const [chapterId, levels] of Object.entries(OFFICIAL_BLUEPRINT)) {
+      const chapterPool = pool.filter((question) => question.chapterId === Number(chapterId));
+      for (const level of ['K1', 'K2', 'K3']) {
+        const needed = levels[level] || 0;
+        if (!needed) continue;
+        const candidates = shuffle(chapterPool.filter((question) => question.level === level && !chosen.has(question.id)));
+        for (const question of candidates.slice(0, needed)) {
+          picked.push(question);
+          chosen.add(question.id);
+        }
+      }
+    }
+
+    // Red de seguridad: si algún nivel no alcanza, completar con el resto del banco oficial.
+    if (picked.length < 40) {
+      const rest = shuffle(pool.filter((question) => !chosen.has(question.id)));
+      for (const question of rest.slice(0, 40 - picked.length)) {
+        picked.push(question);
+        chosen.add(question.id);
+      }
+    }
+
+    return shuffle(picked);
   }
 
   function chapterQuestions(chapterId) {
@@ -144,7 +195,7 @@
     state.answers = [];
     state.checked = false;
 
-    const total = allQuestions().length;
+    const total = officialQuestions().length;
     const wrongCount = getWrongIds().size;
     const simulator = DATA.chapters.find((chapter) => chapter.simulator);
 
@@ -168,6 +219,7 @@
         ${simulator ? `<button class="btn ghost" data-action="exam-chapter" data-chapter="${simulator.id}">Simulacro ExamUnit · ${simulator.questions.length} preguntas / 60 min</button>` : ''}
         ${wrongCount ? `<button class="btn ghost" data-action="review-wrong">Repasar fallos (${wrongCount})</button>` : ''}
       </div>
+      <p class="muted" style="margin:4px 0 18px">Estándar oficial CTFL: 40 preguntas · 26 correctas para aprobar (65%) · 60 min (75 min si el examen no es en tu idioma nativo) · un punto por pregunta.</p>
 
       <section class="chapter-grid">
         ${DATA.chapters.map(renderChapterCard).join('')}
@@ -213,7 +265,7 @@
     state.startedAt = Date.now();
 
     if (mode === 'exam') {
-      state.secondsLeft = 60 * 60;
+      state.secondsLeft = (BLUEPRINT ? BLUEPRINT.minutes : 60) * 60;
       startTimer(state.secondsLeft);
     } else {
       state.secondsLeft = 0;
@@ -348,7 +400,8 @@
       return answer && isCorrect(question, answer.selected);
     }).length;
     const pct = total ? Math.round((correctCount / total) * 100) : 0;
-    const passed = pct >= 65;
+    const passPct = BLUEPRINT ? BLUEPRINT.passPct : 65;
+    const passed = total === 40 ? correctCount >= (BLUEPRINT ? BLUEPRINT.passScore : 26) : pct >= passPct;
 
     const review = state.questions.map((question, index) => {
       const answer = state.answers[index] || { selected: [] };
@@ -418,13 +471,12 @@
     }
 
     if (action === 'practice-all') {
-      startQuiz(shuffle(allQuestions()), 'practice');
+      startQuiz(shuffle(officialQuestions()), 'practice');
       return;
     }
 
     if (action === 'exam-all') {
-      const questions = shuffle(allQuestions()).slice(0, 40);
-      startQuiz(questions, 'exam');
+      startQuiz(buildOfficialExam(), 'exam');
       return;
     }
 

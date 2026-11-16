@@ -4666,6 +4666,7 @@ window.ISTQB_DATA = {
           "id": "EX-001",
           "topic": "FL-1.1.1",
           "level": "K1",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones describe un objetivo de prueba válido?",
           "options": [
@@ -4686,6 +4687,7 @@ window.ISTQB_DATA = {
           "id": "EX-002",
           "topic": "FL-1.2.1",
           "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cuál de las siguientes opciones muestra un ejemplo de actividades de prueba que contribuyen al éxito?",
           "options": [
@@ -4704,8 +4706,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-003",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.3.1",
+          "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "No se han cambiado los casos de regresión en varias iteraciones y no aparecen defectos nuevos. El gerente está feliz, tú no. ¿Qué principio lo explica?",
           "options": [
@@ -4723,8 +4726,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-004",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.4.1",
+          "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "Equipo desarrollando app móvil de comida; en la iteración se implementa el pago. ¿Qué actividad forma parte del análisis de pruebas?",
           "options": [
@@ -4744,6 +4748,7 @@ window.ISTQB_DATA = {
           "id": "EX-005",
           "topic": "FL-1.4.5",
           "level": "K2",
+          "chapterRef": 1,
           "type": "multi",
           "question": "¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de pruebas?",
           "options": [
@@ -4764,10 +4769,11 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-006",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.5.1",
+          "level": "K2",
+          "chapterRef": 1,
           "type": "single",
-          "question": "i. Conocimiento del dominio · ii. Crear una visión de producto · iii. Ser buen jugador de equipo · iv. Planificar y organizar el trabajo del equipo · v. Pensamiento crítico.",
+          "question": "¿Cuáles de las siguientes son las habilidades más importantes que debe tener un probador? i. Conocimiento del dominio. ii. Crear una visión de producto. iii. Ser buen jugador de equipo. iv. Planificar y organizar el trabajo del equipo. v. Pensamiento crítico.",
           "options": [
             "ii y iv.",
             "i, iii y v.",
@@ -4785,6 +4791,7 @@ window.ISTQB_DATA = {
           "id": "EX-007",
           "topic": "FL-1.5.2",
           "level": "K1",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cómo se presenta el enfoque de equipo completo en las interacciones entre los probadores y los representantes del negocio?",
           "options": [
@@ -4805,6 +4812,7 @@ window.ISTQB_DATA = {
           "id": "EX-008",
           "topic": "FL-2.1.3",
           "level": "K1",
+          "chapterRef": 2,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones describe MEJOR el enfoque de desarrollo guiado por pruebas de aceptación (ATDD)?",
           "options": [
@@ -4823,8 +4831,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-009",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.1.5",
+          "level": "K2",
+          "chapterRef": 2,
           "type": "single",
           "question": "¿Cuál NO es un ejemplo de desplazamiento hacia la izquierda?",
           "options": [
@@ -4844,6 +4853,7 @@ window.ISTQB_DATA = {
           "id": "EX-010",
           "topic": "FL-2.1.6",
           "level": "K2",
+          "chapterRef": 2,
           "type": "single",
           "question": "¿Cuál de los siguientes argumentos usaría para convencer a su gerente de organizar retrospectivas al final de cada ciclo de liberación?",
           "options": [
@@ -4864,6 +4874,7 @@ window.ISTQB_DATA = {
           "id": "EX-011",
           "topic": "FL-2.2.3",
           "level": "K2",
+          "chapterRef": 2,
           "type": "single",
           "question": "Está probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. AC1 está cubierto por el caso de prueba TC1, AC2 por TC2 y AC3 por TC3. El historial de ejecución de pruebas tuvo tres ejecuciones en tres versiones consecutivas del software de la siguiente manera: Ejecución 1    Ejecución 2    Ejecución 3 TC1                 (1) Falló    (4) Pasó     (7) Pasó TC2                (2) Pasó      (5) Falló    (8) Pasó TC3                 (3) Falló     (6) Falló    (9) Pasó Las pruebas se repiten una vez que se le informa que todos los defectos encontrados en la ejecución de pruebas fueron corregidos y hay una nueva versión del software disponible. ¿Cuáles de las pruebas anteriores se ejecutan como pruebas de regresión?",
           "options": [
@@ -4884,6 +4895,7 @@ window.ISTQB_DATA = {
           "id": "EX-012",
           "topic": "FL-3.1.2",
           "level": "K2",
+          "chapterRef": 3,
           "type": "single",
           "question": "¿Cuál de los siguientes NO es un beneficio de las pruebas estáticas?",
           "options": [
@@ -4904,6 +4916,7 @@ window.ISTQB_DATA = {
           "id": "EX-013",
           "topic": "FL-3.2.4",
           "level": "K2",
+          "chapterRef": 3,
           "type": "single",
           "question": "Las revisiones que se utilizan en tu organización tienen los siguientes atributos: • Existe el rol de un escriba • El propósito principal es evaluar la calidad • La reunión es liderada por el autor del producto de trabajo • Hay preparación individual • Se produce un informe de revisión ¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté utilizando?",
           "options": [
@@ -4922,8 +4935,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-014",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.1.1",
+          "level": "K2",
+          "chapterRef": 4,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones describe MEJOR las técnicas basadas en la experiencia?",
           "options": [
@@ -4942,8 +4956,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-015",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.2.2",
+          "level": "K3",
+          "chapterRef": 4,
           "type": "single",
           "question": "La nota final se asigna por rangos: 0–50 reprobado, 51–60 suficiente, 61–70 satisfactorio, 71–80 bueno, 81–90 muy bueno, 91–100 excelente. Se ejecutaron los casos 91, 50, 81, 60, 70 y 80. ¿Qué cobertura de BVA de 2 valores se alcanzó?",
           "options": [
@@ -4964,6 +4979,7 @@ window.ISTQB_DATA = {
           "id": "EX-016",
           "topic": "FL-4.2.3",
           "level": "K3",
+          "chapterRef": 4,
           "type": "single",
           "question": "Su tienda favorita de alquiler diario de bicicletas acaba de introducir un nuevo sistema de gestión de relaciones con los clientes y le pidió a usted, uno de sus miembros más leales, que lo probara. Las funcionalidades implementadas son las siguientes: •      Cualquiera puede alquilar una bicicleta, pero los miembros reciben un 20% de descuento •      Sin embargo, si se incumple la fecha límite de devolución, el descuento ya no está disponible •      Después de 15 alquileres, los miembros reciben un regalo: una camiseta La tabla de decisión que describe las funcionalidades implementadas es la siguiente: Condiciones                   R1   R2    R3   R4   R5   R6   R7    R8 Ser miembro              T    T     T    T    F    F    F     F Fecha límite incumplida             T    F     T    F    T    F    F     T 15.º alquiler            F    F     T    T    F    F    T     T Acciones Descuento del 20%                   X          X Camiseta de regalo                      X     X                    X Con base SOLO en la descripción de funcionalidades del sistema de gestión de relaciones con los clientes, ¿cuál de las reglas anteriores describe una situación imposible?",
           "options": [
@@ -4985,6 +5001,7 @@ window.ISTQB_DATA = {
           "id": "EX-017",
           "topic": "FL-4.2.4",
           "level": "K3",
+          "chapterRef": 4,
           "type": "single",
           "question": "Prueba un sistema cuyo ciclo de vida está modelado por el diagrama de transición de estados que se muestra a continuación. El sistema comienza en el estado INIT y termina su operación en el estado OFF. ¿Cuál es el número MÍNIMO de casos de prueba para lograr cobertura de transiciones válidas?",
           "options": [
@@ -5006,6 +5023,7 @@ window.ISTQB_DATA = {
           "id": "EX-018",
           "topic": "FL-4.3.1",
           "level": "K2",
+          "chapterRef": 4,
           "type": "single",
           "question": "Su suite de pruebas alcanzó el 100% de cobertura de sentencias. ¿Cuál es la consecuencia de este hecho?",
           "options": [
@@ -5024,10 +5042,11 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-020",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.4.2",
+          "level": "K2",
+          "chapterRef": 4,
           "type": "single",
-          "question": "Entrega tardía, pruebas tarde, conocimiento del dominio y buenas habilidades analíticas, requisitos incompletos, dirección pide resultados.",
+          "question": "Proyecto con entrega tardía, pruebas tarde, conocimiento del dominio y buenas habilidades analíticas, requisitos incompletos y una dirección que pide resultados. ¿Qué técnica es MÁS apropiada en este contexto?",
           "options": [
             "Listas de comprobación",
             "Predicción de errores",
@@ -5043,8 +5062,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-021",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.5.3",
+          "level": "K3",
+          "chapterRef": 4,
           "type": "single",
           "question": "Considere la siguiente historia de usuario: Como Editor quiero revisar el contenido antes de que se publique para poder asegurar que la gramática sea correcta, y sus criterios de aceptación: • El usuario puede iniciar sesión en el sistema de gestión de contenido con el rol \"Editor\". • El editor puede ver las páginas de contenido existentes. • El editor puede editar el contenido de la página. • El editor puede agregar comentarios de marcado. • El editor puede guardar cambios. • El editor puede reasignar al rol \"propietario del contenido\" para realizar actualizaciones. ¿Cuál de las siguientes es el MEJOR ejemplo de una prueba ATDD para esta historia de usuario?",
           "options": [
@@ -5064,6 +5084,7 @@ window.ISTQB_DATA = {
           "id": "EX-022",
           "topic": "FL-5.1.2",
           "level": "K1",
+          "chapterRef": 5,
           "type": "single",
           "question": "¿Cómo agregan valor los probadores a la planificación de iteraciones y liberaciones?",
           "options": [
@@ -5084,6 +5105,7 @@ window.ISTQB_DATA = {
           "id": "EX-023",
           "topic": "FL-5.1.3",
           "level": "K2",
+          "chapterRef": 5,
           "type": "multi",
           "question": "¿Cuáles DOS de las siguientes opciones son los criterios de salida para probar un sistema?",
           "options": [
@@ -5104,8 +5126,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-024",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.1.4",
+          "level": "K3",
+          "chapterRef": 5,
           "type": "single",
           "question": "Optimista 2, probable 11, pesimista 14. ¿Estimación final?",
           "options": [
@@ -5125,6 +5148,7 @@ window.ISTQB_DATA = {
           "id": "EX-025",
           "topic": "FL-5.5.1",
           "level": "K3",
+          "chapterRef": 5,
           "type": "single",
           "question": "Recibió el siguiente informe de defectos de los desarrolladores indicando que la anomalía descrita en este informe de pruebas no es reproducible. La aplicación se cuelga 2022-May-03 – John Doe – Rechazado La aplicación se cuelga después de ingresar “Test input: $ä” en el campo Name en la pantalla de creación de nuevo usuario. Intenté cerrar sesión, iniciar sesión con la cuenta test_admin01, mismo problema. Intenté con otras cuentas de administrador de pruebas, mismo problema. No se recibió mensaje de error; el log (ver adjunto) contiene una notificación de error fatal. Según el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor corregir con alta prioridad, esta funcionalidad está relacionada con REQ-0012, que es un requisito de negocio crítico nuevo. ¿Qué información crítica FALTA en este informe de pruebas que habría sido útil para los desarrolladores?",
           "options": [
@@ -5143,8 +5167,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-026",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.4.3",
+          "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "El testware mostrado es una carta de prueba (Test Charter #04.018, sesión 1h, explorar página de registro...). ¿Qué actividad produce ese testware?",
           "options": [
@@ -5165,6 +5190,7 @@ window.ISTQB_DATA = {
           "id": "EX-027",
           "topic": "FL-1.4.4",
           "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones es un ejemplo CORRECTO del valor de la trazabilidad?",
           "options": [
@@ -5185,6 +5211,7 @@ window.ISTQB_DATA = {
           "id": "EX-028",
           "topic": "FL-1.5.3",
           "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones sobre la independencia de las pruebas es CORRECTA?",
           "options": [
@@ -5203,10 +5230,11 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-029",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.1.4",
+          "level": "K2",
+          "chapterRef": 2,
           "type": "single",
-          "question": "i. Entrega más rápida y menor time-to-market. ii. Aumenta la necesidad de pruebas manuales repetitivas. iii. Disponibilidad constante de software ejecutable. iv. Reducción de pruebas de regresión asociadas a refactorización. v. El marco de automatización es económico porque todo está automatizado.",
+          "question": "¿Cuáles de las siguientes son ventajas de DevOps? i. Entrega más rápida y menor time-to-market. ii. Aumenta la necesidad de pruebas manuales repetitivas. iii. Disponibilidad constante de software ejecutable. iv. Reducción de pruebas de regresión asociadas a refactorización. v. El marco de automatización es económico porque todo está automatizado.",
           "options": [
             "i, ii, iv",
             "iii, v",
@@ -5222,10 +5250,11 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-030",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.2.2",
+          "level": "K2",
+          "chapterRef": 2,
           "type": "single",
-          "question": "Requisito: \"El pedido debe procesarse en menos de 10 segundos en el 95% de los casos\". Se miden tiempos.",
+          "question": "Requisito: \"El pedido debe procesarse en menos de 10 segundos en el 95% de los casos\". Se miden tiempos de respuesta. ¿Qué tipo de prueba se está realizando?",
           "options": [
             "Funcional, porque cubre un requisito del usuario.",
             "No funcional, porque mide rendimiento.",
@@ -5241,8 +5270,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-031",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-2.3.1",
+          "level": "K2",
+          "chapterRef": 2,
           "type": "single",
           "question": "La estrategia sugiere probar la migración de datos cuando un sistema se va a retirar. ¿En qué tipo de prueba se realiza?",
           "options": [
@@ -5260,8 +5290,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-032",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-1.4.1",
+          "level": "K2",
+          "chapterRef": 1,
           "type": "single",
           "question": "¿Cuáles de los siguientes elementos pueden ser una base de prueba? i. Requisitos de negocio. ii. Cronograma. iii. Presupuesto de pruebas. iv. Código ejecutable de terceros. v. Historias de usuario y criterios de aceptación.",
           "options": [
@@ -5280,8 +5311,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-033",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-3.1.3",
+          "level": "K2",
+          "chapterRef": 3,
           "type": "single",
           "question": "¿Cuáles de los siguientes elementos corresponden a pruebas estáticas y cuáles a pruebas dinámicas? i. Comportamientos externos anormales. ii. Discrepancias con el estándar de codificación. iii. Fallos por defectos al ejecutar. iv. Detectar defectos lo antes posible. v. Cobertura faltante en requisitos críticos de seguridad.",
           "options": [
@@ -5299,8 +5331,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-034",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-3.2.2",
+          "level": "K2",
+          "chapterRef": 3,
           "type": "single",
           "question": "Revisiones formales: ¿Cuál es VERDADERA?",
           "options": [
@@ -5318,8 +5351,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-035",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.2.2",
+          "level": "K3",
+          "chapterRef": 4,
           "type": "single",
           "question": "T=12 óptima; T<12 baja; T>12 alta. ¿Conjunto mínimo para 100% de cobertura BVA de 3 valores?",
           "options": [
@@ -5339,6 +5373,7 @@ window.ISTQB_DATA = {
           "id": "EX-036",
           "topic": "FL-2.2.3",
           "level": "K2",
+          "chapterRef": 2,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
           "options": [
@@ -5357,8 +5392,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-037",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-4.4.3",
+          "level": "K2",
+          "chapterRef": 4,
           "type": "single",
           "question": "App bancaria con lista de buenas prácticas de UI: ¿Qué técnica se usa?",
           "options": [
@@ -5376,8 +5412,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-038",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.1.1",
+          "level": "K2",
+          "chapterRef": 5,
           "type": "single",
           "question": "\"Se usarán pruebas de componentes e integración; las regulaciones exigen 100% de cobertura de ramas en componentes críticos.\" ¿A qué parte del plan pertenece?",
           "options": [
@@ -5395,8 +5432,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-039",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.1.6",
+          "level": "K1",
+          "chapterRef": 5,
           "type": "single",
           "question": "¿Cuál de las siguientes afirmaciones NO es cierta sobre la pirámide de pruebas?",
           "options": [
@@ -5414,8 +5452,9 @@ window.ISTQB_DATA = {
         },
         {
           "id": "EX-040",
-          "topic": "ExamUnit",
-          "level": "Mixto",
+          "topic": "FL-5.2.1",
+          "level": "K1",
+          "chapterRef": 5,
           "type": "single",
           "question": "\"El sistema permite un descuento demasiado alto\". Impacto muy alto. ¿Qué se puede decir de la probabilidad?",
           "options": [
