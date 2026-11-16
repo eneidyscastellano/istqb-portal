@@ -34,8 +34,8 @@ Cada pregunta del simulacro fue contrastada con el banco oficial (A–D, S3, S4)
 | EX-029 | c | Validada por syllabus (variante propia) |
 | EX-030 | b | Validada por syllabus (variante propia) |
 | EX-031 | a | Validada por syllabus (variante propia) |
-| EX-032 | c | **Revisar**: las opciones no cuadran con la base de prueba |
-| EX-033 | d | Validada por syllabus (variante propia) |
+| EX-032 | a | Corregida: opciones reescritas (i, iv, v) |
+| EX-033 | d | Corregida: enunciado restaurado |
 | EX-034 | b | Validada por syllabus (variante propia) |
 | EX-035 | c | Validada por syllabus (variante propia) |
 | EX-036 | d | Alineada con B-014 |

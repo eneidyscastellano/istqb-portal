@@ -5259,19 +5259,20 @@ window.ISTQB_DATA = {
           "topic": "ExamUnit",
           "level": "Mixto",
           "type": "single",
-          "question": "i. Requisitos de negocio. ii. Cronograma. iii. Presupuesto de pruebas. iv. Código ejecutable de terceros. v. Historias de usuario y criterios de aceptación.",
+          "question": "¿Cuáles de los siguientes elementos pueden ser una base de prueba? i. Requisitos de negocio. ii. Cronograma. iii. Presupuesto de pruebas. iv. Código ejecutable de terceros. v. Historias de usuario y criterios de aceptación.",
           "options": [
-            "i y iv sí; ii, iii, v no.",
-            "i, ii, iii, iv sí; v no.",
-            "i, ii, iii, v sí; iv no.",
-            "iii, iv, v sí; i, ii no."
+            "i, iv y v",
+            "i, ii y iii",
+            "ii, iii y iv",
+            "i, ii, iv y v"
           ],
           "answer": [
-            2
+            0
           ],
-          "explanation": "Los documentos y artefactos se revisan; el código ejecutable de terceros sin fuente no es revisable estáticamente.",
+          "explanation": "Respuesta correcta: A) i, iv y v. La base de prueba incluye requisitos de negocio, código (incluido el de terceros, para pruebas de componentes) e historias de usuario con sus criterios de aceptación. El cronograma y el presupuesto son restricciones del proyecto, no base de prueba. FL-1.4.1 (K1).",
           "source": "ExamUnit #32",
-          "lang": "es"
+          "lang": "es",
+          "note": "Opciones reescritas para que la respuesta correcta sea i, iv y v."
         },
         {
           "id": "EX-033",
